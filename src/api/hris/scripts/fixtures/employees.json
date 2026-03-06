@@ -1,0 +1,4015 @@
+[
+  {
+    "id": "fix-emp-01",
+    "firstName": "James",
+    "lastName": "Mitchell",
+    "workEmail": "james.mitchell@vortexlabs.co",
+    "role": "Senior Software Engineer",
+    "employmentType": "EMPLOYMENT_CONTRACT",
+    "status": "ACTIVE",
+    "joinDate": "2020-03-15",
+    "birthdate": "1988-05-22",
+    "holiday": 28,
+    "firstYearHoliday": null,
+    "phone": "(555) 101-1001",
+    "address": "142 Oak St, Brooklyn, NY 11201",
+    "personalId": "900-11-1001",
+    "taxId": "90-1000001",
+    "bankAccount": "4000-1001-2001-3001",
+    "description": "Specializes in product strategy.",
+    "hobbies": [
+      "travel",
+      "skiing",
+      "painting"
+    ],
+    "iceName": null,
+    "icePhone": null,
+    "education": [
+      {
+        "id": "fix-edu-001",
+        "name": "BSc Computer Science, RIT",
+        "startDate": "2006-09-01",
+        "endDate": "2010-06-15"
+      }
+    ],
+    "languages": [
+      {
+        "id": "fix-lang-001",
+        "name": "English",
+        "level": "Native"
+      }
+    ],
+    "projects": [
+      {
+        "id": "fix-proj-001",
+        "name": "Horizon API",
+        "role": "Senior Software Engineer",
+        "description": "API gateway and microservices layer",
+        "startDate": "2020-03-15",
+        "endDate": null,
+        "order": 1,
+        "isVisible": true
+      }
+    ],
+    "employmentHistory": [],
+    "courses": [],
+    "children": [
+      {
+        "id": "fix-child-001",
+        "name": "Harper",
+        "birthDate": "2015-12-21"
+      }
+    ]
+  },
+  {
+    "id": "fix-emp-02",
+    "firstName": "Sarah",
+    "lastName": "Chen",
+    "workEmail": "sarah.chen@vortexlabs.co",
+    "role": "Frontend Developer",
+    "employmentType": "EMPLOYMENT_CONTRACT",
+    "status": "ACTIVE",
+    "joinDate": "2021-06-01",
+    "birthdate": "1993-08-14",
+    "holiday": 26,
+    "firstYearHoliday": null,
+    "phone": "(555) 102-1002",
+    "address": "85 Maple Ave, San Francisco, CA 94102",
+    "personalId": "900-12-1002",
+    "taxId": "90-1000002",
+    "bankAccount": "4000-1002-2002-3002",
+    "description": "Specializes in frontend frameworks.",
+    "hobbies": [
+      "piano",
+      "archery"
+    ],
+    "iceName": "Brandon Chen",
+    "icePhone": "(555) 937-6514",
+    "education": [
+      {
+        "id": "fix-edu-002",
+        "name": "BSc Computer Science, Purdue University",
+        "startDate": "2011-09-01",
+        "endDate": "2015-06-15"
+      },
+      {
+        "id": "fix-edu-003",
+        "name": "MSc Data Science, University of Illinois",
+        "startDate": "2015-09-01",
+        "endDate": "2017-06-15"
+      }
+    ],
+    "languages": [
+      {
+        "id": "fix-lang-002",
+        "name": "English",
+        "level": "Native"
+      }
+    ],
+    "projects": [
+      {
+        "id": "fix-proj-002",
+        "name": "Horizon API",
+        "role": "Frontend Developer",
+        "description": "API gateway and microservices layer",
+        "startDate": "2021-06-01",
+        "endDate": null,
+        "order": 1,
+        "isVisible": true
+      },
+      {
+        "id": "fix-proj-003",
+        "name": "Forge CLI",
+        "role": "Backend Developer",
+        "description": "Internal developer tooling and automation",
+        "startDate": "2022-09-01",
+        "endDate": null,
+        "order": 2,
+        "isVisible": true
+      }
+    ],
+    "employmentHistory": [
+      {
+        "id": "fix-hist-001",
+        "company": "ClearView Tech",
+        "role": "DevOps Engineer",
+        "startDate": "2018-12-01",
+        "endDate": "2020-02-28",
+        "description": null
+      }
+    ],
+    "courses": [],
+    "children": []
+  },
+  {
+    "id": "fix-emp-03",
+    "firstName": "Michael",
+    "lastName": "Rodriguez",
+    "workEmail": "michael.rodriguez@vortexlabs.co",
+    "role": "Backend Developer",
+    "employmentType": "EMPLOYMENT_CONTRACT",
+    "status": "ACTIVE",
+    "joinDate": "2019-09-10",
+    "birthdate": "1987-11-30",
+    "holiday": 28,
+    "firstYearHoliday": null,
+    "phone": "(555) 103-1003",
+    "address": "310 Pine Rd, Austin, TX 78701",
+    "personalId": null,
+    "taxId": null,
+    "bankAccount": null,
+    "description": "Key contributor to the Prism Dashboard team with expertise in agile delivery.",
+    "hobbies": [
+      "woodworking",
+      "camping",
+      "tennis"
+    ],
+    "iceName": "Gregory Rodriguez",
+    "icePhone": "(555) 936-5374",
+    "education": [
+      {
+        "id": "fix-edu-004",
+        "name": "BSc Computer Science, Duke University",
+        "startDate": "2005-09-01",
+        "endDate": "2009-06-15"
+      }
+    ],
+    "languages": [
+      {
+        "id": "fix-lang-003",
+        "name": "English",
+        "level": "Native"
+      }
+    ],
+    "projects": [
+      {
+        "id": "fix-proj-004",
+        "name": "Prism Dashboard",
+        "role": "Backend Developer",
+        "description": "Analytics and business intelligence tool",
+        "startDate": "2019-09-10",
+        "endDate": null,
+        "order": 1,
+        "isVisible": true
+      }
+    ],
+    "employmentHistory": [
+      {
+        "id": "fix-hist-002",
+        "company": "PrimeStack Inc",
+        "role": "QA Analyst",
+        "startDate": "2016-11-01",
+        "endDate": "2018-06-28",
+        "description": null
+      },
+      {
+        "id": "fix-hist-003",
+        "company": "ClearView Tech",
+        "role": "Software Engineer",
+        "startDate": "2016-06-01",
+        "endDate": "2017-07-28",
+        "description": null
+      }
+    ],
+    "courses": [
+      {
+        "id": "fix-course-001",
+        "name": "Certified Kubernetes Administrator",
+        "date": "2022-10-23"
+      }
+    ],
+    "children": [
+      {
+        "id": "fix-child-002",
+        "name": "Logan",
+        "birthDate": "2022-08-13"
+      },
+      {
+        "id": "fix-child-003",
+        "name": "Mia",
+        "birthDate": "2014-05-05"
+      }
+    ]
+  },
+  {
+    "id": "fix-emp-04",
+    "firstName": "Emily",
+    "lastName": "Watson",
+    "workEmail": "emily.watson@vortexlabs.co",
+    "role": "UI/UX Designer",
+    "employmentType": "EMPLOYMENT_CONTRACT",
+    "status": "ACTIVE",
+    "joinDate": "2022-01-20",
+    "birthdate": "1994-03-07",
+    "holiday": 26,
+    "firstYearHoliday": null,
+    "phone": "(555) 104-1004",
+    "address": "47 Elm Dr, Seattle, WA 98101",
+    "personalId": null,
+    "taxId": null,
+    "bankAccount": "4000-1004-2004-3004",
+    "description": "Key contributor to the Atlas Platform team with expertise in performance optimization.",
+    "hobbies": [
+      "painting",
+      "origami"
+    ],
+    "iceName": "Zoe Watson",
+    "icePhone": "(555) 916-2796",
+    "education": [
+      {
+        "id": "fix-edu-005",
+        "name": "BA Graphic Design, University of Michigan",
+        "startDate": "2012-09-01",
+        "endDate": "2016-06-15"
+      },
+      {
+        "id": "fix-edu-006",
+        "name": "MSc Computer Science, University of Colorado Boulder",
+        "startDate": "2016-09-01",
+        "endDate": "2018-06-15"
+      }
+    ],
+    "languages": [
+      {
+        "id": "fix-lang-004",
+        "name": "English",
+        "level": "Native"
+      },
+      {
+        "id": "fix-lang-005",
+        "name": "Russian",
+        "level": "Basic"
+      },
+      {
+        "id": "fix-lang-006",
+        "name": "Arabic",
+        "level": "Basic"
+      }
+    ],
+    "projects": [
+      {
+        "id": "fix-proj-005",
+        "name": "Atlas Platform",
+        "role": "UI/UX Designer",
+        "description": "Core SaaS product development",
+        "startDate": "2022-01-20",
+        "endDate": null,
+        "order": 1,
+        "isVisible": true
+      },
+      {
+        "id": "fix-proj-006",
+        "name": "Catalyst Mobile",
+        "role": "Mobile Developer",
+        "description": "Cross-platform mobile application",
+        "startDate": "2023-02-01",
+        "endDate": null,
+        "order": 2,
+        "isVisible": true
+      }
+    ],
+    "employmentHistory": [
+      {
+        "id": "fix-hist-004",
+        "company": "Pinnacle Dev",
+        "role": "DevOps Engineer",
+        "startDate": "2020-05-01",
+        "endDate": "2021-07-28",
+        "description": null
+      }
+    ],
+    "courses": [],
+    "children": []
+  },
+  {
+    "id": "fix-emp-05",
+    "firstName": "Daniel",
+    "lastName": "Kim",
+    "workEmail": "daniel.kim@vortexlabs.co",
+    "role": "DevOps Engineer",
+    "employmentType": "EMPLOYMENT_CONTRACT",
+    "status": "ACTIVE",
+    "joinDate": "2020-11-05",
+    "birthdate": "1990-12-18",
+    "holiday": 26,
+    "firstYearHoliday": null,
+    "phone": "(555) 105-1005",
+    "address": "223 Cedar Ln, Portland, OR 97201",
+    "personalId": null,
+    "taxId": null,
+    "bankAccount": null,
+    "description": "Specializes in test automation.",
+    "hobbies": [
+      "running",
+      "writing",
+      "origami",
+      "rock climbing"
+    ],
+    "iceName": "Zoe Kim",
+    "icePhone": "(555) 930-9837",
+    "education": [
+      {
+        "id": "fix-edu-007",
+        "name": "BSc Computer Science, Northeastern University",
+        "startDate": "2008-09-01",
+        "endDate": "2012-06-15"
+      }
+    ],
+    "languages": [
+      {
+        "id": "fix-lang-007",
+        "name": "English",
+        "level": "Native"
+      },
+      {
+        "id": "fix-lang-008",
+        "name": "Spanish",
+        "level": "Intermediate"
+      }
+    ],
+    "projects": [
+      {
+        "id": "fix-proj-007",
+        "name": "Catalyst Mobile",
+        "role": "DevOps Engineer",
+        "description": "Cross-platform mobile application",
+        "startDate": "2020-11-05",
+        "endDate": null,
+        "order": 1,
+        "isVisible": true
+      }
+    ],
+    "employmentHistory": [
+      {
+        "id": "fix-hist-005",
+        "company": "NetScale Technologies",
+        "role": "Software Engineer",
+        "startDate": "2017-10-01",
+        "endDate": "2019-02-28",
+        "description": null
+      }
+    ],
+    "courses": [],
+    "children": []
+  },
+  {
+    "id": "fix-emp-06",
+    "firstName": "Jessica",
+    "lastName": "Brown",
+    "workEmail": "jessica.brown@vortexlabs.co",
+    "role": "Product Manager",
+    "employmentType": "EMPLOYMENT_CONTRACT",
+    "status": "ACTIVE",
+    "joinDate": "2021-02-14",
+    "birthdate": "1989-07-25",
+    "holiday": 26,
+    "firstYearHoliday": null,
+    "phone": "(555) 106-1006",
+    "address": "567 Birch St, Chicago, IL 60601",
+    "personalId": "900-16-1006",
+    "taxId": "90-1000006",
+    "bankAccount": "4000-1006-2006-3006",
+    "description": "Specializes in distributed systems.",
+    "hobbies": [
+      "piano",
+      "gardening",
+      "baking",
+      "archery"
+    ],
+    "iceName": null,
+    "icePhone": null,
+    "education": [
+      {
+        "id": "fix-edu-008",
+        "name": "BSc Software Engineering, University of Maryland",
+        "startDate": "2007-09-01",
+        "endDate": "2011-06-15"
+      }
+    ],
+    "languages": [
+      {
+        "id": "fix-lang-009",
+        "name": "English",
+        "level": "Fluent"
+      },
+      {
+        "id": "fix-lang-010",
+        "name": "Hindi",
+        "level": "Basic"
+      }
+    ],
+    "projects": [
+      {
+        "id": "fix-proj-008",
+        "name": "Pulse Monitoring",
+        "role": "Product Manager",
+        "description": "System health and performance monitoring",
+        "startDate": "2021-02-14",
+        "endDate": null,
+        "order": 1,
+        "isVisible": true
+      },
+      {
+        "id": "fix-proj-009",
+        "name": "Atlas Platform",
+        "role": "Tech Lead",
+        "description": "Core SaaS product development",
+        "startDate": "2022-04-01",
+        "endDate": null,
+        "order": 2,
+        "isVisible": true
+      }
+    ],
+    "employmentHistory": [],
+    "courses": [
+      {
+        "id": "fix-course-002",
+        "name": "AWS Solutions Architect Professional",
+        "date": "2025-09-08"
+      }
+    ],
+    "children": [
+      {
+        "id": "fix-child-004",
+        "name": "Oliver",
+        "birthDate": "2013-12-21"
+      }
+    ]
+  },
+  {
+    "id": "fix-emp-07",
+    "firstName": "Christopher",
+    "lastName": "Lee",
+    "workEmail": "christopher.lee@vortexlabs.co",
+    "role": "Full Stack Developer",
+    "employmentType": "EMPLOYMENT_CONTRACT",
+    "status": "ACTIVE",
+    "joinDate": "2020-07-22",
+    "birthdate": "1991-01-09",
+    "holiday": 26,
+    "firstYearHoliday": null,
+    "phone": "(555) 107-1007",
+    "address": "89 Walnut Pl, Boston, MA 02101",
+    "personalId": null,
+    "taxId": null,
+    "bankAccount": null,
+    "description": "Specializes in frontend frameworks.",
+    "hobbies": [
+      "origami",
+      "travel"
+    ],
+    "iceName": "Lisa Lee",
+    "icePhone": "(555) 937-9834",
+    "education": [
+      {
+        "id": "fix-edu-009",
+        "name": "BSc Mathematics, Caltech",
+        "startDate": "2009-09-01",
+        "endDate": "2013-06-15"
+      },
+      {
+        "id": "fix-edu-010",
+        "name": "MSc Software Engineering, UC San Diego",
+        "startDate": "2013-09-01",
+        "endDate": "2015-06-15"
+      }
+    ],
+    "languages": [
+      {
+        "id": "fix-lang-011",
+        "name": "English",
+        "level": "Fluent"
+      },
+      {
+        "id": "fix-lang-012",
+        "name": "Mandarin",
+        "level": "Basic"
+      }
+    ],
+    "projects": [
+      {
+        "id": "fix-proj-010",
+        "name": "Horizon API",
+        "role": "Full Stack Developer",
+        "description": "API gateway and microservices layer",
+        "startDate": "2020-07-22",
+        "endDate": null,
+        "order": 1,
+        "isVisible": true
+      }
+    ],
+    "employmentHistory": [
+      {
+        "id": "fix-hist-006",
+        "company": "PrimeStack Inc",
+        "role": "DevOps Engineer",
+        "startDate": "2015-07-01",
+        "endDate": "2019-08-28",
+        "description": null
+      },
+      {
+        "id": "fix-hist-007",
+        "company": "ClearView Tech",
+        "role": "Software Engineer",
+        "startDate": "2018-07-01",
+        "endDate": "2019-12-28",
+        "description": null
+      }
+    ],
+    "courses": [
+      {
+        "id": "fix-course-003",
+        "name": "Leadership in Tech Management",
+        "date": "2021-04-07"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "fix-emp-08",
+    "firstName": "Amanda",
+    "lastName": "Foster",
+    "workEmail": "amanda.foster@vortexlabs.co",
+    "role": "QA Engineer",
+    "employmentType": "EMPLOYMENT_CONTRACT",
+    "status": "ACTIVE",
+    "joinDate": "2022-04-18",
+    "birthdate": "1995-06-12",
+    "holiday": 26,
+    "firstYearHoliday": null,
+    "phone": "(555) 108-1008",
+    "address": "401 Spruce Way, Denver, CO 80201",
+    "personalId": "900-18-1008",
+    "taxId": "90-1000008",
+    "bankAccount": "4000-1008-2008-3008",
+    "description": "Key contributor to the Prism Dashboard team with expertise in performance optimization.",
+    "hobbies": [
+      "cooking",
+      "fishing"
+    ],
+    "iceName": null,
+    "icePhone": null,
+    "education": [
+      {
+        "id": "fix-edu-011",
+        "name": "BSc Computer Science, Carnegie Mellon University",
+        "startDate": "2013-09-01",
+        "endDate": "2017-06-15"
+      }
+    ],
+    "languages": [
+      {
+        "id": "fix-lang-013",
+        "name": "English",
+        "level": "Native"
+      },
+      {
+        "id": "fix-lang-014",
+        "name": "Spanish",
+        "level": "Intermediate"
+      },
+      {
+        "id": "fix-lang-015",
+        "name": "German",
+        "level": "Intermediate"
+      }
+    ],
+    "projects": [
+      {
+        "id": "fix-proj-011",
+        "name": "Prism Dashboard",
+        "role": "QA Engineer",
+        "description": "Analytics and business intelligence tool",
+        "startDate": "2022-04-18",
+        "endDate": null,
+        "order": 1,
+        "isVisible": true
+      }
+    ],
+    "employmentHistory": [
+      {
+        "id": "fix-hist-008",
+        "company": "CodeVault Technologies",
+        "role": "Data Analyst",
+        "startDate": "2019-07-01",
+        "endDate": "2021-01-28",
+        "description": null
+      }
+    ],
+    "courses": [],
+    "children": []
+  },
+  {
+    "id": "fix-emp-09",
+    "firstName": "Ryan",
+    "lastName": "O'Brien",
+    "workEmail": "ryan.obrien@vortexlabs.co",
+    "role": "Software Engineer",
+    "employmentType": "B2B_CONTRACT",
+    "status": "ACTIVE",
+    "joinDate": "2023-01-09",
+    "birthdate": "1992-10-03",
+    "holiday": null,
+    "firstYearHoliday": null,
+    "phone": "(555) 109-1009",
+    "address": "156 Aspen Ct, Los Angeles, CA 90001",
+    "personalId": null,
+    "taxId": null,
+    "bankAccount": null,
+    "description": "Specializes in product strategy.",
+    "hobbies": [
+      "camping",
+      "pottery",
+      "archery"
+    ],
+    "iceName": "Vanessa O'Brien",
+    "icePhone": "(555) 981-8973",
+    "education": [
+      {
+        "id": "fix-edu-012",
+        "name": "BSc Software Engineering, NYU",
+        "startDate": "2010-09-01",
+        "endDate": "2014-06-15"
+      },
+      {
+        "id": "fix-edu-013",
+        "name": "MSc Cybersecurity, Stanford University",
+        "startDate": "2014-09-01",
+        "endDate": "2016-06-15"
+      }
+    ],
+    "languages": [
+      {
+        "id": "fix-lang-016",
+        "name": "English",
+        "level": "Fluent"
+      }
+    ],
+    "projects": [
+      {
+        "id": "fix-proj-012",
+        "name": "Atlas Platform",
+        "role": "Software Engineer",
+        "description": "Core SaaS product development",
+        "startDate": "2023-01-09",
+        "endDate": null,
+        "order": 1,
+        "isVisible": true
+      },
+      {
+        "id": "fix-proj-013",
+        "name": "Pulse Monitoring",
+        "role": "Data Engineer",
+        "description": "System health and performance monitoring",
+        "startDate": "2024-08-01",
+        "endDate": null,
+        "order": 2,
+        "isVisible": true
+      }
+    ],
+    "employmentHistory": [],
+    "courses": [],
+    "children": []
+  },
+  {
+    "id": "fix-emp-10",
+    "firstName": "Michelle",
+    "lastName": "Park",
+    "workEmail": "michelle.park@vortexlabs.co",
+    "role": "Data Engineer",
+    "employmentType": "EMPLOYMENT_CONTRACT",
+    "status": "ACTIVE",
+    "joinDate": "2021-08-30",
+    "birthdate": "1990-04-15",
+    "holiday": 26,
+    "firstYearHoliday": null,
+    "phone": "(555) 110-1010",
+    "address": "78 Willow Blvd, Miami, FL 33101",
+    "personalId": "900-20-1010",
+    "taxId": "90-1000010",
+    "bankAccount": "4000-1010-2010-3010",
+    "description": "Key contributor to the Shield Security Suite team with expertise in system design.",
+    "hobbies": [
+      "soccer",
+      "cycling"
+    ],
+    "iceName": null,
+    "icePhone": null,
+    "education": [
+      {
+        "id": "fix-edu-014",
+        "name": "BSc Data Science, Caltech",
+        "startDate": "2008-09-01",
+        "endDate": "2012-06-15"
+      }
+    ],
+    "languages": [
+      {
+        "id": "fix-lang-017",
+        "name": "English",
+        "level": "Native"
+      },
+      {
+        "id": "fix-lang-018",
+        "name": "Swedish",
+        "level": "Basic"
+      }
+    ],
+    "projects": [
+      {
+        "id": "fix-proj-014",
+        "name": "Shield Security Suite",
+        "role": "Data Engineer",
+        "description": "Security monitoring and compliance",
+        "startDate": "2021-08-30",
+        "endDate": null,
+        "order": 1,
+        "isVisible": true
+      },
+      {
+        "id": "fix-proj-015",
+        "name": "Horizon API",
+        "role": "ML Engineer",
+        "description": "API gateway and microservices layer",
+        "startDate": "2022-12-01",
+        "endDate": null,
+        "order": 2,
+        "isVisible": true
+      }
+    ],
+    "employmentHistory": [
+      {
+        "id": "fix-hist-009",
+        "company": "NetScale Technologies",
+        "role": "QA Analyst",
+        "startDate": "2016-03-01",
+        "endDate": "2020-11-28",
+        "description": null
+      }
+    ],
+    "courses": [
+      {
+        "id": "fix-course-004",
+        "name": "Certified Ethical Hacker",
+        "date": "2024-06-25"
+      },
+      {
+        "id": "fix-course-005",
+        "name": "Machine Learning Specialization",
+        "date": "2021-01-15"
+      }
+    ],
+    "children": [
+      {
+        "id": "fix-child-005",
+        "name": "Liam",
+        "birthDate": "2020-04-17"
+      }
+    ]
+  },
+  {
+    "id": "fix-emp-11",
+    "firstName": "David",
+    "lastName": "Thompson",
+    "workEmail": "david.thompson@vortexlabs.co",
+    "role": "Tech Lead",
+    "employmentType": "EMPLOYMENT_CONTRACT",
+    "status": "ACTIVE",
+    "joinDate": "2019-04-01",
+    "birthdate": "1985-09-28",
+    "holiday": 28,
+    "firstYearHoliday": null,
+    "phone": "(555) 111-1011",
+    "address": "203 Chestnut Dr, Atlanta, GA 30301",
+    "personalId": null,
+    "taxId": null,
+    "bankAccount": null,
+    "description": "Key contributor to the Shield Security Suite team with expertise in system design.",
+    "hobbies": [
+      "pottery",
+      "piano",
+      "fishing"
+    ],
+    "iceName": null,
+    "icePhone": null,
+    "education": [
+      {
+        "id": "fix-edu-015",
+        "name": "BSc Mathematics, University of Colorado Boulder",
+        "startDate": "2003-09-01",
+        "endDate": "2007-06-15"
+      }
+    ],
+    "languages": [
+      {
+        "id": "fix-lang-019",
+        "name": "English",
+        "level": "Native"
+      },
+      {
+        "id": "fix-lang-020",
+        "name": "Korean",
+        "level": "Basic"
+      },
+      {
+        "id": "fix-lang-021",
+        "name": "French",
+        "level": "Basic"
+      }
+    ],
+    "projects": [
+      {
+        "id": "fix-proj-016",
+        "name": "Shield Security Suite",
+        "role": "Tech Lead",
+        "description": "Security monitoring and compliance",
+        "startDate": "2019-04-01",
+        "endDate": null,
+        "order": 1,
+        "isVisible": true
+      }
+    ],
+    "employmentHistory": [],
+    "courses": [],
+    "children": [
+      {
+        "id": "fix-child-006",
+        "name": "Jack",
+        "birthDate": "2016-10-07"
+      }
+    ]
+  },
+  {
+    "id": "fix-emp-12",
+    "firstName": "Jennifer",
+    "lastName": "Morrison",
+    "workEmail": "jennifer.morrison@vortexlabs.co",
+    "role": "Senior Software Engineer",
+    "employmentType": "EMPLOYMENT_CONTRACT",
+    "status": "ACTIVE",
+    "joinDate": "2020-10-12",
+    "birthdate": "1988-02-17",
+    "holiday": 28,
+    "firstYearHoliday": null,
+    "phone": "(555) 112-1012",
+    "address": "45 Sycamore Ave, Philadelphia, PA 19101",
+    "personalId": "900-22-1012",
+    "taxId": "90-1000012",
+    "bankAccount": "4000-1012-2012-3012",
+    "description": "Specializes in mobile development.",
+    "hobbies": [
+      "gaming",
+      "archery"
+    ],
+    "iceName": null,
+    "icePhone": null,
+    "education": [
+      {
+        "id": "fix-edu-016",
+        "name": "BSc Software Engineering, UT Austin",
+        "startDate": "2006-09-01",
+        "endDate": "2010-06-15"
+      },
+      {
+        "id": "fix-edu-017",
+        "name": "MSc Data Science, Boston University",
+        "startDate": "2010-09-01",
+        "endDate": "2012-06-15"
+      }
+    ],
+    "languages": [
+      {
+        "id": "fix-lang-022",
+        "name": "English",
+        "level": "Native"
+      },
+      {
+        "id": "fix-lang-023",
+        "name": "Arabic",
+        "level": "Basic"
+      }
+    ],
+    "projects": [
+      {
+        "id": "fix-proj-017",
+        "name": "Atlas Platform",
+        "role": "Senior Software Engineer",
+        "description": "Core SaaS product development",
+        "startDate": "2020-10-12",
+        "endDate": null,
+        "order": 1,
+        "isVisible": true
+      },
+      {
+        "id": "fix-proj-018",
+        "name": "Pulse Monitoring",
+        "role": "Backend Developer",
+        "description": "System health and performance monitoring",
+        "startDate": "2021-12-01",
+        "endDate": null,
+        "order": 2,
+        "isVisible": true
+      }
+    ],
+    "employmentHistory": [],
+    "courses": [
+      {
+        "id": "fix-course-006",
+        "name": "AWS Solutions Architect Professional",
+        "date": "2023-10-18"
+      },
+      {
+        "id": "fix-course-007",
+        "name": "Professional Scrum Master I",
+        "date": "2024-03-02"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "fix-emp-13",
+    "firstName": "Andrew",
+    "lastName": "Wright",
+    "workEmail": "andrew.wright@vortexlabs.co",
+    "role": "Mobile Developer",
+    "employmentType": "EMPLOYMENT_CONTRACT",
+    "status": "ACTIVE",
+    "joinDate": "2022-07-05",
+    "birthdate": "1993-11-20",
+    "holiday": 26,
+    "firstYearHoliday": null,
+    "phone": "(555) 113-1013",
+    "address": "612 Magnolia St, Minneapolis, MN 55401",
+    "personalId": null,
+    "taxId": null,
+    "bankAccount": "4000-1013-2013-3013",
+    "description": "Specializes in distributed systems.",
+    "hobbies": [
+      "running",
+      "swimming"
+    ],
+    "iceName": null,
+    "icePhone": null,
+    "education": [
+      {
+        "id": "fix-edu-018",
+        "name": "BSc Mathematics, Virginia Tech",
+        "startDate": "2011-09-01",
+        "endDate": "2015-06-15"
+      }
+    ],
+    "languages": [
+      {
+        "id": "fix-lang-024",
+        "name": "English",
+        "level": "Fluent"
+      }
+    ],
+    "projects": [
+      {
+        "id": "fix-proj-019",
+        "name": "Prism Dashboard",
+        "role": "Mobile Developer",
+        "description": "Analytics and business intelligence tool",
+        "startDate": "2022-07-05",
+        "endDate": null,
+        "order": 1,
+        "isVisible": true
+      }
+    ],
+    "employmentHistory": [
+      {
+        "id": "fix-hist-010",
+        "company": "TechCorp Solutions",
+        "role": "Frontend Developer",
+        "startDate": "2018-07-01",
+        "endDate": "2021-11-28",
+        "description": null
+      }
+    ],
+    "courses": [
+      {
+        "id": "fix-course-008",
+        "name": "Leadership in Tech Management",
+        "date": "2023-05-06"
+      },
+      {
+        "id": "fix-course-009",
+        "name": "Leadership in Tech Management",
+        "date": "2022-07-28"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "fix-emp-14",
+    "firstName": "Lisa",
+    "lastName": "Nakamura",
+    "workEmail": "lisa.nakamura@vortexlabs.co",
+    "role": "Scrum Master",
+    "employmentType": "EMPLOYMENT_CONTRACT",
+    "status": "ACTIVE",
+    "joinDate": "2021-05-17",
+    "birthdate": "1991-08-04",
+    "holiday": 26,
+    "firstYearHoliday": null,
+    "phone": "(555) 114-1014",
+    "address": "92 Hickory Ln, San Diego, CA 92101",
+    "personalId": "900-24-1014",
+    "taxId": "90-1000014",
+    "bankAccount": null,
+    "description": "Specializes in distributed systems.",
+    "hobbies": [
+      "writing",
+      "skiing",
+      "chess"
+    ],
+    "iceName": "Sarah Nakamura",
+    "icePhone": "(555) 952-5564",
+    "education": [
+      {
+        "id": "fix-edu-019",
+        "name": "BSc Information Technology, University of Maryland",
+        "startDate": "2009-09-01",
+        "endDate": "2013-06-15"
+      }
+    ],
+    "languages": [
+      {
+        "id": "fix-lang-025",
+        "name": "English",
+        "level": "Native"
+      },
+      {
+        "id": "fix-lang-026",
+        "name": "Italian",
+        "level": "Basic"
+      },
+      {
+        "id": "fix-lang-027",
+        "name": "Portuguese",
+        "level": "Intermediate"
+      }
+    ],
+    "projects": [
+      {
+        "id": "fix-proj-020",
+        "name": "Horizon API",
+        "role": "Scrum Master",
+        "description": "API gateway and microservices layer",
+        "startDate": "2021-05-17",
+        "endDate": null,
+        "order": 1,
+        "isVisible": true
+      }
+    ],
+    "employmentHistory": [
+      {
+        "id": "fix-hist-011",
+        "company": "DataStream Analytics",
+        "role": "QA Analyst",
+        "startDate": "2019-02-01",
+        "endDate": "2020-10-28",
+        "description": null
+      }
+    ],
+    "courses": [
+      {
+        "id": "fix-course-010",
+        "name": "ISTQB Foundation Level",
+        "date": "2023-07-20"
+      }
+    ],
+    "children": [
+      {
+        "id": "fix-child-007",
+        "name": "Ava",
+        "birthDate": "2021-04-09"
+      }
+    ]
+  },
+  {
+    "id": "fix-emp-15",
+    "firstName": "Matthew",
+    "lastName": "Garcia",
+    "workEmail": "matthew.garcia@vortexlabs.co",
+    "role": "Software Engineer",
+    "employmentType": "EMPLOYMENT_CONTRACT",
+    "status": "ACTIVE",
+    "joinDate": "2023-03-20",
+    "birthdate": "1996-01-30",
+    "holiday": 26,
+    "firstYearHoliday": null,
+    "phone": "(555) 115-1015",
+    "address": "334 Cypress Rd, Nashville, TN 37201",
+    "personalId": "900-25-1015",
+    "taxId": "90-1000015",
+    "bankAccount": null,
+    "description": "Key contributor to the Shield Security Suite team with expertise in performance optimization.",
+    "hobbies": [
+      "rock climbing",
+      "tennis",
+      "archery",
+      "cooking"
+    ],
+    "iceName": null,
+    "icePhone": null,
+    "education": [
+      {
+        "id": "fix-edu-020",
+        "name": "BSc Information Technology, University of Colorado Boulder",
+        "startDate": "2014-09-01",
+        "endDate": "2018-06-15"
+      }
+    ],
+    "languages": [
+      {
+        "id": "fix-lang-028",
+        "name": "English",
+        "level": "Native"
+      }
+    ],
+    "projects": [
+      {
+        "id": "fix-proj-021",
+        "name": "Shield Security Suite",
+        "role": "Software Engineer",
+        "description": "Security monitoring and compliance",
+        "startDate": "2023-03-20",
+        "endDate": null,
+        "order": 1,
+        "isVisible": true
+      },
+      {
+        "id": "fix-proj-022",
+        "name": "Catalyst Mobile",
+        "role": "Product Owner",
+        "description": "Cross-platform mobile application",
+        "startDate": "2024-06-01",
+        "endDate": null,
+        "order": 2,
+        "isVisible": true
+      }
+    ],
+    "employmentHistory": [
+      {
+        "id": "fix-hist-012",
+        "company": "BlueShift AI",
+        "role": "QA Analyst",
+        "startDate": "2020-04-01",
+        "endDate": "2022-07-28",
+        "description": null
+      }
+    ],
+    "courses": [
+      {
+        "id": "fix-course-011",
+        "name": "React Advanced Patterns Workshop",
+        "date": "2025-12-06"
+      },
+      {
+        "id": "fix-course-012",
+        "name": "Terraform Associate",
+        "date": "2025-05-13"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "fix-emp-16",
+    "firstName": "Rachel",
+    "lastName": "Cooper",
+    "workEmail": "rachel.cooper@vortexlabs.co",
+    "role": "Frontend Developer",
+    "employmentType": "EMPLOYMENT_CONTRACT",
+    "status": "ACTIVE",
+    "joinDate": "2022-09-01",
+    "birthdate": "1994-05-11",
+    "holiday": 26,
+    "firstYearHoliday": null,
+    "phone": "(555) 116-1016",
+    "address": "178 Juniper Way, Raleigh, NC 27601",
+    "personalId": "900-26-1016",
+    "taxId": "90-1000016",
+    "bankAccount": "4000-1016-2016-3016",
+    "description": "Specializes in frontend frameworks.",
+    "hobbies": [
+      "podcasting",
+      "camping",
+      "fishing",
+      "surfing"
+    ],
+    "iceName": "Rebecca Cooper",
+    "icePhone": "(555) 931-2389",
+    "education": [
+      {
+        "id": "fix-edu-021",
+        "name": "BSc Mathematics, Duke University",
+        "startDate": "2012-09-01",
+        "endDate": "2016-06-15"
+      },
+      {
+        "id": "fix-edu-022",
+        "name": "MSc Computer Science, UT Austin",
+        "startDate": "2016-09-01",
+        "endDate": "2018-06-15"
+      }
+    ],
+    "languages": [
+      {
+        "id": "fix-lang-029",
+        "name": "English",
+        "level": "Fluent"
+      }
+    ],
+    "projects": [
+      {
+        "id": "fix-proj-023",
+        "name": "Forge CLI",
+        "role": "Frontend Developer",
+        "description": "Internal developer tooling and automation",
+        "startDate": "2022-09-01",
+        "endDate": null,
+        "order": 1,
+        "isVisible": true
+      },
+      {
+        "id": "fix-proj-024",
+        "name": "Nebula Cloud",
+        "role": "Tech Lead",
+        "description": "Cloud infrastructure and DevOps platform",
+        "startDate": "2023-03-01",
+        "endDate": null,
+        "order": 2,
+        "isVisible": true
+      }
+    ],
+    "employmentHistory": [],
+    "courses": [],
+    "children": []
+  },
+  {
+    "id": "fix-emp-17",
+    "firstName": "Nathan",
+    "lastName": "Brooks",
+    "workEmail": "nathan.brooks@vortexlabs.co",
+    "role": "Backend Developer",
+    "employmentType": "EMPLOYMENT_CONTRACT",
+    "status": "ACTIVE",
+    "joinDate": "2021-11-15",
+    "birthdate": "1992-07-22",
+    "holiday": 26,
+    "firstYearHoliday": null,
+    "phone": "(555) 117-1017",
+    "address": "256 Redwood Ave, Phoenix, AZ 85001",
+    "personalId": "900-27-1017",
+    "taxId": "90-1000017",
+    "bankAccount": null,
+    "description": "Key contributor to the Pulse Monitoring team with expertise in agile delivery.",
+    "hobbies": [
+      "rock climbing",
+      "basketball",
+      "astronomy",
+      "soccer"
+    ],
+    "iceName": "Victoria Brooks",
+    "icePhone": "(555) 998-1090",
+    "education": [
+      {
+        "id": "fix-edu-023",
+        "name": "BSc Computer Science, University of Maryland",
+        "startDate": "2010-09-01",
+        "endDate": "2014-06-15"
+      }
+    ],
+    "languages": [
+      {
+        "id": "fix-lang-030",
+        "name": "English",
+        "level": "Fluent"
+      }
+    ],
+    "projects": [
+      {
+        "id": "fix-proj-025",
+        "name": "Pulse Monitoring",
+        "role": "Backend Developer",
+        "description": "System health and performance monitoring",
+        "startDate": "2021-11-15",
+        "endDate": null,
+        "order": 1,
+        "isVisible": true
+      }
+    ],
+    "employmentHistory": [],
+    "courses": [
+      {
+        "id": "fix-course-013",
+        "name": "Google Cloud Professional Engineer",
+        "date": "2021-08-05"
+      },
+      {
+        "id": "fix-course-014",
+        "name": "Leadership in Tech Management",
+        "date": "2024-11-17"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "fix-emp-18",
+    "firstName": "Hannah",
+    "lastName": "Lewis",
+    "workEmail": "hannah.lewis@vortexlabs.co",
+    "role": "QA Engineer",
+    "employmentType": "EMPLOYMENT_CONTRACT",
+    "status": "ACTIVE",
+    "joinDate": "2023-06-12",
+    "birthdate": "1997-02-08",
+    "holiday": 26,
+    "firstYearHoliday": null,
+    "phone": "(555) 118-1018",
+    "address": "123 Palm Dr, Salt Lake City, UT 84101",
+    "personalId": "900-28-1018",
+    "taxId": "90-1000018",
+    "bankAccount": null,
+    "description": "Specializes in cloud infrastructure.",
+    "hobbies": [
+      "archery",
+      "3D printing",
+      "fishing",
+      "piano"
+    ],
+    "iceName": null,
+    "icePhone": null,
+    "education": [
+      {
+        "id": "fix-edu-024",
+        "name": "BSc Software Engineering, Columbia University",
+        "startDate": "2015-09-01",
+        "endDate": "2019-06-15"
+      }
+    ],
+    "languages": [
+      {
+        "id": "fix-lang-031",
+        "name": "English",
+        "level": "Fluent"
+      },
+      {
+        "id": "fix-lang-032",
+        "name": "Swedish",
+        "level": "Basic"
+      }
+    ],
+    "projects": [
+      {
+        "id": "fix-proj-026",
+        "name": "Forge CLI",
+        "role": "QA Engineer",
+        "description": "Internal developer tooling and automation",
+        "startDate": "2023-06-12",
+        "endDate": null,
+        "order": 1,
+        "isVisible": true
+      },
+      {
+        "id": "fix-proj-027",
+        "name": "Prism Dashboard",
+        "role": "Scrum Master",
+        "description": "Analytics and business intelligence tool",
+        "startDate": "2024-02-01",
+        "endDate": null,
+        "order": 2,
+        "isVisible": true
+      }
+    ],
+    "employmentHistory": [
+      {
+        "id": "fix-hist-013",
+        "company": "NetScale Technologies",
+        "role": "QA Analyst",
+        "startDate": "2019-06-01",
+        "endDate": "2022-09-28",
+        "description": null
+      }
+    ],
+    "courses": [],
+    "children": []
+  },
+  {
+    "id": "fix-emp-19",
+    "firstName": "Brandon",
+    "lastName": "Taylor",
+    "workEmail": "brandon.taylor@vortexlabs.co",
+    "role": "DevOps Engineer",
+    "employmentType": "EMPLOYMENT_CONTRACT",
+    "status": "ACTIVE",
+    "joinDate": "2020-08-03",
+    "birthdate": "1989-10-16",
+    "holiday": 26,
+    "firstYearHoliday": null,
+    "phone": "(555) 119-1019",
+    "address": "445 Laurel St, Columbus, OH 43201",
+    "personalId": "900-29-1019",
+    "taxId": "90-1000019",
+    "bankAccount": "4000-1019-2019-3019",
+    "description": "Specializes in data pipelines.",
+    "hobbies": [
+      "cooking",
+      "volleyball"
+    ],
+    "iceName": "Stephanie Taylor",
+    "icePhone": "(555) 969-7812",
+    "education": [
+      {
+        "id": "fix-edu-025",
+        "name": "BEng Computer Engineering, Virginia Tech",
+        "startDate": "2007-09-01",
+        "endDate": "2011-06-15"
+      },
+      {
+        "id": "fix-edu-026",
+        "name": "MSc Cybersecurity, University of Maryland",
+        "startDate": "2011-09-01",
+        "endDate": "2013-06-15"
+      }
+    ],
+    "languages": [
+      {
+        "id": "fix-lang-033",
+        "name": "English",
+        "level": "Fluent"
+      }
+    ],
+    "projects": [
+      {
+        "id": "fix-proj-028",
+        "name": "Pulse Monitoring",
+        "role": "DevOps Engineer",
+        "description": "System health and performance monitoring",
+        "startDate": "2020-08-03",
+        "endDate": null,
+        "order": 1,
+        "isVisible": true
+      },
+      {
+        "id": "fix-proj-029",
+        "name": "Atlas Platform",
+        "role": "QA Lead",
+        "description": "Core SaaS product development",
+        "startDate": "2021-05-01",
+        "endDate": null,
+        "order": 2,
+        "isVisible": true
+      }
+    ],
+    "employmentHistory": [
+      {
+        "id": "fix-hist-014",
+        "company": "ClearView Tech",
+        "role": "System Administrator",
+        "startDate": "2017-08-01",
+        "endDate": "2019-04-28",
+        "description": null
+      }
+    ],
+    "courses": [
+      {
+        "id": "fix-course-015",
+        "name": "React Advanced Patterns Workshop",
+        "date": "2024-01-13"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "fix-emp-20",
+    "firstName": "Stephanie",
+    "lastName": "Reed",
+    "workEmail": "stephanie.reed@vortexlabs.co",
+    "role": "Senior Software Engineer",
+    "employmentType": "EMPLOYMENT_CONTRACT",
+    "status": "ACTIVE",
+    "joinDate": "2019-11-25",
+    "birthdate": "1986-12-01",
+    "holiday": 28,
+    "firstYearHoliday": null,
+    "phone": "(555) 120-1020",
+    "address": "67 Poplar Ct, Charlotte, NC 28201",
+    "personalId": null,
+    "taxId": null,
+    "bankAccount": null,
+    "description": "Key contributor to the Catalyst Mobile team with expertise in system design.",
+    "hobbies": [
+      "wine tasting",
+      "chess",
+      "soccer",
+      "martial arts"
+    ],
+    "iceName": "Michael Reed",
+    "icePhone": "(555) 920-8022",
+    "education": [
+      {
+        "id": "fix-edu-027",
+        "name": "BSc Software Engineering, Penn State",
+        "startDate": "2004-09-01",
+        "endDate": "2008-06-15"
+      },
+      {
+        "id": "fix-edu-028",
+        "name": "MSc Data Science, Stanford University",
+        "startDate": "2008-09-01",
+        "endDate": "2010-06-15"
+      }
+    ],
+    "languages": [
+      {
+        "id": "fix-lang-034",
+        "name": "English",
+        "level": "Native"
+      }
+    ],
+    "projects": [
+      {
+        "id": "fix-proj-030",
+        "name": "Catalyst Mobile",
+        "role": "Senior Software Engineer",
+        "description": "Cross-platform mobile application",
+        "startDate": "2019-11-25",
+        "endDate": null,
+        "order": 1,
+        "isVisible": true
+      },
+      {
+        "id": "fix-proj-031",
+        "name": "Prism Dashboard",
+        "role": "Product Owner",
+        "description": "Analytics and business intelligence tool",
+        "startDate": "2020-05-01",
+        "endDate": null,
+        "order": 2,
+        "isVisible": true
+      }
+    ],
+    "employmentHistory": [
+      {
+        "id": "fix-hist-015",
+        "company": "ByteForge Labs",
+        "role": "Junior Developer",
+        "startDate": "2014-01-01",
+        "endDate": "2018-12-28",
+        "description": null
+      },
+      {
+        "id": "fix-hist-016",
+        "company": "Meridian Software",
+        "role": "Software Engineer",
+        "startDate": "2015-11-01",
+        "endDate": "2016-02-28",
+        "description": null
+      }
+    ],
+    "courses": [
+      {
+        "id": "fix-course-016",
+        "name": "AWS Solutions Architect Professional",
+        "date": "2021-04-07"
+      },
+      {
+        "id": "fix-course-017",
+        "name": "Agile Product Management",
+        "date": "2021-10-05"
+      }
+    ],
+    "children": [
+      {
+        "id": "fix-child-008",
+        "name": "Lucas",
+        "birthDate": "2019-11-04"
+      }
+    ]
+  },
+  {
+    "id": "fix-emp-21",
+    "firstName": "Kevin",
+    "lastName": "Patel",
+    "workEmail": "kevin.patel@vortexlabs.co",
+    "role": "Software Engineer",
+    "employmentType": "B2B_CONTRACT",
+    "status": "ACTIVE",
+    "joinDate": "2023-09-02",
+    "birthdate": "1995-03-19",
+    "holiday": null,
+    "firstYearHoliday": null,
+    "phone": "(555) 121-1021",
+    "address": "519 Dogwood Ln, Detroit, MI 48201",
+    "personalId": null,
+    "taxId": null,
+    "bankAccount": null,
+    "description": "Specializes in mobile development.",
+    "hobbies": [
+      "gardening",
+      "tennis",
+      "piano",
+      "cycling"
+    ],
+    "iceName": null,
+    "icePhone": null,
+    "education": [
+      {
+        "id": "fix-edu-029",
+        "name": "BSc Computer Science, NYU",
+        "startDate": "2013-09-01",
+        "endDate": "2017-06-15"
+      },
+      {
+        "id": "fix-edu-030",
+        "name": "MSc Computer Science, Caltech",
+        "startDate": "2017-09-01",
+        "endDate": "2019-06-15"
+      }
+    ],
+    "languages": [
+      {
+        "id": "fix-lang-035",
+        "name": "English",
+        "level": "Fluent"
+      },
+      {
+        "id": "fix-lang-036",
+        "name": "Italian",
+        "level": "Basic"
+      },
+      {
+        "id": "fix-lang-037",
+        "name": "Polish",
+        "level": "Intermediate"
+      }
+    ],
+    "projects": [
+      {
+        "id": "fix-proj-032",
+        "name": "Horizon API",
+        "role": "Software Engineer",
+        "description": "API gateway and microservices layer",
+        "startDate": "2023-09-02",
+        "endDate": null,
+        "order": 1,
+        "isVisible": true
+      }
+    ],
+    "employmentHistory": [],
+    "courses": [],
+    "children": []
+  },
+  {
+    "id": "fix-emp-22",
+    "firstName": "Megan",
+    "lastName": "Sullivan",
+    "workEmail": "megan.sullivan@vortexlabs.co",
+    "role": "Project Manager",
+    "employmentType": "EMPLOYMENT_CONTRACT",
+    "status": "ACTIVE",
+    "joinDate": "2021-04-07",
+    "birthdate": "1990-06-27",
+    "holiday": 26,
+    "firstYearHoliday": null,
+    "phone": "(555) 122-1022",
+    "address": "88 Beech Rd, Baltimore, MD 21201",
+    "personalId": "900-32-1022",
+    "taxId": "90-1000022",
+    "bankAccount": "4000-1022-2022-3022",
+    "description": "Specializes in mobile development.",
+    "hobbies": [
+      "cooking",
+      "origami",
+      "board games"
+    ],
+    "iceName": "Emily Sullivan",
+    "icePhone": "(555) 972-2729",
+    "education": [
+      {
+        "id": "fix-edu-031",
+        "name": "BEng Computer Engineering, University of Illinois",
+        "startDate": "2008-09-01",
+        "endDate": "2012-06-15"
+      }
+    ],
+    "languages": [
+      {
+        "id": "fix-lang-038",
+        "name": "English",
+        "level": "Fluent"
+      },
+      {
+        "id": "fix-lang-039",
+        "name": "German",
+        "level": "Basic"
+      }
+    ],
+    "projects": [
+      {
+        "id": "fix-proj-033",
+        "name": "Pulse Monitoring",
+        "role": "Project Manager",
+        "description": "System health and performance monitoring",
+        "startDate": "2021-04-07",
+        "endDate": null,
+        "order": 1,
+        "isVisible": true
+      },
+      {
+        "id": "fix-proj-034",
+        "name": "Forge CLI",
+        "role": "Product Owner",
+        "description": "Internal developer tooling and automation",
+        "startDate": "2022-12-01",
+        "endDate": null,
+        "order": 2,
+        "isVisible": true
+      }
+    ],
+    "employmentHistory": [
+      {
+        "id": "fix-hist-017",
+        "company": "ByteForge Labs",
+        "role": "DevOps Engineer",
+        "startDate": "2018-02-01",
+        "endDate": "2020-05-28",
+        "description": null
+      },
+      {
+        "id": "fix-hist-018",
+        "company": "Summit Engineering",
+        "role": "Data Analyst",
+        "startDate": "2018-10-01",
+        "endDate": "2020-10-28",
+        "description": null
+      }
+    ],
+    "courses": [
+      {
+        "id": "fix-course-018",
+        "name": "React Advanced Patterns Workshop",
+        "date": "2023-01-16"
+      },
+      {
+        "id": "fix-course-019",
+        "name": "Agile Product Management",
+        "date": "2023-03-16"
+      }
+    ],
+    "children": [
+      {
+        "id": "fix-child-009",
+        "name": "Sophia",
+        "birthDate": "2024-05-11"
+      }
+    ]
+  },
+  {
+    "id": "fix-emp-23",
+    "firstName": "Tyler",
+    "lastName": "Johnson",
+    "workEmail": "tyler.johnson@vortexlabs.co",
+    "role": "Full Stack Developer",
+    "employmentType": "EMPLOYMENT_CONTRACT",
+    "status": "ACTIVE",
+    "joinDate": "2022-02-28",
+    "birthdate": "1993-04-05",
+    "holiday": 26,
+    "firstYearHoliday": null,
+    "phone": "(555) 123-1023",
+    "address": "301 Hemlock Way, Tampa, FL 33601",
+    "personalId": "900-33-1023",
+    "taxId": "90-1000023",
+    "bankAccount": "4000-1023-2023-3023",
+    "description": "Key contributor to the Forge CLI team with expertise in agile delivery.",
+    "hobbies": [
+      "volleyball",
+      "astronomy"
+    ],
+    "iceName": "Patrick Johnson",
+    "icePhone": "(555) 998-8800",
+    "education": [
+      {
+        "id": "fix-edu-032",
+        "name": "BEng Computer Engineering, UC San Diego",
+        "startDate": "2011-09-01",
+        "endDate": "2015-06-15"
+      }
+    ],
+    "languages": [
+      {
+        "id": "fix-lang-040",
+        "name": "English",
+        "level": "Fluent"
+      }
+    ],
+    "projects": [
+      {
+        "id": "fix-proj-035",
+        "name": "Forge CLI",
+        "role": "Full Stack Developer",
+        "description": "Internal developer tooling and automation",
+        "startDate": "2022-02-28",
+        "endDate": null,
+        "order": 1,
+        "isVisible": true
+      },
+      {
+        "id": "fix-proj-036",
+        "name": "Pulse Monitoring",
+        "role": "Mobile Developer",
+        "description": "System health and performance monitoring",
+        "startDate": "2023-04-01",
+        "endDate": null,
+        "order": 2,
+        "isVisible": true
+      }
+    ],
+    "employmentHistory": [
+      {
+        "id": "fix-hist-019",
+        "company": "Quantum Logic",
+        "role": "DevOps Engineer",
+        "startDate": "2017-09-01",
+        "endDate": "2021-09-28",
+        "description": null
+      }
+    ],
+    "courses": [
+      {
+        "id": "fix-course-020",
+        "name": "React Advanced Patterns Workshop",
+        "date": "2024-06-23"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "fix-emp-24",
+    "firstName": "Laura",
+    "lastName": "Bennett",
+    "workEmail": "laura.bennett@vortexlabs.co",
+    "role": "Security Engineer",
+    "employmentType": "EMPLOYMENT_CONTRACT",
+    "status": "ACTIVE",
+    "joinDate": "2021-10-19",
+    "birthdate": "1991-11-13",
+    "holiday": 26,
+    "firstYearHoliday": null,
+    "phone": "(555) 124-1024",
+    "address": "174 Ivy Pl, Pittsburgh, PA 15201",
+    "personalId": "900-34-1024",
+    "taxId": "90-1000024",
+    "bankAccount": "4000-1024-2024-3024",
+    "description": "Key contributor to the Horizon API team with expertise in system design.",
+    "hobbies": [
+      "podcasting",
+      "cycling"
+    ],
+    "iceName": null,
+    "icePhone": null,
+    "education": [
+      {
+        "id": "fix-edu-033",
+        "name": "BSc Software Engineering, Northwestern University",
+        "startDate": "2009-09-01",
+        "endDate": "2013-06-15"
+      }
+    ],
+    "languages": [
+      {
+        "id": "fix-lang-041",
+        "name": "English",
+        "level": "Native"
+      },
+      {
+        "id": "fix-lang-042",
+        "name": "Dutch",
+        "level": "Basic"
+      },
+      {
+        "id": "fix-lang-043",
+        "name": "Japanese",
+        "level": "Basic"
+      }
+    ],
+    "projects": [
+      {
+        "id": "fix-proj-037",
+        "name": "Horizon API",
+        "role": "Security Engineer",
+        "description": "API gateway and microservices layer",
+        "startDate": "2021-10-19",
+        "endDate": null,
+        "order": 1,
+        "isVisible": true
+      },
+      {
+        "id": "fix-proj-038",
+        "name": "Nebula Cloud",
+        "role": "Tech Lead",
+        "description": "Cloud infrastructure and DevOps platform",
+        "startDate": "2022-05-01",
+        "endDate": null,
+        "order": 2,
+        "isVisible": true
+      }
+    ],
+    "employmentHistory": [],
+    "courses": [
+      {
+        "id": "fix-course-021",
+        "name": "Professional Scrum Master I",
+        "date": "2023-01-23"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "fix-emp-25",
+    "firstName": "Joshua",
+    "lastName": "Harris",
+    "workEmail": "joshua.harris@vortexlabs.co",
+    "role": "Junior Software Engineer",
+    "employmentType": "B2B_CONTRACT",
+    "status": "ACTIVE",
+    "joinDate": "2024-01-15",
+    "birthdate": "1999-08-21",
+    "holiday": null,
+    "firstYearHoliday": null,
+    "phone": "(555) 125-1025",
+    "address": "432 Sequoia Blvd, Sacramento, CA 95801",
+    "personalId": null,
+    "taxId": null,
+    "bankAccount": null,
+    "description": "Key contributor to the Shield Security Suite team with expertise in performance optimization.",
+    "hobbies": [
+      "reading",
+      "3D printing"
+    ],
+    "iceName": "Nathan Harris",
+    "icePhone": "(555) 991-9042",
+    "education": [
+      {
+        "id": "fix-edu-034",
+        "name": "BSc Mathematics, MIT",
+        "startDate": "2017-09-01",
+        "endDate": "2021-06-15"
+      },
+      {
+        "id": "fix-edu-035",
+        "name": "MBA, NYU",
+        "startDate": "2021-09-01",
+        "endDate": "2023-06-15"
+      }
+    ],
+    "languages": [
+      {
+        "id": "fix-lang-044",
+        "name": "English",
+        "level": "Native"
+      },
+      {
+        "id": "fix-lang-045",
+        "name": "German",
+        "level": "Basic"
+      }
+    ],
+    "projects": [
+      {
+        "id": "fix-proj-039",
+        "name": "Shield Security Suite",
+        "role": "Junior Software Engineer",
+        "description": "Security monitoring and compliance",
+        "startDate": "2024-01-15",
+        "endDate": null,
+        "order": 1,
+        "isVisible": true
+      }
+    ],
+    "employmentHistory": [],
+    "courses": [],
+    "children": []
+  },
+  {
+    "id": "fix-emp-26",
+    "firstName": "Christina",
+    "lastName": "Novak",
+    "workEmail": "christina.novak@vortexlabs.co",
+    "role": "Frontend Developer",
+    "employmentType": "EMPLOYMENT_CONTRACT",
+    "status": "ACTIVE",
+    "joinDate": "2022-11-21",
+    "birthdate": "1994-09-02",
+    "holiday": 26,
+    "firstYearHoliday": null,
+    "phone": "(555) 126-1026",
+    "address": "196 Hawthorn St, Indianapolis, IN 46201",
+    "personalId": "900-36-1026",
+    "taxId": "90-1000026",
+    "bankAccount": "4000-1026-2026-3026",
+    "description": "Specializes in mobile development.",
+    "hobbies": [
+      "reading",
+      "guitar",
+      "drone flying",
+      "writing"
+    ],
+    "iceName": "Patrick Novak",
+    "icePhone": "(555) 925-7818",
+    "education": [
+      {
+        "id": "fix-edu-036",
+        "name": "BSc Software Engineering, University of Colorado Boulder",
+        "startDate": "2012-09-01",
+        "endDate": "2016-06-15"
+      }
+    ],
+    "languages": [
+      {
+        "id": "fix-lang-046",
+        "name": "English",
+        "level": "Fluent"
+      },
+      {
+        "id": "fix-lang-047",
+        "name": "Russian",
+        "level": "Basic"
+      }
+    ],
+    "projects": [
+      {
+        "id": "fix-proj-040",
+        "name": "Shield Security Suite",
+        "role": "Frontend Developer",
+        "description": "Security monitoring and compliance",
+        "startDate": "2022-11-21",
+        "endDate": null,
+        "order": 1,
+        "isVisible": true
+      },
+      {
+        "id": "fix-proj-041",
+        "name": "Nebula Cloud",
+        "role": "Data Engineer",
+        "description": "Cloud infrastructure and DevOps platform",
+        "startDate": "2023-07-01",
+        "endDate": null,
+        "order": 2,
+        "isVisible": true
+      }
+    ],
+    "employmentHistory": [
+      {
+        "id": "fix-hist-020",
+        "company": "Apex Digital",
+        "role": "Software Engineer",
+        "startDate": "2020-04-01",
+        "endDate": "2021-11-28",
+        "description": null
+      }
+    ],
+    "courses": [],
+    "children": []
+  },
+  {
+    "id": "fix-emp-27",
+    "firstName": "Adam",
+    "lastName": "Clarke",
+    "workEmail": "adam.clarke@vortexlabs.co",
+    "role": "System Administrator",
+    "employmentType": "EMPLOYMENT_CONTRACT",
+    "status": "ACTIVE",
+    "joinDate": "2020-05-11",
+    "birthdate": "1988-07-14",
+    "holiday": 26,
+    "firstYearHoliday": null,
+    "phone": "(555) 127-1027",
+    "address": "53 Alder Ave, Kansas City, MO 64101",
+    "personalId": "900-37-1027",
+    "taxId": "90-1000027",
+    "bankAccount": "4000-1027-2027-3027",
+    "description": "Key contributor to the Forge CLI team with expertise in agile delivery.",
+    "hobbies": [
+      "hiking",
+      "volleyball"
+    ],
+    "iceName": "Nicole Clarke",
+    "icePhone": "(555) 970-5771",
+    "education": [
+      {
+        "id": "fix-edu-037",
+        "name": "BSc Information Technology, NYU",
+        "startDate": "2006-09-01",
+        "endDate": "2010-06-15"
+      },
+      {
+        "id": "fix-edu-038",
+        "name": "MBA, Northwestern University",
+        "startDate": "2010-09-01",
+        "endDate": "2012-06-15"
+      }
+    ],
+    "languages": [
+      {
+        "id": "fix-lang-048",
+        "name": "English",
+        "level": "Native"
+      }
+    ],
+    "projects": [
+      {
+        "id": "fix-proj-042",
+        "name": "Forge CLI",
+        "role": "System Administrator",
+        "description": "Internal developer tooling and automation",
+        "startDate": "2020-05-11",
+        "endDate": null,
+        "order": 1,
+        "isVisible": true
+      },
+      {
+        "id": "fix-proj-043",
+        "name": "Pulse Monitoring",
+        "role": "Backend Developer",
+        "description": "System health and performance monitoring",
+        "startDate": "2021-09-01",
+        "endDate": null,
+        "order": 2,
+        "isVisible": true
+      }
+    ],
+    "employmentHistory": [],
+    "courses": [
+      {
+        "id": "fix-course-022",
+        "name": "Professional Scrum Master I",
+        "date": "2023-03-03"
+      },
+      {
+        "id": "fix-course-023",
+        "name": "AWS Solutions Architect Professional",
+        "date": "2022-05-20"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "fix-emp-28",
+    "firstName": "Nicole",
+    "lastName": "Fernandez",
+    "workEmail": "nicole.fernandez@vortexlabs.co",
+    "role": "Software Engineer",
+    "employmentType": "EMPLOYMENT_CONTRACT",
+    "status": "ACTIVE",
+    "joinDate": "2023-07-24",
+    "birthdate": "1996-12-30",
+    "holiday": 26,
+    "firstYearHoliday": null,
+    "phone": "(555) 128-1028",
+    "address": "287 Cottonwood Dr, Cincinnati, OH 45201",
+    "personalId": "900-38-1028",
+    "taxId": "90-1000028",
+    "bankAccount": null,
+    "description": "Specializes in test automation.",
+    "hobbies": [
+      "soccer",
+      "woodworking",
+      "origami",
+      "wine tasting"
+    ],
+    "iceName": "David Fernandez",
+    "icePhone": "(555) 986-1653",
+    "education": [
+      {
+        "id": "fix-edu-039",
+        "name": "BSc Information Technology, USC",
+        "startDate": "2014-09-01",
+        "endDate": "2018-06-15"
+      }
+    ],
+    "languages": [
+      {
+        "id": "fix-lang-049",
+        "name": "English",
+        "level": "Native"
+      }
+    ],
+    "projects": [
+      {
+        "id": "fix-proj-044",
+        "name": "Forge CLI",
+        "role": "Software Engineer",
+        "description": "Internal developer tooling and automation",
+        "startDate": "2023-07-24",
+        "endDate": null,
+        "order": 1,
+        "isVisible": true
+      }
+    ],
+    "employmentHistory": [],
+    "courses": [
+      {
+        "id": "fix-course-024",
+        "name": "Agile Product Management",
+        "date": "2024-10-02"
+      },
+      {
+        "id": "fix-course-025",
+        "name": "Leadership in Tech Management",
+        "date": "2023-08-17"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "fix-emp-29",
+    "firstName": "Brian",
+    "lastName": "Wilson",
+    "workEmail": "brian.wilson@vortexlabs.co",
+    "role": "Engineering Manager",
+    "employmentType": "EMPLOYMENT_CONTRACT",
+    "status": "ACTIVE",
+    "joinDate": "2019-06-03",
+    "birthdate": "1983-03-17",
+    "holiday": 28,
+    "firstYearHoliday": null,
+    "phone": "(555) 129-1029",
+    "address": "621 Linden Ln, Milwaukee, WI 53201",
+    "personalId": null,
+    "taxId": null,
+    "bankAccount": "4000-1029-2029-3029",
+    "description": "Key contributor to the Pulse Monitoring team with expertise in agile delivery.",
+    "hobbies": [
+      "gaming",
+      "birdwatching",
+      "swimming"
+    ],
+    "iceName": "Robert Wilson",
+    "icePhone": "(555) 995-2713",
+    "education": [
+      {
+        "id": "fix-edu-040",
+        "name": "BEng Computer Engineering, UT Austin",
+        "startDate": "2001-09-01",
+        "endDate": "2005-06-15"
+      }
+    ],
+    "languages": [
+      {
+        "id": "fix-lang-050",
+        "name": "English",
+        "level": "Native"
+      },
+      {
+        "id": "fix-lang-051",
+        "name": "Italian",
+        "level": "Basic"
+      }
+    ],
+    "projects": [
+      {
+        "id": "fix-proj-045",
+        "name": "Pulse Monitoring",
+        "role": "Engineering Manager",
+        "description": "System health and performance monitoring",
+        "startDate": "2019-06-03",
+        "endDate": null,
+        "order": 1,
+        "isVisible": true
+      }
+    ],
+    "employmentHistory": [],
+    "courses": [
+      {
+        "id": "fix-course-026",
+        "name": "Certified Ethical Hacker",
+        "date": "2023-02-25"
+      }
+    ],
+    "children": [
+      {
+        "id": "fix-child-010",
+        "name": "Amelia",
+        "birthDate": "2012-11-28"
+      },
+      {
+        "id": "fix-child-011",
+        "name": "Harper",
+        "birthDate": "2019-07-02"
+      }
+    ]
+  },
+  {
+    "id": "fix-emp-30",
+    "firstName": "Alexandra",
+    "lastName": "Turner",
+    "workEmail": "alexandra.turner@vortexlabs.co",
+    "role": "ML Engineer",
+    "employmentType": "EMPLOYMENT_CONTRACT",
+    "status": "ACTIVE",
+    "joinDate": "2022-08-15",
+    "birthdate": "1992-05-08",
+    "holiday": 26,
+    "firstYearHoliday": null,
+    "phone": "(555) 130-1030",
+    "address": "159 Ash Ct, Portland, ME 04101",
+    "personalId": "900-40-1030",
+    "taxId": "90-1000030",
+    "bankAccount": null,
+    "description": "Key contributor to the Forge CLI team with expertise in agile delivery.",
+    "hobbies": [
+      "woodworking",
+      "3D printing"
+    ],
+    "iceName": "Marcus Turner",
+    "icePhone": "(555) 966-8941",
+    "education": [
+      {
+        "id": "fix-edu-041",
+        "name": "BSc Mathematics, Boston University",
+        "startDate": "2010-09-01",
+        "endDate": "2014-06-15"
+      },
+      {
+        "id": "fix-edu-042",
+        "name": "MSc Machine Learning, Cornell University",
+        "startDate": "2014-09-01",
+        "endDate": "2016-06-15"
+      }
+    ],
+    "languages": [
+      {
+        "id": "fix-lang-052",
+        "name": "English",
+        "level": "Native"
+      },
+      {
+        "id": "fix-lang-053",
+        "name": "Spanish",
+        "level": "Intermediate"
+      },
+      {
+        "id": "fix-lang-054",
+        "name": "Dutch",
+        "level": "Basic"
+      }
+    ],
+    "projects": [
+      {
+        "id": "fix-proj-046",
+        "name": "Forge CLI",
+        "role": "ML Engineer",
+        "description": "Internal developer tooling and automation",
+        "startDate": "2022-08-15",
+        "endDate": null,
+        "order": 1,
+        "isVisible": true
+      }
+    ],
+    "employmentHistory": [],
+    "courses": [
+      {
+        "id": "fix-course-027",
+        "name": "Certified Kubernetes Administrator",
+        "date": "2023-08-23"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "fix-emp-31",
+    "firstName": "Patrick",
+    "lastName": "Murphy",
+    "workEmail": "patrick.murphy@vortexlabs.co",
+    "role": "Senior Software Engineer",
+    "employmentType": "EMPLOYMENT_CONTRACT",
+    "status": "ACTIVE",
+    "joinDate": "2020-01-20",
+    "birthdate": "1987-04-23",
+    "holiday": 28,
+    "firstYearHoliday": null,
+    "phone": "(555) 131-1031",
+    "address": "73 Oakwood Rd, Richmond, VA 23219",
+    "personalId": null,
+    "taxId": null,
+    "bankAccount": null,
+    "description": "Key contributor to the Atlas Platform team with expertise in performance optimization.",
+    "hobbies": [
+      "camping",
+      "3D printing"
+    ],
+    "iceName": "Joshua Murphy",
+    "icePhone": "(555) 986-9327",
+    "education": [
+      {
+        "id": "fix-edu-043",
+        "name": "BSc Computer Science, Georgia Tech",
+        "startDate": "2005-09-01",
+        "endDate": "2009-06-15"
+      }
+    ],
+    "languages": [
+      {
+        "id": "fix-lang-055",
+        "name": "English",
+        "level": "Native"
+      },
+      {
+        "id": "fix-lang-056",
+        "name": "Portuguese",
+        "level": "Intermediate"
+      }
+    ],
+    "projects": [
+      {
+        "id": "fix-proj-047",
+        "name": "Atlas Platform",
+        "role": "Senior Software Engineer",
+        "description": "Core SaaS product development",
+        "startDate": "2020-01-20",
+        "endDate": null,
+        "order": 1,
+        "isVisible": true
+      },
+      {
+        "id": "fix-proj-048",
+        "name": "Prism Dashboard",
+        "role": "Mobile Developer",
+        "description": "Analytics and business intelligence tool",
+        "startDate": "2021-05-01",
+        "endDate": null,
+        "order": 2,
+        "isVisible": true
+      }
+    ],
+    "employmentHistory": [
+      {
+        "id": "fix-hist-021",
+        "company": "Apex Digital",
+        "role": "Data Analyst",
+        "startDate": "2017-08-01",
+        "endDate": "2019-09-28",
+        "description": null
+      },
+      {
+        "id": "fix-hist-022",
+        "company": "CodeVault Technologies",
+        "role": "DevOps Engineer",
+        "startDate": "2016-09-01",
+        "endDate": "2019-07-28",
+        "description": null
+      }
+    ],
+    "courses": [
+      {
+        "id": "fix-course-028",
+        "name": "Machine Learning Specialization",
+        "date": "2023-04-23"
+      }
+    ],
+    "children": [
+      {
+        "id": "fix-child-012",
+        "name": "Ella",
+        "birthDate": "2018-04-28"
+      }
+    ]
+  },
+  {
+    "id": "fix-emp-32",
+    "firstName": "Diana",
+    "lastName": "Santos",
+    "workEmail": "diana.santos@vortexlabs.co",
+    "role": "QA Engineer",
+    "employmentType": "EMPLOYMENT_CONTRACT",
+    "status": "ACTIVE",
+    "joinDate": "2023-04-10",
+    "birthdate": "1997-10-06",
+    "holiday": 26,
+    "firstYearHoliday": null,
+    "phone": "(555) 132-1032",
+    "address": "348 Bayberry Way, Providence, RI 02901",
+    "personalId": null,
+    "taxId": null,
+    "bankAccount": null,
+    "description": "Key contributor to the Nebula Cloud team with expertise in agile delivery.",
+    "hobbies": [
+      "basketball",
+      "guitar",
+      "astronomy"
+    ],
+    "iceName": null,
+    "icePhone": null,
+    "education": [
+      {
+        "id": "fix-edu-044",
+        "name": "BSc Information Technology, Caltech",
+        "startDate": "2015-09-01",
+        "endDate": "2019-06-15"
+      },
+      {
+        "id": "fix-edu-045",
+        "name": "MBA, Carnegie Mellon University",
+        "startDate": "2019-09-01",
+        "endDate": "2021-06-15"
+      }
+    ],
+    "languages": [
+      {
+        "id": "fix-lang-057",
+        "name": "English",
+        "level": "Native"
+      },
+      {
+        "id": "fix-lang-058",
+        "name": "Spanish",
+        "level": "Intermediate"
+      }
+    ],
+    "projects": [
+      {
+        "id": "fix-proj-049",
+        "name": "Nebula Cloud",
+        "role": "QA Engineer",
+        "description": "Cloud infrastructure and DevOps platform",
+        "startDate": "2023-04-10",
+        "endDate": null,
+        "order": 1,
+        "isVisible": true
+      }
+    ],
+    "employmentHistory": [],
+    "courses": [],
+    "children": []
+  },
+  {
+    "id": "fix-emp-33",
+    "firstName": "Eric",
+    "lastName": "Hansen",
+    "workEmail": "eric.hansen@vortexlabs.co",
+    "role": "Backend Developer",
+    "employmentType": "EMPLOYMENT_CONTRACT",
+    "status": "ACTIVE",
+    "joinDate": "2021-12-06",
+    "birthdate": "1991-06-19",
+    "holiday": 26,
+    "firstYearHoliday": null,
+    "phone": "(555) 133-1033",
+    "address": "412 Balsam St, Memphis, TN 38101",
+    "personalId": "900-43-1033",
+    "taxId": "90-1000033",
+    "bankAccount": "4000-1033-2033-3033",
+    "description": "Key contributor to the Nebula Cloud team with expertise in performance optimization.",
+    "hobbies": [
+      "board games",
+      "wine tasting"
+    ],
+    "iceName": "Robert Hansen",
+    "icePhone": "(555) 990-8994",
+    "education": [
+      {
+        "id": "fix-edu-046",
+        "name": "BSc Mathematics, Stanford University",
+        "startDate": "2009-09-01",
+        "endDate": "2013-06-15"
+      }
+    ],
+    "languages": [
+      {
+        "id": "fix-lang-059",
+        "name": "English",
+        "level": "Native"
+      },
+      {
+        "id": "fix-lang-060",
+        "name": "Korean",
+        "level": "Basic"
+      },
+      {
+        "id": "fix-lang-061",
+        "name": "Mandarin",
+        "level": "Intermediate"
+      }
+    ],
+    "projects": [
+      {
+        "id": "fix-proj-050",
+        "name": "Nebula Cloud",
+        "role": "Backend Developer",
+        "description": "Cloud infrastructure and DevOps platform",
+        "startDate": "2021-12-06",
+        "endDate": null,
+        "order": 1,
+        "isVisible": true
+      }
+    ],
+    "employmentHistory": [],
+    "courses": [
+      {
+        "id": "fix-course-029",
+        "name": "GraphQL Complete Guide",
+        "date": "2021-08-06"
+      },
+      {
+        "id": "fix-course-030",
+        "name": "GraphQL Complete Guide",
+        "date": "2023-01-02"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "fix-emp-34",
+    "firstName": "Victoria",
+    "lastName": "Long",
+    "workEmail": "victoria.long@vortexlabs.co",
+    "role": "Tech Lead",
+    "employmentType": "EMPLOYMENT_CONTRACT",
+    "status": "ACTIVE",
+    "joinDate": "2020-02-17",
+    "birthdate": "1986-08-11",
+    "holiday": 28,
+    "firstYearHoliday": null,
+    "phone": "(555) 134-1034",
+    "address": "528 Sumac Ave, Jacksonville, FL 32099",
+    "personalId": "900-44-1034",
+    "taxId": "90-1000034",
+    "bankAccount": "4000-1034-2034-3034",
+    "description": "Key contributor to the Shield Security Suite team with expertise in cross-functional collaboration.",
+    "hobbies": [
+      "baking",
+      "volleyball"
+    ],
+    "iceName": "Tyler Long",
+    "icePhone": "(555) 931-3868",
+    "education": [
+      {
+        "id": "fix-edu-047",
+        "name": "BSc Mathematics, Purdue University",
+        "startDate": "2004-09-01",
+        "endDate": "2008-06-15"
+      },
+      {
+        "id": "fix-edu-048",
+        "name": "MSc Software Engineering, Duke University",
+        "startDate": "2008-09-01",
+        "endDate": "2010-06-15"
+      }
+    ],
+    "languages": [
+      {
+        "id": "fix-lang-062",
+        "name": "English",
+        "level": "Native"
+      },
+      {
+        "id": "fix-lang-063",
+        "name": "German",
+        "level": "Intermediate"
+      },
+      {
+        "id": "fix-lang-064",
+        "name": "Korean",
+        "level": "Basic"
+      }
+    ],
+    "projects": [
+      {
+        "id": "fix-proj-051",
+        "name": "Shield Security Suite",
+        "role": "Tech Lead",
+        "description": "Security monitoring and compliance",
+        "startDate": "2020-02-17",
+        "endDate": null,
+        "order": 1,
+        "isVisible": true
+      },
+      {
+        "id": "fix-proj-052",
+        "name": "Forge CLI",
+        "role": "DevOps Engineer",
+        "description": "Internal developer tooling and automation",
+        "startDate": "2021-11-01",
+        "endDate": null,
+        "order": 2,
+        "isVisible": true
+      }
+    ],
+    "employmentHistory": [],
+    "courses": [
+      {
+        "id": "fix-course-031",
+        "name": "Machine Learning Specialization",
+        "date": "2023-11-18"
+      }
+    ],
+    "children": [
+      {
+        "id": "fix-child-013",
+        "name": "Liam",
+        "birthDate": "2019-06-19"
+      }
+    ]
+  },
+  {
+    "id": "fix-emp-35",
+    "firstName": "Steven",
+    "lastName": "Carter",
+    "workEmail": "steven.carter@vortexlabs.co",
+    "role": "Software Engineer",
+    "employmentType": "B2B_CONTRACT",
+    "status": "ACTIVE",
+    "joinDate": "2024-03-04",
+    "birthdate": "1998-01-25",
+    "holiday": null,
+    "firstYearHoliday": null,
+    "phone": "(555) 135-1035",
+    "address": "91 Pecan Dr, Tucson, AZ 85701",
+    "personalId": null,
+    "taxId": null,
+    "bankAccount": null,
+    "description": "Key contributor to the Shield Security Suite team with expertise in cross-functional collaboration.",
+    "hobbies": [
+      "writing",
+      "rock climbing",
+      "basketball"
+    ],
+    "iceName": null,
+    "icePhone": null,
+    "education": [
+      {
+        "id": "fix-edu-049",
+        "name": "BSc Mathematics, Purdue University",
+        "startDate": "2016-09-01",
+        "endDate": "2020-06-15"
+      },
+      {
+        "id": "fix-edu-050",
+        "name": "MSc Cybersecurity, University of Illinois",
+        "startDate": "2020-09-01",
+        "endDate": "2022-06-15"
+      }
+    ],
+    "languages": [
+      {
+        "id": "fix-lang-065",
+        "name": "English",
+        "level": "Native"
+      },
+      {
+        "id": "fix-lang-066",
+        "name": "Korean",
+        "level": "Basic"
+      },
+      {
+        "id": "fix-lang-067",
+        "name": "Spanish",
+        "level": "Intermediate"
+      }
+    ],
+    "projects": [
+      {
+        "id": "fix-proj-053",
+        "name": "Shield Security Suite",
+        "role": "Software Engineer",
+        "description": "Security monitoring and compliance",
+        "startDate": "2024-03-04",
+        "endDate": null,
+        "order": 1,
+        "isVisible": true
+      },
+      {
+        "id": "fix-proj-054",
+        "name": "Atlas Platform",
+        "role": "Data Engineer",
+        "description": "Core SaaS product development",
+        "startDate": "2025-11-01",
+        "endDate": null,
+        "order": 2,
+        "isVisible": true
+      }
+    ],
+    "employmentHistory": [],
+    "courses": [],
+    "children": []
+  },
+  {
+    "id": "fix-emp-36",
+    "firstName": "Katherine",
+    "lastName": "Blake",
+    "workEmail": "katherine.blake@vortexlabs.co",
+    "role": "Frontend Developer",
+    "employmentType": "EMPLOYMENT_CONTRACT",
+    "status": "ACTIVE",
+    "joinDate": "2023-05-13",
+    "birthdate": "1995-11-07",
+    "holiday": 26,
+    "firstYearHoliday": null,
+    "phone": "(555) 136-1036",
+    "address": "267 Fir Ln, Madison, WI 53701",
+    "personalId": null,
+    "taxId": null,
+    "bankAccount": "4000-1036-2036-3036",
+    "description": "Key contributor to the Prism Dashboard team with expertise in performance optimization.",
+    "hobbies": [
+      "skiing",
+      "rock climbing",
+      "gardening"
+    ],
+    "iceName": "Vanessa Blake",
+    "icePhone": "(555) 994-3240",
+    "education": [
+      {
+        "id": "fix-edu-051",
+        "name": "BSc Computer Science, Boston University",
+        "startDate": "2013-09-01",
+        "endDate": "2017-06-15"
+      }
+    ],
+    "languages": [
+      {
+        "id": "fix-lang-068",
+        "name": "English",
+        "level": "Native"
+      },
+      {
+        "id": "fix-lang-069",
+        "name": "Spanish",
+        "level": "Advanced"
+      }
+    ],
+    "projects": [
+      {
+        "id": "fix-proj-055",
+        "name": "Prism Dashboard",
+        "role": "Frontend Developer",
+        "description": "Analytics and business intelligence tool",
+        "startDate": "2023-05-13",
+        "endDate": null,
+        "order": 1,
+        "isVisible": true
+      },
+      {
+        "id": "fix-proj-056",
+        "name": "Atlas Platform",
+        "role": "DevOps Engineer",
+        "description": "Core SaaS product development",
+        "startDate": "2024-06-01",
+        "endDate": null,
+        "order": 2,
+        "isVisible": true
+      }
+    ],
+    "employmentHistory": [
+      {
+        "id": "fix-hist-023",
+        "company": "DataStream Analytics",
+        "role": "Backend Developer",
+        "startDate": "2020-09-01",
+        "endDate": "2022-06-28",
+        "description": null
+      }
+    ],
+    "courses": [
+      {
+        "id": "fix-course-032",
+        "name": "Docker Certified Associate",
+        "date": "2024-03-09"
+      },
+      {
+        "id": "fix-course-033",
+        "name": "Machine Learning Specialization",
+        "date": "2024-05-24"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "fix-emp-37",
+    "firstName": "Derek",
+    "lastName": "Chang",
+    "workEmail": "derek.chang@vortexlabs.co",
+    "role": "DevOps Engineer",
+    "employmentType": "EMPLOYMENT_CONTRACT",
+    "status": "ACTIVE",
+    "joinDate": "2022-06-27",
+    "birthdate": "1993-02-14",
+    "holiday": 26,
+    "firstYearHoliday": null,
+    "phone": "(555) 137-1037",
+    "address": "184 Alder Way, Boise, ID 83701",
+    "personalId": null,
+    "taxId": null,
+    "bankAccount": "4000-1037-2037-3037",
+    "description": "Key contributor to the Horizon API team with expertise in agile delivery.",
+    "hobbies": [
+      "soccer",
+      "3D printing"
+    ],
+    "iceName": "Sarah Chang",
+    "icePhone": "(555) 911-5332",
+    "education": [
+      {
+        "id": "fix-edu-052",
+        "name": "BSc Information Technology, Penn State",
+        "startDate": "2011-09-01",
+        "endDate": "2015-06-15"
+      }
+    ],
+    "languages": [
+      {
+        "id": "fix-lang-070",
+        "name": "English",
+        "level": "Native"
+      },
+      {
+        "id": "fix-lang-071",
+        "name": "Japanese",
+        "level": "Basic"
+      },
+      {
+        "id": "fix-lang-072",
+        "name": "Polish",
+        "level": "Intermediate"
+      }
+    ],
+    "projects": [
+      {
+        "id": "fix-proj-057",
+        "name": "Horizon API",
+        "role": "DevOps Engineer",
+        "description": "API gateway and microservices layer",
+        "startDate": "2022-06-27",
+        "endDate": null,
+        "order": 1,
+        "isVisible": true
+      },
+      {
+        "id": "fix-proj-058",
+        "name": "Catalyst Mobile",
+        "role": "Tech Lead",
+        "description": "Cross-platform mobile application",
+        "startDate": "2023-08-01",
+        "endDate": null,
+        "order": 2,
+        "isVisible": true
+      }
+    ],
+    "employmentHistory": [],
+    "courses": [
+      {
+        "id": "fix-course-034",
+        "name": "Machine Learning Specialization",
+        "date": "2024-10-08"
+      },
+      {
+        "id": "fix-course-035",
+        "name": "MongoDB Developer Certification",
+        "date": "2022-11-27"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "fix-emp-38",
+    "firstName": "Samantha",
+    "lastName": "Price",
+    "workEmail": "samantha.price@vortexlabs.co",
+    "role": "Senior Software Engineer",
+    "employmentType": "EMPLOYMENT_CONTRACT",
+    "status": "ACTIVE",
+    "joinDate": "2019-08-19",
+    "birthdate": "1985-07-30",
+    "holiday": 28,
+    "firstYearHoliday": null,
+    "phone": "(555) 138-1038",
+    "address": "603 Hemlock Ct, Burlington, VT 05401",
+    "personalId": "900-48-1038",
+    "taxId": "90-1000038",
+    "bankAccount": "4000-1038-2038-3038",
+    "description": "Specializes in data pipelines.",
+    "hobbies": [
+      "writing",
+      "astronomy"
+    ],
+    "iceName": "Patrick Price",
+    "icePhone": "(555) 978-3222",
+    "education": [
+      {
+        "id": "fix-edu-053",
+        "name": "BSc Mathematics, University of Illinois",
+        "startDate": "2003-09-01",
+        "endDate": "2007-06-15"
+      }
+    ],
+    "languages": [
+      {
+        "id": "fix-lang-073",
+        "name": "English",
+        "level": "Native"
+      },
+      {
+        "id": "fix-lang-074",
+        "name": "German",
+        "level": "Intermediate"
+      },
+      {
+        "id": "fix-lang-075",
+        "name": "Dutch",
+        "level": "Basic"
+      }
+    ],
+    "projects": [
+      {
+        "id": "fix-proj-059",
+        "name": "Pulse Monitoring",
+        "role": "Senior Software Engineer",
+        "description": "System health and performance monitoring",
+        "startDate": "2019-08-19",
+        "endDate": null,
+        "order": 1,
+        "isVisible": true
+      }
+    ],
+    "employmentHistory": [
+      {
+        "id": "fix-hist-024",
+        "company": "ByteForge Labs",
+        "role": "Software Engineer",
+        "startDate": "2015-04-01",
+        "endDate": "2018-08-28",
+        "description": null
+      },
+      {
+        "id": "fix-hist-025",
+        "company": "CodeVault Technologies",
+        "role": "Backend Developer",
+        "startDate": "2015-11-01",
+        "endDate": "2016-06-28",
+        "description": null
+      }
+    ],
+    "courses": [
+      {
+        "id": "fix-course-036",
+        "name": "Machine Learning Specialization",
+        "date": "2023-01-13"
+      },
+      {
+        "id": "fix-course-037",
+        "name": "Certified Ethical Hacker",
+        "date": "2022-02-28"
+      }
+    ],
+    "children": [
+      {
+        "id": "fix-child-014",
+        "name": "Liam",
+        "birthDate": "2022-04-21"
+      },
+      {
+        "id": "fix-child-015",
+        "name": "Grace",
+        "birthDate": "2012-01-26"
+      }
+    ]
+  },
+  {
+    "id": "fix-emp-39",
+    "firstName": "Marcus",
+    "lastName": "Allen",
+    "workEmail": "marcus.allen@vortexlabs.co",
+    "role": "Software Engineer",
+    "employmentType": "B2B_CONTRACT",
+    "status": "ARCHIVED",
+    "joinDate": "2024-06-10",
+    "birthdate": "1997-04-12",
+    "holiday": null,
+    "firstYearHoliday": null,
+    "phone": "(555) 139-1039",
+    "address": "77 Catalpa Rd, Savannah, GA 31401",
+    "personalId": null,
+    "taxId": null,
+    "bankAccount": null,
+    "description": "Specializes in API architecture.",
+    "hobbies": [
+      "surfing",
+      "cooking",
+      "3D printing",
+      "martial arts"
+    ],
+    "iceName": "Brian Allen",
+    "icePhone": "(555) 952-3417",
+    "education": [
+      {
+        "id": "fix-edu-054",
+        "name": "BSc Computer Science, University of Colorado Boulder",
+        "startDate": "2015-09-01",
+        "endDate": "2019-06-15"
+      }
+    ],
+    "languages": [
+      {
+        "id": "fix-lang-076",
+        "name": "English",
+        "level": "Native"
+      }
+    ],
+    "projects": [
+      {
+        "id": "fix-proj-060",
+        "name": "Shield Security Suite",
+        "role": "Software Engineer",
+        "description": "Security monitoring and compliance",
+        "startDate": "2024-06-10",
+        "endDate": null,
+        "order": 1,
+        "isVisible": true
+      }
+    ],
+    "employmentHistory": [],
+    "courses": [],
+    "children": []
+  },
+  {
+    "id": "fix-emp-40",
+    "firstName": "Olivia",
+    "lastName": "Ross",
+    "workEmail": "olivia.ross@vortexlabs.co",
+    "role": "Full Stack Developer",
+    "employmentType": "EMPLOYMENT_CONTRACT",
+    "status": "ACTIVE",
+    "joinDate": "2023-10-23",
+    "birthdate": "1996-08-28",
+    "holiday": 26,
+    "firstYearHoliday": null,
+    "phone": "(555) 140-1040",
+    "address": "345 Basswood St, Asheville, NC 28801",
+    "personalId": "900-50-1040",
+    "taxId": "90-1000040",
+    "bankAccount": null,
+    "description": "Key contributor to the Horizon API team with expertise in cross-functional collaboration.",
+    "hobbies": [
+      "martial arts",
+      "podcasting"
+    ],
+    "iceName": "Eric Ross",
+    "icePhone": "(555) 916-3076",
+    "education": [
+      {
+        "id": "fix-edu-055",
+        "name": "BSc Computer Science, Northeastern University",
+        "startDate": "2014-09-01",
+        "endDate": "2018-06-15"
+      }
+    ],
+    "languages": [
+      {
+        "id": "fix-lang-077",
+        "name": "English",
+        "level": "Fluent"
+      },
+      {
+        "id": "fix-lang-078",
+        "name": "Russian",
+        "level": "Basic"
+      }
+    ],
+    "projects": [
+      {
+        "id": "fix-proj-061",
+        "name": "Horizon API",
+        "role": "Full Stack Developer",
+        "description": "API gateway and microservices layer",
+        "startDate": "2023-10-23",
+        "endDate": null,
+        "order": 1,
+        "isVisible": true
+      },
+      {
+        "id": "fix-proj-062",
+        "name": "Forge CLI",
+        "role": "Security Analyst",
+        "description": "Internal developer tooling and automation",
+        "startDate": "2024-04-01",
+        "endDate": null,
+        "order": 2,
+        "isVisible": true
+      }
+    ],
+    "employmentHistory": [],
+    "courses": [
+      {
+        "id": "fix-course-038",
+        "name": "Leadership in Tech Management",
+        "date": "2025-09-10"
+      },
+      {
+        "id": "fix-course-039",
+        "name": "System Design Masterclass",
+        "date": "2025-01-02"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "fix-emp-41",
+    "firstName": "Jason",
+    "lastName": "Edwards",
+    "workEmail": "jason.edwards@vortexlabs.co",
+    "role": "QA Engineer",
+    "employmentType": "EMPLOYMENT_CONTRACT",
+    "status": "ACTIVE",
+    "joinDate": "2024-02-05",
+    "birthdate": "1998-05-17",
+    "holiday": 26,
+    "firstYearHoliday": null,
+    "phone": "(555) 141-1041",
+    "address": "229 Locust Ave, Des Moines, IA 50301",
+    "personalId": "900-51-1041",
+    "taxId": "90-1000041",
+    "bankAccount": "4000-1041-2041-3041",
+    "description": "Key contributor to the Pulse Monitoring team with expertise in system design.",
+    "hobbies": [
+      "cooking",
+      "gaming",
+      "podcasting"
+    ],
+    "iceName": "Ryan Edwards",
+    "icePhone": "(555) 926-5505",
+    "education": [
+      {
+        "id": "fix-edu-056",
+        "name": "BSc Mathematics, Caltech",
+        "startDate": "2016-09-01",
+        "endDate": "2020-06-15"
+      }
+    ],
+    "languages": [
+      {
+        "id": "fix-lang-079",
+        "name": "English",
+        "level": "Fluent"
+      },
+      {
+        "id": "fix-lang-080",
+        "name": "Swedish",
+        "level": "Basic"
+      }
+    ],
+    "projects": [
+      {
+        "id": "fix-proj-063",
+        "name": "Pulse Monitoring",
+        "role": "QA Engineer",
+        "description": "System health and performance monitoring",
+        "startDate": "2024-02-05",
+        "endDate": null,
+        "order": 1,
+        "isVisible": true
+      },
+      {
+        "id": "fix-proj-064",
+        "name": "Shield Security Suite",
+        "role": "Data Engineer",
+        "description": "Security monitoring and compliance",
+        "startDate": "2025-07-01",
+        "endDate": null,
+        "order": 2,
+        "isVisible": true
+      }
+    ],
+    "employmentHistory": [],
+    "courses": [],
+    "children": []
+  },
+  {
+    "id": "fix-emp-42",
+    "firstName": "Amy",
+    "lastName": "Stewart",
+    "workEmail": "amy.stewart@vortexlabs.co",
+    "role": "Backend Developer",
+    "employmentType": "EMPLOYMENT_CONTRACT",
+    "status": "ACTIVE",
+    "joinDate": "2022-03-14",
+    "birthdate": "1992-09-24",
+    "holiday": 26,
+    "firstYearHoliday": null,
+    "phone": "(555) 142-1042",
+    "address": "136 Buckeye Dr, Boulder, CO 80301",
+    "personalId": "900-52-1042",
+    "taxId": "90-1000042",
+    "bankAccount": "4000-1042-2042-3042",
+    "description": "Key contributor to the Horizon API team with expertise in cross-functional collaboration.",
+    "hobbies": [
+      "camping",
+      "soccer",
+      "volleyball"
+    ],
+    "iceName": null,
+    "icePhone": null,
+    "education": [
+      {
+        "id": "fix-edu-057",
+        "name": "BSc Information Technology, UT Austin",
+        "startDate": "2010-09-01",
+        "endDate": "2014-06-15"
+      },
+      {
+        "id": "fix-edu-058",
+        "name": "MSc Software Engineering, University of Illinois",
+        "startDate": "2014-09-01",
+        "endDate": "2016-06-15"
+      }
+    ],
+    "languages": [
+      {
+        "id": "fix-lang-081",
+        "name": "English",
+        "level": "Native"
+      },
+      {
+        "id": "fix-lang-082",
+        "name": "French",
+        "level": "Intermediate"
+      }
+    ],
+    "projects": [
+      {
+        "id": "fix-proj-065",
+        "name": "Horizon API",
+        "role": "Backend Developer",
+        "description": "API gateway and microservices layer",
+        "startDate": "2022-03-14",
+        "endDate": null,
+        "order": 1,
+        "isVisible": true
+      }
+    ],
+    "employmentHistory": [],
+    "courses": [
+      {
+        "id": "fix-course-040",
+        "name": "Certified Kubernetes Administrator",
+        "date": "2024-03-18"
+      }
+    ],
+    "children": [
+      {
+        "id": "fix-child-016",
+        "name": "Ella",
+        "birthDate": "2020-09-11"
+      }
+    ]
+  },
+  {
+    "id": "fix-emp-43",
+    "firstName": "Robert",
+    "lastName": "Fischer",
+    "workEmail": "robert.fischer@vortexlabs.co",
+    "role": "Software Engineer",
+    "employmentType": "B2B_CONTRACT",
+    "status": "ARCHIVED",
+    "joinDate": "2024-08-18",
+    "birthdate": "1999-02-06",
+    "holiday": null,
+    "firstYearHoliday": null,
+    "phone": "(555) 143-1043",
+    "address": "498 Mahogany Ln, Ann Arbor, MI 48104",
+    "personalId": null,
+    "taxId": null,
+    "bankAccount": null,
+    "description": "Specializes in user experience.",
+    "hobbies": [
+      "archery",
+      "reading",
+      "pottery",
+      "writing"
+    ],
+    "iceName": "Laura Fischer",
+    "icePhone": "(555) 974-4485",
+    "education": [
+      {
+        "id": "fix-edu-059",
+        "name": "BSc Software Engineering, UC San Diego",
+        "startDate": "2017-09-01",
+        "endDate": "2021-06-15"
+      },
+      {
+        "id": "fix-edu-060",
+        "name": "MSc Data Science, Carnegie Mellon University",
+        "startDate": "2021-09-01",
+        "endDate": "2023-06-15"
+      }
+    ],
+    "languages": [
+      {
+        "id": "fix-lang-083",
+        "name": "English",
+        "level": "Fluent"
+      },
+      {
+        "id": "fix-lang-084",
+        "name": "French",
+        "level": "Basic"
+      }
+    ],
+    "projects": [
+      {
+        "id": "fix-proj-066",
+        "name": "Forge CLI",
+        "role": "Software Engineer",
+        "description": "Internal developer tooling and automation",
+        "startDate": "2024-08-18",
+        "endDate": null,
+        "order": 1,
+        "isVisible": true
+      },
+      {
+        "id": "fix-proj-067",
+        "name": "Nebula Cloud",
+        "role": "Product Owner",
+        "description": "Cloud infrastructure and DevOps platform",
+        "startDate": "2025-09-01",
+        "endDate": null,
+        "order": 2,
+        "isVisible": true
+      }
+    ],
+    "employmentHistory": [],
+    "courses": [],
+    "children": []
+  },
+  {
+    "id": "fix-emp-44",
+    "firstName": "Natalie",
+    "lastName": "Wood",
+    "workEmail": "natalie.wood@vortexlabs.co",
+    "role": "Product Manager",
+    "employmentType": "EMPLOYMENT_CONTRACT",
+    "status": "ACTIVE",
+    "joinDate": "2021-07-12",
+    "birthdate": "1990-10-31",
+    "holiday": 26,
+    "firstYearHoliday": null,
+    "phone": "(555) 144-1044",
+    "address": "162 Tamarack Way, Charlottesville, VA 22901",
+    "personalId": "900-54-1044",
+    "taxId": "90-1000044",
+    "bankAccount": null,
+    "description": "Key contributor to the Catalyst Mobile team with expertise in cross-functional collaboration.",
+    "hobbies": [
+      "board games",
+      "swimming",
+      "hiking"
+    ],
+    "iceName": "Brandon Wood",
+    "icePhone": "(555) 982-7566",
+    "education": [
+      {
+        "id": "fix-edu-061",
+        "name": "BSc Computer Science, USC",
+        "startDate": "2008-09-01",
+        "endDate": "2012-06-15"
+      },
+      {
+        "id": "fix-edu-062",
+        "name": "MSc Machine Learning, UC Berkeley",
+        "startDate": "2012-09-01",
+        "endDate": "2014-06-15"
+      }
+    ],
+    "languages": [
+      {
+        "id": "fix-lang-085",
+        "name": "English",
+        "level": "Native"
+      },
+      {
+        "id": "fix-lang-086",
+        "name": "Polish",
+        "level": "Intermediate"
+      }
+    ],
+    "projects": [
+      {
+        "id": "fix-proj-068",
+        "name": "Catalyst Mobile",
+        "role": "Product Manager",
+        "description": "Cross-platform mobile application",
+        "startDate": "2021-07-12",
+        "endDate": null,
+        "order": 1,
+        "isVisible": true
+      },
+      {
+        "id": "fix-proj-069",
+        "name": "Horizon API",
+        "role": "QA Lead",
+        "description": "API gateway and microservices layer",
+        "startDate": "2022-05-01",
+        "endDate": null,
+        "order": 2,
+        "isVisible": true
+      }
+    ],
+    "employmentHistory": [
+      {
+        "id": "fix-hist-026",
+        "company": "SilverLine Computing",
+        "role": "Junior Developer",
+        "startDate": "2019-03-01",
+        "endDate": "2020-03-28",
+        "description": null
+      },
+      {
+        "id": "fix-hist-027",
+        "company": "Pinnacle Dev",
+        "role": "Software Engineer",
+        "startDate": "2019-08-01",
+        "endDate": "2021-11-28",
+        "description": null
+      }
+    ],
+    "courses": [
+      {
+        "id": "fix-course-041",
+        "name": "System Design Masterclass",
+        "date": "2025-08-14"
+      }
+    ],
+    "children": [
+      {
+        "id": "fix-child-017",
+        "name": "Logan",
+        "birthDate": "2024-09-04"
+      },
+      {
+        "id": "fix-child-018",
+        "name": "Sophia",
+        "birthDate": "2018-02-10"
+      }
+    ]
+  },
+  {
+    "id": "fix-emp-45",
+    "firstName": "Sean",
+    "lastName": "Kelly",
+    "workEmail": "sean.kelly@vortexlabs.co",
+    "role": "Frontend Developer",
+    "employmentType": "EMPLOYMENT_CONTRACT",
+    "status": "ACTIVE",
+    "joinDate": "2024-04-22",
+    "birthdate": "1998-06-09",
+    "holiday": 26,
+    "firstYearHoliday": null,
+    "phone": "(555) 145-1045",
+    "address": "374 Mulberry Pl, Eugene, OR 97401",
+    "personalId": "900-55-1045",
+    "taxId": "90-1000045",
+    "bankAccount": "4000-1045-2045-3045",
+    "description": "Key contributor to the Pulse Monitoring team with expertise in system design.",
+    "hobbies": [
+      "reading",
+      "hiking",
+      "surfing",
+      "writing"
+    ],
+    "iceName": null,
+    "icePhone": null,
+    "education": [
+      {
+        "id": "fix-edu-063",
+        "name": "BSc Information Technology, University of Maryland",
+        "startDate": "2016-09-01",
+        "endDate": "2020-06-15"
+      }
+    ],
+    "languages": [
+      {
+        "id": "fix-lang-087",
+        "name": "English",
+        "level": "Native"
+      }
+    ],
+    "projects": [
+      {
+        "id": "fix-proj-070",
+        "name": "Pulse Monitoring",
+        "role": "Frontend Developer",
+        "description": "System health and performance monitoring",
+        "startDate": "2024-04-22",
+        "endDate": null,
+        "order": 1,
+        "isVisible": true
+      }
+    ],
+    "employmentHistory": [],
+    "courses": [],
+    "children": []
+  },
+  {
+    "id": "fix-emp-46",
+    "firstName": "Vanessa",
+    "lastName": "Torres",
+    "workEmail": "vanessa.torres@vortexlabs.co",
+    "role": "Software Engineer",
+    "employmentType": "EMPLOYMENT_CONTRACT",
+    "status": "ACTIVE",
+    "joinDate": "2023-11-06",
+    "birthdate": "1995-12-20",
+    "holiday": 26,
+    "firstYearHoliday": null,
+    "phone": "(555) 146-1046",
+    "address": "541 Boxwood St, Santa Fe, NM 87501",
+    "personalId": "900-56-1046",
+    "taxId": "90-1000046",
+    "bankAccount": "4000-1046-2046-3046",
+    "description": "Key contributor to the Nebula Cloud team with expertise in performance optimization.",
+    "hobbies": [
+      "swimming",
+      "cooking",
+      "soccer",
+      "photography"
+    ],
+    "iceName": "Michelle Torres",
+    "icePhone": "(555) 919-6129",
+    "education": [
+      {
+        "id": "fix-edu-064",
+        "name": "BEng Computer Engineering, Caltech",
+        "startDate": "2013-09-01",
+        "endDate": "2017-06-15"
+      }
+    ],
+    "languages": [
+      {
+        "id": "fix-lang-088",
+        "name": "English",
+        "level": "Fluent"
+      },
+      {
+        "id": "fix-lang-089",
+        "name": "Korean",
+        "level": "Basic"
+      }
+    ],
+    "projects": [
+      {
+        "id": "fix-proj-071",
+        "name": "Nebula Cloud",
+        "role": "Software Engineer",
+        "description": "Cloud infrastructure and DevOps platform",
+        "startDate": "2023-11-06",
+        "endDate": null,
+        "order": 1,
+        "isVisible": true
+      }
+    ],
+    "employmentHistory": [],
+    "courses": [
+      {
+        "id": "fix-course-042",
+        "name": "Professional Scrum Master I",
+        "date": "2025-08-27"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "fix-emp-47",
+    "firstName": "Gregory",
+    "lastName": "Hayes",
+    "workEmail": "gregory.hayes@vortexlabs.co",
+    "role": "Backend Developer",
+    "employmentType": "WORK_CONTRACT",
+    "status": "ACTIVE",
+    "joinDate": "2022-12-01",
+    "birthdate": "1991-03-15",
+    "holiday": 26,
+    "firstYearHoliday": null,
+    "phone": "(555) 147-1047",
+    "address": "83 Sweetgum Rd, Lexington, KY 40502",
+    "personalId": null,
+    "taxId": null,
+    "bankAccount": null,
+    "description": "Specializes in cloud infrastructure.",
+    "hobbies": [
+      "travel",
+      "archery"
+    ],
+    "iceName": "Hannah Hayes",
+    "icePhone": "(555) 920-7484",
+    "education": [
+      {
+        "id": "fix-edu-065",
+        "name": "BSc Information Technology, USC",
+        "startDate": "2009-09-01",
+        "endDate": "2013-06-15"
+      }
+    ],
+    "languages": [
+      {
+        "id": "fix-lang-090",
+        "name": "English",
+        "level": "Native"
+      }
+    ],
+    "projects": [
+      {
+        "id": "fix-proj-072",
+        "name": "Horizon API",
+        "role": "Backend Developer",
+        "description": "API gateway and microservices layer",
+        "startDate": "2022-12-01",
+        "endDate": null,
+        "order": 1,
+        "isVisible": true
+      }
+    ],
+    "employmentHistory": [],
+    "courses": [
+      {
+        "id": "fix-course-043",
+        "name": "ISTQB Foundation Level",
+        "date": "2023-04-04"
+      }
+    ],
+    "children": []
+  },
+  {
+    "id": "fix-emp-48",
+    "firstName": "Rebecca",
+    "lastName": "Mills",
+    "workEmail": "rebecca.mills@vortexlabs.co",
+    "role": "Senior Software Engineer",
+    "employmentType": "EMPLOYMENT_CONTRACT",
+    "status": "ACTIVE",
+    "joinDate": "2020-04-28",
+    "birthdate": "1987-01-08",
+    "holiday": 28,
+    "firstYearHoliday": null,
+    "phone": "(555) 148-1048",
+    "address": "218 Witch Hazel Dr, Bend, OR 97701",
+    "personalId": "900-58-1048",
+    "taxId": "90-1000048",
+    "bankAccount": "4000-1048-2048-3048",
+    "description": "Specializes in test automation.",
+    "hobbies": [
+      "cooking",
+      "yoga",
+      "astronomy",
+      "camping"
+    ],
+    "iceName": null,
+    "icePhone": null,
+    "education": [
+      {
+        "id": "fix-edu-066",
+        "name": "BSc Mathematics, Penn State",
+        "startDate": "2005-09-01",
+        "endDate": "2009-06-15"
+      }
+    ],
+    "languages": [
+      {
+        "id": "fix-lang-091",
+        "name": "English",
+        "level": "Native"
+      },
+      {
+        "id": "fix-lang-092",
+        "name": "Portuguese",
+        "level": "Intermediate"
+      },
+      {
+        "id": "fix-lang-093",
+        "name": "Hindi",
+        "level": "Basic"
+      }
+    ],
+    "projects": [
+      {
+        "id": "fix-proj-073",
+        "name": "Pulse Monitoring",
+        "role": "Senior Software Engineer",
+        "description": "System health and performance monitoring",
+        "startDate": "2020-04-28",
+        "endDate": null,
+        "order": 1,
+        "isVisible": true
+      }
+    ],
+    "employmentHistory": [],
+    "courses": [
+      {
+        "id": "fix-course-044",
+        "name": "System Design Masterclass",
+        "date": "2023-05-19"
+      }
+    ],
+    "children": [
+      {
+        "id": "fix-child-019",
+        "name": "Sophia",
+        "birthDate": "2020-02-10"
+      }
+    ]
+  },
+  {
+    "id": "fix-emp-49",
+    "firstName": "Ian",
+    "lastName": "Douglas",
+    "workEmail": "ian.douglas@vortexlabs.co",
+    "role": "Software Engineer",
+    "employmentType": "B2B_CONTRACT",
+    "status": "ARCHIVED",
+    "joinDate": "2024-09-15",
+    "birthdate": "1999-07-27",
+    "holiday": null,
+    "firstYearHoliday": null,
+    "phone": "(555) 149-1049",
+    "address": "466 Yew Ave, Missoula, MT 59801",
+    "personalId": null,
+    "taxId": null,
+    "bankAccount": null,
+    "description": "Specializes in product strategy.",
+    "hobbies": [
+      "tennis",
+      "pottery"
+    ],
+    "iceName": "David Douglas",
+    "icePhone": "(555) 988-9307",
+    "education": [
+      {
+        "id": "fix-edu-067",
+        "name": "BSc Mathematics, Caltech",
+        "startDate": "2017-09-01",
+        "endDate": "2021-06-15"
+      }
+    ],
+    "languages": [
+      {
+        "id": "fix-lang-094",
+        "name": "English",
+        "level": "Fluent"
+      },
+      {
+        "id": "fix-lang-095",
+        "name": "Spanish",
+        "level": "Advanced"
+      },
+      {
+        "id": "fix-lang-096",
+        "name": "Swedish",
+        "level": "Basic"
+      }
+    ],
+    "projects": [
+      {
+        "id": "fix-proj-074",
+        "name": "Catalyst Mobile",
+        "role": "Software Engineer",
+        "description": "Cross-platform mobile application",
+        "startDate": "2024-09-15",
+        "endDate": null,
+        "order": 1,
+        "isVisible": true
+      }
+    ],
+    "employmentHistory": [],
+    "courses": [],
+    "children": []
+  },
+  {
+    "id": "fix-emp-50",
+    "firstName": "Zoe",
+    "lastName": "Campbell",
+    "workEmail": "zoe.campbell@vortexlabs.co",
+    "role": "Data Engineer",
+    "employmentType": "EMPLOYMENT_CONTRACT",
+    "status": "ACTIVE",
+    "joinDate": "2023-02-19",
+    "birthdate": "1994-11-14",
+    "holiday": 26,
+    "firstYearHoliday": null,
+    "phone": "(555) 150-1050",
+    "address": "127 Sassafras Ct, Flagstaff, AZ 86001",
+    "personalId": "900-60-1050",
+    "taxId": "90-1000050",
+    "bankAccount": null,
+    "description": "Key contributor to the Catalyst Mobile team with expertise in system design.",
+    "hobbies": [
+      "gaming",
+      "origami",
+      "yoga"
+    ],
+    "iceName": "Natalie Campbell",
+    "icePhone": "(555) 966-8199",
+    "education": [
+      {
+        "id": "fix-edu-068",
+        "name": "BSc Mathematics, University of Colorado Boulder",
+        "startDate": "2012-09-01",
+        "endDate": "2016-06-15"
+      }
+    ],
+    "languages": [
+      {
+        "id": "fix-lang-097",
+        "name": "English",
+        "level": "Native"
+      },
+      {
+        "id": "fix-lang-098",
+        "name": "Italian",
+        "level": "Basic"
+      }
+    ],
+    "projects": [
+      {
+        "id": "fix-proj-075",
+        "name": "Catalyst Mobile",
+        "role": "Data Engineer",
+        "description": "Cross-platform mobile application",
+        "startDate": "2023-02-19",
+        "endDate": null,
+        "order": 1,
+        "isVisible": true
+      },
+      {
+        "id": "fix-proj-076",
+        "name": "Pulse Monitoring",
+        "role": "Data Engineer",
+        "description": "System health and performance monitoring",
+        "startDate": "2024-01-01",
+        "endDate": null,
+        "order": 2,
+        "isVisible": true
+      }
+    ],
+    "employmentHistory": [
+      {
+        "id": "fix-hist-028",
+        "company": "CloudBridge Systems",
+        "role": "DevOps Engineer",
+        "startDate": "2021-09-01",
+        "endDate": "2022-11-28",
+        "description": null
+      }
+    ],
+    "courses": [
+      {
+        "id": "fix-course-045",
+        "name": "Certified Ethical Hacker",
+        "date": "2024-12-28"
+      }
+    ],
+    "children": []
+  }
+]

@@ -1,0 +1,18 @@
+enum Language {
+  en
+  pl
+  lb
+}
+
+enum DateFormat {
+  DD_MM_YYYY
+  MM_DD_YYYY
+  YYYY_MM_DD
+  DD_MM_YYYY_DOT
+}
+
+model Settings {
+  id         String     @id @default(cuid())
+  language   Language   @default(en)
+  dateFormat DateFormat @default(DD_MM_YYYY)
+}

@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "fix-empskill-001",
+    "employeeId": "fix-emp-01",
+    "skillId": "fix-skill-02",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-002",
+    "employeeId": "fix-emp-01",
+    "skillId": "fix-skill-07",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-003",
+    "employeeId": "fix-emp-01",
+    "skillId": "fix-skill-19",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-004",
+    "employeeId": "fix-emp-01",
+    "skillId": "fix-skill-22",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-005",
+    "employeeId": "fix-emp-01",
+    "skillId": "fix-skill-27",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-006",
+    "employeeId": "fix-emp-02",
+    "skillId": "fix-skill-01",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-007",
+    "employeeId": "fix-emp-02",
+    "skillId": "fix-skill-02",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-008",
+    "employeeId": "fix-emp-02",
+    "skillId": "fix-skill-03",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-009",
+    "employeeId": "fix-emp-02",
+    "skillId": "fix-skill-04",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-010",
+    "employeeId": "fix-emp-02",
+    "skillId": "fix-skill-31",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-011",
+    "employeeId": "fix-emp-03",
+    "skillId": "fix-skill-07",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-012",
+    "employeeId": "fix-emp-03",
+    "skillId": "fix-skill-08",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-013",
+    "employeeId": "fix-emp-03",
+    "skillId": "fix-skill-22",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-014",
+    "employeeId": "fix-emp-03",
+    "skillId": "fix-skill-24",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-015",
+    "employeeId": "fix-emp-03",
+    "skillId": "fix-skill-26",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-016",
+    "employeeId": "fix-emp-04",
+    "skillId": "fix-skill-30",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-017",
+    "employeeId": "fix-emp-04",
+    "skillId": "fix-skill-31",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-018",
+    "employeeId": "fix-emp-04",
+    "skillId": "fix-skill-03",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-019",
+    "employeeId": "fix-emp-04",
+    "skillId": "fix-skill-01",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-020",
+    "employeeId": "fix-emp-05",
+    "skillId": "fix-skill-17",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-021",
+    "employeeId": "fix-emp-05",
+    "skillId": "fix-skill-18",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-022",
+    "employeeId": "fix-emp-05",
+    "skillId": "fix-skill-33",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-023",
+    "employeeId": "fix-emp-05",
+    "skillId": "fix-skill-19",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-024",
+    "employeeId": "fix-emp-05",
+    "skillId": "fix-skill-27",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-025",
+    "employeeId": "fix-emp-06",
+    "skillId": "fix-skill-29",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-026",
+    "employeeId": "fix-emp-06",
+    "skillId": "fix-skill-31",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-027",
+    "employeeId": "fix-emp-06",
+    "skillId": "fix-skill-30",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-028",
+    "employeeId": "fix-emp-07",
+    "skillId": "fix-skill-02",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-029",
+    "employeeId": "fix-emp-07",
+    "skillId": "fix-skill-03",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-030",
+    "employeeId": "fix-emp-07",
+    "skillId": "fix-skill-07",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-031",
+    "employeeId": "fix-emp-07",
+    "skillId": "fix-skill-22",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-032",
+    "employeeId": "fix-emp-07",
+    "skillId": "fix-skill-17",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-033",
+    "employeeId": "fix-emp-08",
+    "skillId": "fix-skill-01",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-034",
+    "employeeId": "fix-emp-08",
+    "skillId": "fix-skill-02",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-035",
+    "employeeId": "fix-emp-08",
+    "skillId": "fix-skill-27",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-036",
+    "employeeId": "fix-emp-08",
+    "skillId": "fix-skill-29",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-037",
+    "employeeId": "fix-emp-09",
+    "skillId": "fix-skill-01",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-038",
+    "employeeId": "fix-emp-09",
+    "skillId": "fix-skill-02",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-039",
+    "employeeId": "fix-emp-09",
+    "skillId": "fix-skill-03",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-040",
+    "employeeId": "fix-emp-09",
+    "skillId": "fix-skill-28",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-041",
+    "employeeId": "fix-emp-10",
+    "skillId": "fix-skill-08",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-042",
+    "employeeId": "fix-emp-10",
+    "skillId": "fix-skill-22",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-043",
+    "employeeId": "fix-emp-10",
+    "skillId": "fix-skill-19",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-044",
+    "employeeId": "fix-emp-10",
+    "skillId": "fix-skill-17",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-045",
+    "employeeId": "fix-emp-11",
+    "skillId": "fix-skill-02",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-046",
+    "employeeId": "fix-emp-11",
+    "skillId": "fix-skill-19",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-047",
+    "employeeId": "fix-emp-11",
+    "skillId": "fix-skill-17",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-048",
+    "employeeId": "fix-emp-11",
+    "skillId": "fix-skill-18",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-049",
+    "employeeId": "fix-emp-11",
+    "skillId": "fix-skill-27",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-050",
+    "employeeId": "fix-emp-12",
+    "skillId": "fix-skill-02",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-051",
+    "employeeId": "fix-emp-12",
+    "skillId": "fix-skill-10",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-052",
+    "employeeId": "fix-emp-12",
+    "skillId": "fix-skill-19",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-053",
+    "employeeId": "fix-emp-12",
+    "skillId": "fix-skill-22",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-054",
+    "employeeId": "fix-emp-12",
+    "skillId": "fix-skill-27",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-055",
+    "employeeId": "fix-emp-13",
+    "skillId": "fix-skill-15",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-056",
+    "employeeId": "fix-emp-13",
+    "skillId": "fix-skill-16",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-057",
+    "employeeId": "fix-emp-13",
+    "skillId": "fix-skill-03",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-058",
+    "employeeId": "fix-emp-13",
+    "skillId": "fix-skill-02",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-059",
+    "employeeId": "fix-emp-14",
+    "skillId": "fix-skill-29",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-060",
+    "employeeId": "fix-emp-14",
+    "skillId": "fix-skill-28",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-061",
+    "employeeId": "fix-emp-15",
+    "skillId": "fix-skill-01",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-062",
+    "employeeId": "fix-emp-15",
+    "skillId": "fix-skill-02",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-063",
+    "employeeId": "fix-emp-15",
+    "skillId": "fix-skill-07",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-064",
+    "employeeId": "fix-emp-15",
+    "skillId": "fix-skill-28",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-065",
+    "employeeId": "fix-emp-16",
+    "skillId": "fix-skill-01",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-066",
+    "employeeId": "fix-emp-16",
+    "skillId": "fix-skill-02",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-067",
+    "employeeId": "fix-emp-16",
+    "skillId": "fix-skill-03",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-068",
+    "employeeId": "fix-emp-16",
+    "skillId": "fix-skill-04",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-069",
+    "employeeId": "fix-emp-17",
+    "skillId": "fix-skill-07",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-070",
+    "employeeId": "fix-emp-17",
+    "skillId": "fix-skill-09",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-071",
+    "employeeId": "fix-emp-17",
+    "skillId": "fix-skill-22",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-072",
+    "employeeId": "fix-emp-17",
+    "skillId": "fix-skill-26",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-073",
+    "employeeId": "fix-emp-17",
+    "skillId": "fix-skill-17",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-074",
+    "employeeId": "fix-emp-18",
+    "skillId": "fix-skill-01",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-075",
+    "employeeId": "fix-emp-18",
+    "skillId": "fix-skill-02",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-076",
+    "employeeId": "fix-emp-18",
+    "skillId": "fix-skill-27",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-077",
+    "employeeId": "fix-emp-18",
+    "skillId": "fix-skill-29",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-078",
+    "employeeId": "fix-emp-19",
+    "skillId": "fix-skill-17",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-079",
+    "employeeId": "fix-emp-19",
+    "skillId": "fix-skill-18",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-080",
+    "employeeId": "fix-emp-19",
+    "skillId": "fix-skill-19",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-081",
+    "employeeId": "fix-emp-19",
+    "skillId": "fix-skill-27",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-082",
+    "employeeId": "fix-emp-19",
+    "skillId": "fix-skill-34",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-083",
+    "employeeId": "fix-emp-20",
+    "skillId": "fix-skill-02",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-084",
+    "employeeId": "fix-emp-20",
+    "skillId": "fix-skill-08",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-085",
+    "employeeId": "fix-emp-20",
+    "skillId": "fix-skill-19",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-086",
+    "employeeId": "fix-emp-20",
+    "skillId": "fix-skill-22",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-087",
+    "employeeId": "fix-emp-20",
+    "skillId": "fix-skill-27",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-088",
+    "employeeId": "fix-emp-21",
+    "skillId": "fix-skill-02",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-089",
+    "employeeId": "fix-emp-21",
+    "skillId": "fix-skill-07",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-090",
+    "employeeId": "fix-emp-21",
+    "skillId": "fix-skill-28",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-091",
+    "employeeId": "fix-emp-22",
+    "skillId": "fix-skill-29",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-092",
+    "employeeId": "fix-emp-22",
+    "skillId": "fix-skill-31",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-093",
+    "employeeId": "fix-emp-22",
+    "skillId": "fix-skill-30",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-094",
+    "employeeId": "fix-emp-23",
+    "skillId": "fix-skill-02",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-095",
+    "employeeId": "fix-emp-23",
+    "skillId": "fix-skill-04",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-096",
+    "employeeId": "fix-emp-23",
+    "skillId": "fix-skill-07",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-097",
+    "employeeId": "fix-emp-23",
+    "skillId": "fix-skill-22",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-098",
+    "employeeId": "fix-emp-23",
+    "skillId": "fix-skill-17",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-099",
+    "employeeId": "fix-emp-24",
+    "skillId": "fix-skill-35",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-100",
+    "employeeId": "fix-emp-24",
+    "skillId": "fix-skill-34",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-101",
+    "employeeId": "fix-emp-24",
+    "skillId": "fix-skill-19",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-102",
+    "employeeId": "fix-emp-24",
+    "skillId": "fix-skill-17",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-103",
+    "employeeId": "fix-emp-25",
+    "skillId": "fix-skill-01",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-104",
+    "employeeId": "fix-emp-25",
+    "skillId": "fix-skill-03",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-105",
+    "employeeId": "fix-emp-25",
+    "skillId": "fix-skill-28",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-106",
+    "employeeId": "fix-emp-26",
+    "skillId": "fix-skill-01",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-107",
+    "employeeId": "fix-emp-26",
+    "skillId": "fix-skill-02",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-108",
+    "employeeId": "fix-emp-26",
+    "skillId": "fix-skill-06",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-109",
+    "employeeId": "fix-emp-26",
+    "skillId": "fix-skill-28",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-110",
+    "employeeId": "fix-emp-27",
+    "skillId": "fix-skill-34",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-111",
+    "employeeId": "fix-emp-27",
+    "skillId": "fix-skill-17",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-112",
+    "employeeId": "fix-emp-27",
+    "skillId": "fix-skill-19",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-113",
+    "employeeId": "fix-emp-27",
+    "skillId": "fix-skill-35",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-114",
+    "employeeId": "fix-emp-28",
+    "skillId": "fix-skill-02",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-115",
+    "employeeId": "fix-emp-28",
+    "skillId": "fix-skill-03",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-116",
+    "employeeId": "fix-emp-28",
+    "skillId": "fix-skill-07",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-117",
+    "employeeId": "fix-emp-28",
+    "skillId": "fix-skill-28",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-118",
+    "employeeId": "fix-emp-29",
+    "skillId": "fix-skill-29",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-119",
+    "employeeId": "fix-emp-29",
+    "skillId": "fix-skill-02",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-120",
+    "employeeId": "fix-emp-29",
+    "skillId": "fix-skill-19",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-121",
+    "employeeId": "fix-emp-30",
+    "skillId": "fix-skill-08",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-122",
+    "employeeId": "fix-emp-30",
+    "skillId": "fix-skill-32",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-123",
+    "employeeId": "fix-emp-30",
+    "skillId": "fix-skill-17",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-124",
+    "employeeId": "fix-emp-30",
+    "skillId": "fix-skill-19",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-125",
+    "employeeId": "fix-emp-31",
+    "skillId": "fix-skill-02",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-126",
+    "employeeId": "fix-emp-31",
+    "skillId": "fix-skill-11",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-127",
+    "employeeId": "fix-emp-31",
+    "skillId": "fix-skill-19",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-128",
+    "employeeId": "fix-emp-31",
+    "skillId": "fix-skill-17",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-129",
+    "employeeId": "fix-emp-32",
+    "skillId": "fix-skill-02",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-130",
+    "employeeId": "fix-emp-32",
+    "skillId": "fix-skill-27",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-131",
+    "employeeId": "fix-emp-32",
+    "skillId": "fix-skill-29",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-132",
+    "employeeId": "fix-emp-33",
+    "skillId": "fix-skill-07",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-133",
+    "employeeId": "fix-emp-33",
+    "skillId": "fix-skill-10",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-134",
+    "employeeId": "fix-emp-33",
+    "skillId": "fix-skill-22",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-135",
+    "employeeId": "fix-emp-33",
+    "skillId": "fix-skill-26",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-136",
+    "employeeId": "fix-emp-34",
+    "skillId": "fix-skill-02",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-137",
+    "employeeId": "fix-emp-34",
+    "skillId": "fix-skill-19",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-138",
+    "employeeId": "fix-emp-34",
+    "skillId": "fix-skill-17",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-139",
+    "employeeId": "fix-emp-34",
+    "skillId": "fix-skill-18",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-140",
+    "employeeId": "fix-emp-34",
+    "skillId": "fix-skill-27",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-141",
+    "employeeId": "fix-emp-35",
+    "skillId": "fix-skill-01",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-142",
+    "employeeId": "fix-emp-35",
+    "skillId": "fix-skill-07",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-143",
+    "employeeId": "fix-emp-35",
+    "skillId": "fix-skill-28",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-144",
+    "employeeId": "fix-emp-36",
+    "skillId": "fix-skill-01",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-145",
+    "employeeId": "fix-emp-36",
+    "skillId": "fix-skill-02",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-146",
+    "employeeId": "fix-emp-36",
+    "skillId": "fix-skill-05",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-147",
+    "employeeId": "fix-emp-36",
+    "skillId": "fix-skill-28",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-148",
+    "employeeId": "fix-emp-37",
+    "skillId": "fix-skill-17",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-149",
+    "employeeId": "fix-emp-37",
+    "skillId": "fix-skill-33",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-150",
+    "employeeId": "fix-emp-37",
+    "skillId": "fix-skill-19",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-151",
+    "employeeId": "fix-emp-37",
+    "skillId": "fix-skill-27",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-152",
+    "employeeId": "fix-emp-37",
+    "skillId": "fix-skill-34",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-153",
+    "employeeId": "fix-emp-38",
+    "skillId": "fix-skill-02",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-154",
+    "employeeId": "fix-emp-38",
+    "skillId": "fix-skill-12",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-155",
+    "employeeId": "fix-emp-38",
+    "skillId": "fix-skill-19",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-156",
+    "employeeId": "fix-emp-38",
+    "skillId": "fix-skill-22",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-157",
+    "employeeId": "fix-emp-39",
+    "skillId": "fix-skill-01",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-158",
+    "employeeId": "fix-emp-39",
+    "skillId": "fix-skill-03",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-159",
+    "employeeId": "fix-emp-40",
+    "skillId": "fix-skill-02",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-160",
+    "employeeId": "fix-emp-40",
+    "skillId": "fix-skill-04",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-161",
+    "employeeId": "fix-emp-40",
+    "skillId": "fix-skill-07",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-162",
+    "employeeId": "fix-emp-40",
+    "skillId": "fix-skill-22",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-163",
+    "employeeId": "fix-emp-40",
+    "skillId": "fix-skill-17",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-164",
+    "employeeId": "fix-emp-41",
+    "skillId": "fix-skill-01",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-165",
+    "employeeId": "fix-emp-41",
+    "skillId": "fix-skill-02",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-166",
+    "employeeId": "fix-emp-41",
+    "skillId": "fix-skill-27",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-167",
+    "employeeId": "fix-emp-41",
+    "skillId": "fix-skill-29",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-168",
+    "employeeId": "fix-emp-42",
+    "skillId": "fix-skill-08",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-169",
+    "employeeId": "fix-emp-42",
+    "skillId": "fix-skill-10",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-170",
+    "employeeId": "fix-emp-42",
+    "skillId": "fix-skill-22",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-171",
+    "employeeId": "fix-emp-42",
+    "skillId": "fix-skill-24",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-172",
+    "employeeId": "fix-emp-42",
+    "skillId": "fix-skill-26",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-173",
+    "employeeId": "fix-emp-43",
+    "skillId": "fix-skill-01",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-174",
+    "employeeId": "fix-emp-43",
+    "skillId": "fix-skill-02",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-175",
+    "employeeId": "fix-emp-44",
+    "skillId": "fix-skill-29",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-176",
+    "employeeId": "fix-emp-44",
+    "skillId": "fix-skill-30",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-177",
+    "employeeId": "fix-emp-44",
+    "skillId": "fix-skill-31",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-178",
+    "employeeId": "fix-emp-45",
+    "skillId": "fix-skill-01",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-179",
+    "employeeId": "fix-emp-45",
+    "skillId": "fix-skill-02",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-180",
+    "employeeId": "fix-emp-45",
+    "skillId": "fix-skill-06",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-181",
+    "employeeId": "fix-emp-45",
+    "skillId": "fix-skill-31",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-182",
+    "employeeId": "fix-emp-46",
+    "skillId": "fix-skill-02",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-183",
+    "employeeId": "fix-emp-46",
+    "skillId": "fix-skill-03",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-184",
+    "employeeId": "fix-emp-46",
+    "skillId": "fix-skill-28",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-185",
+    "employeeId": "fix-emp-47",
+    "skillId": "fix-skill-09",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-186",
+    "employeeId": "fix-emp-47",
+    "skillId": "fix-skill-07",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-187",
+    "employeeId": "fix-emp-47",
+    "skillId": "fix-skill-22",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-188",
+    "employeeId": "fix-emp-47",
+    "skillId": "fix-skill-17",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-189",
+    "employeeId": "fix-emp-47",
+    "skillId": "fix-skill-26",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-190",
+    "employeeId": "fix-emp-48",
+    "skillId": "fix-skill-02",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-191",
+    "employeeId": "fix-emp-48",
+    "skillId": "fix-skill-09",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-192",
+    "employeeId": "fix-emp-48",
+    "skillId": "fix-skill-19",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-193",
+    "employeeId": "fix-emp-48",
+    "skillId": "fix-skill-17",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-194",
+    "employeeId": "fix-emp-48",
+    "skillId": "fix-skill-27",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-195",
+    "employeeId": "fix-emp-49",
+    "skillId": "fix-skill-01",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-196",
+    "employeeId": "fix-emp-49",
+    "skillId": "fix-skill-07",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-197",
+    "employeeId": "fix-emp-50",
+    "skillId": "fix-skill-08",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-198",
+    "employeeId": "fix-emp-50",
+    "skillId": "fix-skill-22",
+    "type": "PRIMARY"
+  },
+  {
+    "id": "fix-empskill-199",
+    "employeeId": "fix-emp-50",
+    "skillId": "fix-skill-19",
+    "type": "SECONDARY"
+  },
+  {
+    "id": "fix-empskill-200",
+    "employeeId": "fix-emp-50",
+    "skillId": "fix-skill-17",
+    "type": "SECONDARY"
+  }
+]

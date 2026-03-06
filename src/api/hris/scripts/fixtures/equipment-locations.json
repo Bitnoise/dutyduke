@@ -1,0 +1,8 @@
+[
+  { "id": "fix-eqloc-01", "name": "Main Office - Floor 1" },
+  { "id": "fix-eqloc-02", "name": "Main Office - Floor 2" },
+  { "id": "fix-eqloc-03", "name": "Remote - Home Office" },
+  { "id": "fix-eqloc-04", "name": "Conference Room A" },
+  { "id": "fix-eqloc-05", "name": "Server Room" },
+  { "id": "fix-eqloc-06", "name": "Storage" }
+]

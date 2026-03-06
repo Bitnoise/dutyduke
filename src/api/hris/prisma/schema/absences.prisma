@@ -1,0 +1,31 @@
+enum AbsenceType {
+  HOLIDAY
+  SICK
+  PERSONAL
+  GLOBAL
+}
+
+enum AbsenceStatus {
+  PENDING
+  APPROVED
+  REJECTED
+}
+
+model Absence {
+  id           String        @id @default(cuid())
+  type         AbsenceType   @default(HOLIDAY)
+  startDate    DateTime
+  endDate      DateTime
+  days         Float
+  description  String?
+  status       AbsenceStatus @default(PENDING)
+  label        String?
+  issuerId     String
+  reviewerId   String?
+  requestedAt  DateTime      @default(now())
+  approvedAt   DateTime?
+  rejectedAt   DateTime?
+  halfStart    Boolean       @default(false)
+  halfEnd      Boolean       @default(false)
+  recipientIds String[]
+}

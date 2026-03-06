@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import 'react-tooltip/dist/react-tooltip.css';
+
+@layer base {
+  :root {
+    color-scheme: light;
+    --background: #f0f3f7;
+    --text: #242c32;
+    --accent: #0a11eb;
+    --success: #8abf33;
+    --warning: #ef4444;
+    --color-green: #278904;
+    --color-green-50: #ebf5db;
+    --color-green-100: #d8eee3;
+    --color-green-300: #6e972a;
+    --color-green-500: #5fbf9d;
+    --color-green-800: #4aab7a;
+    --color-blue-100: #d6f1ff;
+    --color-blue-800: #006da4;
+    --color-orange-100: #feeed8;
+    --color-orange-400: #d9ac6a;
+    --color-orange-800: #db8812;
+    --color-orange-900: #db8812;
+    --color-red-100: #fbdada;
+    --color-red-400: #f49494;
+    --color-red-900: #af1111;
+    --color-grey: #d2d2d2;
+    --color-gray-100: #eaedf0;
+    --color-gray-200: #d3d9df;
+    --color-gray-300: #b5bfc9;
+    --color-gray-500: #7a8d9f;
+    --color-gray-600: #65798b;
+    --color-yellow: #e8a909;
+    --color-medium-accent: #060b93;
+    --color-dark-accent: #040760;
+    --color-black: #242c32;
+    --color-disabled-light-grey: #dee2e8;
+    --color-super-light-grey: #ececf0;
+    --color-light-grey: #d8d8df;
+    --color-medium-grey: #b1b1bf;
+    --color-dark-grey: #777777;
+    --color-light-violet: #898a9f;
+    --color-medium-violet: #62637f;
+    --color-dark-violet: #3b3c5f;
+    --color-disable-text: #b5bfc9;
+    --color-hover: #e6f3ff;
+    --color-pressed: #c9e5ff;
+    --color-super-light-blue: #f8f8fd;
+    --color-light-ice-blue: #e6f3ff;
+    --color-medium-ice-blue: #baddfe;
+    --color-ice-blue: #78abfb;
+    --color-warning-light: rgba(239, 68, 68, 0.1);
+    --color-warning-medium: rgba(239, 68, 68, 0.25);
+    --color-modal-overlay: rgba(181, 191, 201, 0.3);
+    --color-light-red: #ef4444;
+    --color-medium-red: #dc2626;
+    --color-dark-red: #b91c1c;
+    --color-secondary-default: #dbedff;
+    --color-secondary-hover: #e6f3ff;
+    --color-secondary-pressed: #baddfe;
+    --color-divider: #eaedf0;
+    --shadow-modal: 0 4px 15px 0 #27374b0f;
+    --shadow-menu: 0 4px 15px 0 #27374b3f;
+  }
+
+  input::-webkit-datetime-edit {
+    display: block;
+    padding: 0;
+  }
+}
+
+.hris .tf-tooltip {
+  background-color: var(--color-dark-violet);
+  color: #fff;
+  font-size: 0.625rem;
+  line-height: 1.25rem;
+  max-width: 20rem;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  z-index: 9999;
+  opacity: 1;
+}
+
+.hris .tooltip-icon-container {
+  display: inline-flex;
+  align-items: center;
+  vertical-align: middle;
+  margin-left: 0.25rem;
+}
+
+.hris .tooltip-icon-container svg {
+  position: static;
+  height: 18px;
+  width: 18px;
+  color: var(--color-gray-600);
+  display: block;
+}

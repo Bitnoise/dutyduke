@@ -1,0 +1,1654 @@
+{
+  "dashboard": {
+    "workOrders": "Zlecenia",
+    "absences": "Nieobecności",
+    "documents": "Dokumenty",
+    "inquiries": "Zapytania",
+    "viewMore": "Pokaż więcej",
+    "welcome": "Witaj",
+    "scheduleWork": "Zaplanuj zlecenia"
+  },
+  "home": {
+    "title": "Strona główna"
+  },
+  "notFound": {
+    "heading": "O nie!",
+    "title": "Wygląda na to, że zgubiliśmy tę stronę.",
+    "subtitle": "Ale nie Twoje zadania!",
+    "button": "Wróć do planowania"
+  },
+  "seo": {
+    "title": "DutyDuke",
+    "description": "DutyDuke - Nowoczesny System Zarządzania HR"
+  },
+  "login": {
+    "title": "Zaloguj się"
+  },
+  "forgotPassword": {
+    "title": "Zapomniałem hasła",
+    "info": "Wyślemy wiadomość z linkiem do resetowania hasła na podany adres e-mail, jeśli pasuje do istniejącego konta.",
+    "success": "Wysłaliśmy e-mail z linkiem do resetowania hasła na adres {email}. Sprawdź swoją skrzynkę odbiorczą.",
+    "error": "Coś poszło nie tak, spróbuj ponownie."
+  },
+  "resetPassword": {
+    "title": "Resetuj hasło",
+    "info": "Zostaniesz automatycznie przekierowany do strony logowania za {countDown}s.",
+    "success": "Twoje hasło zostało zaktualizowane",
+    "error": "Coś poszło nie tak, spróbuj ponownie."
+  },
+  "register": {
+    "title": "Zarejestruj się",
+    "ctaButtonLabel": "Zarejestruj się",
+    "termsAndServicesAgreement": "Zapoznałem/am się i akceptuję Regulamin świadczenia usług oraz Umowę powierzenia danych osobowych",
+    "electronicAgreement": "Wyrażam zgodę na zawarcie umowy drogą elektroniczną. Kopia UDP oraz dokumentacja dotycząca przetwarzania danych osobowych znajduje się w zakładce Firma / Dokumenty",
+    "representativePersonAgreement": "Działam w imieniu firmy, której dane podaje powyżej i jestem osobą uprawnioną do zawarcia umowy",
+    "success": "Wysłaliśmy link weryfikacyjny na adres {email}. Sprawdź swoją skrzynkę odbiorczą, aby dokończyć rejestrację."
+  },
+  "emailVerification": {
+    "success": "Email został pomyślnie zweryfikowany!",
+    "subdomainCreated": "Twoja poddomena została pomyślnie utworzona!",
+    "loading": "Weryfikacja email..."
+  },
+  "roles": {
+    "owner": "Właściciel",
+    "hr": "HR",
+    "office": "Biuro",
+    "employee": "Pracownik"
+  },
+  "qr": {
+    "form": {
+      "request": "Opisz swoje potrzeby",
+      "sendRequest": "Wyślij prośbę",
+      "success": "Prośba wysłana, skontaktujemy się wkrótce"
+    }
+  },
+  "errorMessages": {
+    "categoryAlreadyExists": "Kategoria już istnieje",
+    "invalidAddress": "Nieprawidłowy adres.",
+    "clientRequired": "Klient jest wymagany",
+    "invalidId": "Nieprawidłowy identyfikator",
+    "required": "Pole wymagane",
+    "checkRequired": "Proszę zaznaczyć pole, aby kontynuować.",
+    "invalidDocumentSize": "Uwaga! Maksymalny rozmiar pojedynczego pliku to 10Mb",
+    "invalidDocumentName": "Uwaga! Nazwa dokumentu nie może przekraczać 30 znaków",
+    "invalidEmail": "Nieprawidłowy email",
+    "invalidPassword": "Hasło musi zawierać od 8 do 64 znaków",
+    "invalidPhoneNumber": "Nieprawidłowy numer telefonu",
+    "invalidPhotoSize": "Nieprawidłowy rozmiar zdjęcia. Wymagane maksymalnie: {size}Mb",
+    "notMatchingPasswords": "Hasła nie pasują do siebie",
+    "unknown": "Nieznany błąd",
+    "invalidDate": "Nieprawidłowa data",
+    "tooSmall": "Podana wartość jest zbyt mała. Oczekiwana co najmniej {smallestValue}.",
+    "tooBig": "Podana wartość jest zbyt duża. Oczekiwana maksymalnie {biggestValue}",
+    "tooShort": "Podana wartość jest zbyt krótka. Oczekiwane co najmniej {smallestValue} znaków.",
+    "tooLong": "Podana wartość jest zbyt długa. Oczekiwane maksymalnie {biggestValue} znaków",
+    "invalidValueInput": "Nieprawidłowa wartość. Wartość musi być typu {type}.",
+    "startDateAfterEndDate": "Data zakończenia nie może wystąpić przed datą rozpoczęcia",
+    "startBeforeToday": "Data rozpoczęcia nie może wystąpić przed dzisiejszą datą",
+    "clientAlreadyExists": "Klient o tej nazwie już istnieje",
+    "auth": {
+      "missingSubdomain": "Brak poddomeny",
+      "unauthorized": "Brak uprawnień",
+      "identityAlreadyExists": "Użytkownik z tym adresem email już istnieje",
+      "invalidCredentials": "Nieprawidłowe dane logowania",
+      "emailVerification": {
+        "somethingWentWrong": "Coś poszło nie tak.",
+        "tokenExpired": "Link aktywacyjny wygasł.",
+        "unknown": "Nie można zweryfikować e-maila. Spróbuj ponownie później."
+      },
+      "signIn": {
+        "somethingWentWrong": "Coś poszło nie tak.",
+        "unknown": "Nie można się zalogować. Spróbuj ponownie później."
+      }
+    },
+    "organization": {
+      "notFound": "Organizacja nie znaleziona"
+    },
+    "employeeSkills": {
+      "updateFailed": "Aktualizacja umiejętności pracownika nie powiodła się.",
+      "notFound": "Organizacja nie znaleziona",
+      "cannotCreate": "Nie można utworzyć organizacji"
+    },
+    "employeeEarnings": {
+      "updateFailed": "Aktualizacja zarobków pracownika nie powiodła się.",
+      "deleteFailed": "Usunięcie zarobku pracownika nie powiodło się.",
+      "editFailed": "Edycja zarobku pracownika nie powiodła się."
+    },
+    "skills": {
+      "updateFailed": "Coś poszło nie tak podczas aktualizacji CV. Spróbuj ponownie później."
+    },
+    "signUpError": "Ups! Coś poszło nie tak. Spróbuj zarejestrować się ponownie lub wróć później.",
+    "userAlreadyExists": "Użytkownik z adresem email {email} już istnieje.",
+    "signInError": "Nieprawidłowy email lub hasło",
+    "resetPassword": {
+      "somethingWentWrong": "Coś poszło nie tak.",
+      "tokenExpired": "Token wygasł. Spróbuj ponownie.",
+      "unknown": "Aktualizacja hasła nie powiodła się. Spróbuj ponownie później."
+    },
+    "invalidSubdomain": "Nieprawidłowa poddomena",
+    "takenSubdomain": "Poddomena jest już zajęta.",
+    "deleteOrganizationFail": "Usunięcie organizacji nie powiodło się",
+    "emailAlreadyTaken": "Email jest już zajęty",
+    "workOrderOverOneDay": "Zlecenie nie może przekraczać północy"
+  },
+  "ctaLabels": {
+    "uploading": "Przesyłanie",
+    "archive": "Archiwizuj",
+    "duplicate": "Duplikuj",
+    "options": "Opcje",
+    "view": "Podgląd",
+    "assign": "Przypisz",
+    "unassign": "Cofnij przypisanie",
+    "addEmployee": "Dodaj nowego pracownika",
+    "edit": "Edytuj",
+    "cancel": "Anuluj",
+    "save": "Zapisz",
+    "search": "Szukaj",
+    "generateCv": "Generuj CV",
+    "download": "Pobierz",
+    "generate": "Generuj",
+    "offboard": "Dezaktywuj",
+    "goTo": "Przejdź do {link}",
+    "goBack": "Wróć",
+    "update": "Aktualizuj",
+    "addEducation": "Dodaj nową edukację",
+    "addEmploymentHistory": "Dodaj nowy wpis historii zatrudnienia",
+    "addProject": "Dodaj nowy projekt",
+    "addLanguage": "Dodaj nowy język",
+    "addCourse": "Dodaj nowy kurs",
+    "delete": "Usuń",
+    "moveUp": "Przesuń w górę",
+    "moveDown": "Przesuń w dół",
+    "confirm": "Potwierdź",
+    "addFiles": "Dodaj plik",
+    "confirmDelete": "Tak, usuń",
+    "signIn": "Zaloguj się",
+    "forgotPassword": "Zapomniałem hasła",
+    "logout": "Wyloguj",
+    "submit": "Wyślij",
+    "addPhotos": "Dodaj zdjęcia",
+    "setAsAvatar": "Ustaw jako avatar",
+    "deletePhoto": "Usuń zdjęcie",
+    "createAccount": "Nie masz konta?",
+    "onboarding": "Wdrożenie",
+    "remove": "Usuń",
+    "invite": "Zaproś",
+    "more": "Więcej",
+    "selectAll": "Zaznacz wszystko",
+    "assignRole": "Przypisz rolę dostępu",
+    "next": "Dalej",
+    "submitAndFinish": "Wyślij i zakończ",
+    "submitAndInvite": "Wyślij i zaproś",
+    "changeStatus": "Zmień status",
+    "no": "Nie",
+    "confirmAssign": "Tak, przypisz",
+    "confirmUnassign": "Tak, odepnij",
+    "confirmChange": "Tak, zmień",
+    "confirmArchive": "Tak, zarchiwizuj",
+    "actionsMenu": "Menu akcji",
+    "menu": "Menu",
+    "addFile": "Dodaj nowy plik",
+    "print": "Drukuj",
+    "scheduleWork": "Zaplanuj zlecenie",
+    "open": "Otwórz",
+    "close": "Zamknij",
+    "save_and_generate": "Zapisz i wygeneruj"
+  },
+  "filters": {
+    "filters": "Filtry",
+    "active": "Aktywni",
+    "invited": "Zaproszeni",
+    "inactive": "Nieaktywni",
+    "archived": "Zarchiwizowani"
+  },
+  "signIn": {
+    "signingIn": "Logowanie..."
+  },
+  "forms": {
+    "address1": "Pełny adres",
+    "address2": "Numer mieszkania",
+    "postalCode": "Kod pocztowy",
+    "city": "Miasto",
+    "taxId": "NIP",
+    "addFile": "Dodaj nowy plik",
+    "email": "Email",
+    "password": "Hasło",
+    "newPassword": "Nowe hasło",
+    "confirmPassword": "Potwierdź hasło",
+    "companyName": "Nazwa firmy",
+    "firstName": "Imię",
+    "lastName": "Nazwisko",
+    "date": "Data",
+    "note": "Notatka",
+    "education": "Edukacja",
+    "employmentHistory": "Historia zatrudnienia",
+    "projects": "Projekty",
+    "languages": "Języki",
+    "courses": "Kursy",
+    "description": "Opis",
+    "startDate": "Data rozpoczęcia",
+    "endDate": "Data zakończenia",
+    "expDate": "Data ważności",
+    "name": "Nazwa",
+    "role": "Rola",
+    "level": "Poziom",
+    "visibleOnCv": "Widoczne na CV",
+    "primarySkills": "Główne umiejętności",
+    "secondarySkills": "Dodatkowe umiejętności",
+    "hiddenOnCv": "Ukryte na CV",
+    "logo": "Logo",
+    "search": "Szukaj",
+    "personalId": "PESEL",
+    "birthdate": "Data urodzenia",
+    "photo": "Zdjęcie",
+    "status": "Status",
+    "addAttachment": "Dodaj załącznik",
+    "createdBy": "Utworzone przez",
+    "token": "Kod",
+    "equipment": "Sprzęt",
+    "location": "Lokalizacja",
+    "phone": "Telefon"
+  },
+  "employees": {
+    "table": "Tabela pracowników",
+    "seo": {
+      "title": "Lista pracowników",
+      "employeeTitle": "Pracownik: {employeeName}"
+    },
+    "statuses": {
+      "active": "Aktywny",
+      "invited": "Zaproszony",
+      "inactive": "Nieaktywny",
+      "archived": "Zarchiwizowany"
+    },
+    "employeesList": "Lista pracowników",
+    "generalView": {
+      "basic": "Podstawowe informacje",
+      "contact": "Kontakt",
+      "other": "Inne",
+      "firstName": "Imię",
+      "lastName": "Nazwisko",
+      "personalId": "PESEL",
+      "role": "Stanowisko",
+      "company": "Firma",
+      "joinDate": "Data dołączenia",
+      "workEmail": "Służbowy adres email",
+      "privateEmail": "Prywatny adres email",
+      "phone": "Numer telefonu",
+      "address": "Adres",
+      "birthdate": "Data urodzenia",
+      "daysOff": "Liczba dostępnych dni wolnych",
+      "ice": "Osoba kontaktowa",
+      "icePhone": "Telefon osoby kontaktowej",
+      "iceName": "Imię osoby kontaktowej",
+      "hobby": "Hobby",
+      "children": "Dzieci",
+      "photos": "Zdjęcia",
+      "additionalEmails": "Dodatkowe emaile",
+      "childRemoveModalHeader": "Usuń wpis",
+      "childRemoveModalDescription": "Czy na pewno chcesz usunąć ten wpis?",
+      "addChild": "Dodaj dziecko",
+      "childName": "Imię dziecka",
+      "childBirthDate": "Data urodzenia dziecka",
+      "partnership": "Współpraca",
+      "employment": "Rodzaj zatrudnienia",
+      "taxId": "NIP",
+      "holiday": "Urlop",
+      "bankAccount": "Numer konta bankowego"
+    },
+    "skillsView": {
+      "basicInfo": "Podstawowe informacje",
+      "careerDevelopment": "Rozwój kariery",
+      "projects": "Projekty",
+      "hiddenOnCv": "Niewidoczne na CV",
+      "visibleOnCv": "Widoczne na CV",
+      "untilNow": "do teraz",
+      "employmentHistory": "Historia zatrudnienia",
+      "education": "Edukacja",
+      "courses": "Kursy",
+      "skills": "Umiejętności",
+      "primarySkills": "Główne umiejętności",
+      "secondarySkills": "Dodatkowe umiejętności",
+      "languages": "Języki",
+      "description": "Opis",
+      "noProjects": "Brak dodanych projektów.",
+      "noEmploymentHistory": "Brak dodanej historii zatrudnienia.",
+      "noEducation": "Brak dodanej edukacji.",
+      "noCourses": "Brak dodanych kursów.",
+      "noPrimarySkills": "Brak dodanych głównych umiejętności.",
+      "noSecondarySkills": "Brak dodanych dodatkowych umiejętności.",
+      "noLanguages": "Brak dodanych języków.",
+      "addLanguage": "Dodaj język",
+      "addNew": "Dodaj nowy",
+      "startDate": "Data od",
+      "endDate": "Data do",
+      "projectName": "Nazwa projektu",
+      "role": "Rola",
+      "showInCv": "Pokaż w CV",
+      "educationName": "Nazwa szkoły",
+      "courseName": "Nazwa kursu",
+      "date": "Data",
+      "moveProjectUp": "Przesuń projekt w górę",
+      "moveProjectDown": "Przesuń projekt w dół",
+      "companyName": "Nazwa firmy"
+    },
+    "earningsView": {
+      "earnings": "Wynagrodzenie",
+      "addEarnings": "Aktualizuj wynagrodzenie",
+      "update": "Aktualizuj"
+    },
+    "list": {
+      "hide": "Ukryj listę"
+    },
+    "documents": {
+      "header": "Dokumenty",
+      "addFile": "Dodaj nowy plik",
+      "or": "lub",
+      "deleteFile": "Usuń",
+      "dragAndDrop": "Przeciągnij i upuść pliki tutaj",
+      "table": "Tabela dokumentów",
+      "edit": {
+        "header": "Edytuj dokument"
+      }
+    },
+    "equipment": {
+      "search": "Szukaj",
+      "searchEquipment": "szukaj sprzętu",
+      "assign": "Przypisz",
+      "unassign": "Cofnij przypisanie",
+      "title": "Sprzęt",
+      "filters": {
+        "all": "Wszystkie"
+      }
+    },
+    "feedback": {
+      "title": "Feedback",
+      "timeline": "tutaj będzie os czasu dla feedbacku",
+      "scheduleFeedback": "Zaplanuj feedback",
+      "facilitator": "Facylitator",
+      "status": {
+        "scheduled": "Zaplanowany",
+        "approaching": "Nadchodzący",
+        "overdue": "Przeterminowany",
+        "neutral": "Neutralny"
+      },
+      "type": {
+        "buddy": "Buddy",
+        "terminal": "Okresowy",
+        "other": "Inny",
+        "external": "Zewnętrzny"
+      },
+      "schedule": {
+        "title": "Zaplanuj feedback",
+        "editTitle": "Edytuj feedback",
+        "category": "Kategoria",
+        "selectType": "Wybierz rodzaj feedbacku, który planujesz:",
+        "fillDetails": "Wypełnij wszystkie szczegóły feedbacku.",
+        "date": "Data",
+        "note": "Notatka",
+        "noteBefore": "Notatka przed spotkaniem",
+        "noteForPerson": "Notatka dla osoby",
+        "internalFeedback": "Feedback wewnętrzny",
+        "clientFeedback": "Feedback klienta",
+        "feedbackScore": "Ocena feedbacku",
+        "notePlaceholder": "Krótka notatka",
+        "feedbackConducted": "Feedback przeprowadzony",
+        "cancel": "Anuluj",
+        "save": "Zapisz",
+        "submit": "Zatwierdź",
+        "goBack": "Wróć",
+        "next": "Dalej",
+        "add": "Dodaj",
+        "facilitator": "Facylitator",
+        "type": {
+          "buddy": "Buddy",
+          "terminal": "Okresowy",
+          "other": "Inny",
+          "external": "Zewnętrzny"
+        },
+        "feedbackScore": {
+          "neutral": "Neutralny",
+          "positive": "Pozytywny",
+          "negative": "Negatywny"
+        }
+      },
+      "details": {
+        "title": "Szczegóły feedbacku",
+        "feedbackType": "Rodzaj feedbacku",
+        "date": "Data",
+        "facilitator": "Facylitator",
+        "feedbackConducted": "Feedback przeprowadzony",
+        "participants": "Uczestnicy",
+        "internalFeedback": "Feedback wewnętrzny",
+        "clientFeedback": "Feedback klienta",
+        "postMeetingNote": "Notatka po spotkaniu",
+        "note": "Notatka",
+        "notesForEmployee": "Notatki dla pracownika",
+        "attentionWarning": "[Uwaga! Pracownik zobaczy to]",
+        "attachments": "Załączniki",
+        "downloadPdf": "Pobierz pdf"
+      }
+    },
+    "benefits": {
+      "title": "Benefity",
+      "assign": "Przypisz",
+      "unassign": "Odepnij",
+      "search": "Szukaj"
+    }
+  },
+  "company": {
+    "seo": {
+      "title": "Firma {company}"
+    },
+    "generalView": {
+      "company": "Firma",
+      "companyName": "Nazwa firmy",
+      "postalCode": "Kod pocztowy",
+      "city": "Miasto",
+      "logo": "Logo",
+      "save": "Zapisz",
+      "cancel": "Anuluj",
+      "changingCompanyNameInfo": "Zmiana nazwy firmy nie zaktualizuje poddomeny.",
+      "address1": "Pełen adres",
+      "address2": "Numer mieszkania"
+    },
+    "equipment": {
+      "changeStatus": "Zmień status",
+      "title": "Sprzęt",
+      "addNew": "Dodaj nowy",
+      "assign": "Przypisz",
+      "unassign": "Cofnij przypisanie",
+      "archive": "Archiwizuj",
+      "search": "Szukaj",
+      "searchEquipment": "szukaj sprzętu",
+      "options": {
+        "base": "Opcje",
+        "dictionaries": "Słowniki"
+      },
+      "filters": {
+        "title": "Filtry sprzętu",
+        "assigned": "Przypisany",
+        "free": "Wolny",
+        "status": "Status",
+        "category": "Kategoria",
+        "filters": "Filtry",
+        "all": "Wszystkie"
+      },
+      "statusLabels": {
+        "all": "Wszystkie",
+        "working": "Działający",
+        "broken": "Uszkodzony",
+        "in_service": "W serwisie",
+        "archived": "Zarchiwizowany",
+        "active": "Aktywny",
+        "expiringSoon": "Traci ważność",
+        "expired": "Nieważny"
+      },
+      "duplicate": {
+        "title": "Duplikuj sprzęt"
+      },
+      "dictionaries": {
+        "addNew": "Dodaj nowy",
+        "createNew": "Dodaj nowy",
+        "archive": "Usuń",
+        "name": "Nazwa",
+        "cancel": "Anuluj",
+        "save": "Zapisz",
+        "forms": {
+          "name": "Nazwa",
+          "missingName": "Nazwa słownika jest wymagana"
+        },
+        "errors": {
+          "alreadyExists": "Słownik z taką nazwą już istnieje"
+        }
+      },
+      "create": {
+        "title": "Dodaj nowy sprzęt",
+        "basicInfo": "Podstawowe informacje",
+        "purchase": "Zakup",
+        "basicInfoDescription": "Dodaj podstawowe informacje o sprzęcie.",
+        "purchaseDescription": "Podaj informacje o zakupie.",
+        "category": "Kategoria",
+        "signature": "Sygnatura",
+        "name": "Nazwa",
+        "brand": "Marka",
+        "model": "Model",
+        "status": "Status",
+        "value": "Cena",
+        "location": "Lokalizacja",
+        "description": "Opis",
+        "serialNumber": "Numer seryjny",
+        "photo": "Zdjęcie",
+        "invoiceNumber": "Numer faktury",
+        "supplier": "Dostawca",
+        "purchaseDate": "Data zakupu",
+        "warrantyDuration": "Okres gwarancji",
+        "leaseDuration": "Okres leasingu",
+        "submit": "Zapisz i zakończ",
+        "cancel": "Anuluj",
+        "goBack": "Wróć",
+        "goNext": "Dalej",
+        "statusLabels": {
+          "working": "Działający",
+          "broken": "Uszkodzony",
+          "in_service": "W serwisie",
+          "archived": "Zarchiwizowany"
+        },
+        "errors": {
+          "alreadyExistsBySignature": "Sprzęt z taką sygnaturą już istnieje",
+          "alreadyExistsBySerial": "Sprzęt z takim numerem seryjnym już istnieje"
+        }
+      },
+      "general": {
+        "title": "Sprzęt",
+        "basicInfo": "Podstawowe informacje",
+        "purchase": "Zakup",
+        "basicInfoDescription": "Dodaj podstawowe informacje o sprzęcie.",
+        "purchaseDescription": "Podaj informacje o zakupie.",
+        "category": "Kategoria",
+        "signature": "Sygnatura",
+        "name": "Nazwa",
+        "brand": "Marka",
+        "model": "Model",
+        "status": "Status",
+        "value": "Cena",
+        "location": "Lokalizacja",
+        "description": "Opis",
+        "serialNumber": "Numer seryjny",
+        "photo": "Zdjęcie",
+        "invoiceNumber": "Numer faktury",
+        "supplier": "Dostawca",
+        "purchaseDate": "Data zakupu",
+        "warrantyDuration": "Okres gwarancji",
+        "leaseDuration": "Okres leasingu",
+        "equipmentPhotoAlt": "Zdjęcie sprzętu",
+        "errors": {
+          "alreadyExistsBySignature": "Sprzęt z taką sygnaturą już istnieje",
+          "alreadyExistsBySerial": "Sprzęt z takim numerem seryjnym już istnieje"
+        }
+      },
+      "assignPage": {
+        "title": "Przypisz sprzęt",
+        "assignTo": "Przypisz do",
+        "search": "Szukaj",
+        "equipmentAlreadyAssigned": "Niektóre sprzęty są już przypisane i zostaną przypisane do innego pracownika",
+        "assignChosenEquipment": "Wybierz pracownika, do którego chcesz przypisać ten sprzęt.",
+        "assignChosenEquipments": "Wybierz pracownika, do którego chcesz przypisać te sprzęty.",
+        "filters": {
+          "filters": "Filtry",
+          "active": "Aktywny",
+          "invited": "Zaproszony",
+          "inactive": "Nieaktywny",
+          "archived": "Zarchiwizowany"
+        }
+      },
+      "documents": {
+        "header": "Dokumenty",
+        "addFile": "Dodaj nowy plik",
+        "deleteFile": "Usuń plik",
+        "edit": {
+          "header": "Edytuj dokument"
+        }
+      }
+    },
+    "benefits": {
+      "title": "Benefity",
+      "addNew": "Dodaj nowy",
+      "search": "Szukaj",
+      "searchBenefits": "szukaj benefitów",
+      "edit": "Edytuj",
+      "delete": "Usuń",
+      "create": {
+        "title": "Dodaj nowy benefit",
+        "editTitle": "Edytuj benefit",
+        "name": "Nazwa",
+        "namePlaceholder": "Wprowadź nazwę benefit",
+        "description": "Opis",
+        "descriptionPlaceholder": "Wprowadź opis (opcjonalnie)",
+        "save": "Zapisz",
+        "cancel": "Anuluj",
+        "success": "Benefit został utworzony pomyślnie"
+      },
+      "delete": {
+        "success": "Benefit został usunięty pomyślnie"
+      }
+    },
+    "documents": {
+      "title": "Dokumenty",
+      "addFile": "Dodaj nowy plik",
+      "addFileDescription": "Dodaj nowy plik lub pliki. Możesz podać własną nazwę, wybrać kategorię i ustawić datę ważności — lub pozostawić domyślne ustawienia.",
+      "options": "Opcje",
+      "menu": "Menu dokumentów",
+      "expiration": "Ważność",
+      "menuCategories": "Kategorie",
+      "search": "Szukaj",
+      "edit": "Edytuj",
+      "delete": "Usuń",
+      "add": {
+        "category": "Kategoria",
+        "addFiles": "Dodaj nowe pliki",
+        "submit": "Wyślij",
+        "goBack": "Wróć",
+        "description": "Opis",
+        "infoDescription": "To pole jest dostępne tylko dla pojedynczego pliku.",
+        "expirationDate": "Data ważności"
+      },
+      "categories": {
+        "add": {
+          "cta": "Dodaj nową kategorię",
+          "heading": "Dodaj kategorię",
+          "name": "Nazwa kategorii",
+          "save": "Zapisz",
+          "cancel": "Anuluj"
+        },
+        "delete": {
+          "cta": "Usuń kategorie",
+          "heading": "Usuń kategorie",
+          "description": "Czy na pewno chcesz usunąć wybrane kategorie?",
+          "save": "Tak, usuń",
+          "cancel": "Anuluj"
+        }
+      },
+      "editModal": {
+        "category": "Kategoria",
+        "submit": "Zapisz",
+        "cancel": "Anuluj",
+        "description": "Opis",
+        "editInfoDescription": "Dostępne tylko przy edycji pojedynczego pliku",
+        "updateArchivedError": "Nie można edytować zarchiwizowanych dokumentów",
+        "expirationDate": "Data wygaśnięcia",
+        "archivedOmitted": "Zarchiwizowane dokumenty zostaną pominięte"
+      },
+      "filters": {
+        "category": "Kategoria",
+        "status": "Status",
+        "filters": "Filtry",
+        "assigned": "Przypisany",
+        "free": "Wolny",
+        "active": "Aktywny",
+        "expiringSoon": "Traci ważność",
+        "expired": "Nieważny",
+        "archived": "Zarchiwizowany",
+        "title": "Filtry",
+        "all": "Wszystkie",
+        "employee": "Pracownik",
+        "equipment": "Sprzęt"
+      }
+    }
+  },
+  "settings": {
+    "dangerView": {
+      "danger": "Niebezpieczne",
+      "subdomain": "Poddomena",
+      "subdomainDescription": "Zmiana poddomeny spowoduje wylogowanie z systemu",
+      "deleteOrganization": "Usuń organizację",
+      "deleteOrganizationDescription": "Jeśli chcesz całkowicie usunąć swoją organizację z systemu, użyj tej opcji.",
+      "deleteOrganizationAccept": "Rozumiem, że usunięcie konta spowoduje również usunięcie bazy danych, a ta czynność jest nieodwracalna.",
+      "deleteCta": "Usuń organizację",
+      "cancelCta": "Wróć",
+      "modal": {
+        "header": "Usuń organizację",
+        "content1": "Czy na pewno chcesz usunąć całe konto firmowe?",
+        "content2": "Usunięcie organizacji spowoduje również usunięcie bazy danych, a ta czynność jest nieodwracalna."
+      },
+      "saveSubdomainCta": "Zmień poddomenę",
+      "cancelSubdomainCta": "Anuluj"
+    },
+    "generalView": {
+      "applicationSettings": "Ustawienia aplikacji",
+      "language": "Język",
+      "save": "Zapisz",
+      "cancel": "Anuluj"
+    },
+    "changePasswordView": {
+      "changePassword": "Zmień hasło",
+      "oldPassword": "Stare hasło",
+      "newPassword": "Nowe hasło",
+      "confirmPassword": "Potwierdź hasło",
+      "save": "Zapisz"
+    },
+    "update": {
+      "success": "Ustawienia zaktualizowane pomyślnie",
+      "changePassword": {
+        "success": "Hasło zostało zmienione pomyślnie"
+      }
+    }
+  },
+  "modal": {
+    "header": {
+      "delete": "Usuń",
+      "edit": "Edytuj",
+      "update": "Aktualizuj",
+      "deleteEntry": "Usuń {count, plural, =1 {wpis} other {wpisy}}",
+      "assignEquipment": "Przypisz sprzęt",
+      "unassignEquipment": "Odepnij sprzęt",
+      "changeStatus": "Zmień status",
+      "archiveEquipment": "Zarchiwizuj sprzęt",
+      "absenceApproveConfirm": "Czy jesteś pewien że chcesz zaakceptować nieobecność?",
+      "absenceRejectConfirm": "Czy jesteś pewien że chcesz odrzucić nieobecność?",
+      "absenceBulkApproval": "Zaakceptuj wszystkie wybrane nieobecności",
+      "absenceBulkRejection": "Odrzuć wszystkie wybrane nieobecności",
+      "deleteDocuments": "Usuń {count, plural, =1 {dokument} other {dokumenty}}"
+    },
+    "content": {
+      "deleteEarnings": "Czy na pewno chcesz usunąć ten zarobek?",
+      "deleteEntry": "Czy na pewno chcesz usunąć {count, plural, =1 {ten wpis} other {# wpisów}}?",
+      "deleteAllEntries": "Czy na pewno chcesz usunąć wszystkie wpisy?",
+      "assignEquipment": "Niektóre z wybranych sprzętów są już przypisane do pracowników. Czy na pewno chcesz przypisać ten sprzęt innemu pracownikowi?",
+      "unassignEquipment": "Czy na pewno chcesz odpiąć {count, plural, =1 {ten sprzęt od pracownika} other {te sprzęty od pracowników}}?",
+      "changeStatus": "Zmień status wybranego sprzętu.",
+      "archiveEquipment": "Czy na pewno zarchiwizować {count, plural, =1 {wybrany sprzęt} other {wybrane sprzęty}}?",
+      "deleteDocuments": "Czy jesteś pewien, że chcesz usunąć {count, plural, =1 {zaznaczony dokument} other {zaznaczone dokumenty}}?",
+      "absenceApproveConfirm": "Pracownik był/a {count, plural, =1 {poinformowany/a o odrzuceniu nieobecności} other {poinformowany/a o odrzuceniu nieobecności # dni temu}}.",
+      "absenceRejectConfirm": "Pracownik był/a {count, plural, =1 {poinformowany/a o zaakceptowaniu nieobecności} other {poinformowany/a o zaakceptowaniu nieobecności # dni temu}}.",
+      "absenceBulkApproval": "Czy jesteś pewien, że chcesz zaakceptować wszystkie zaznaczone nieobecności?",
+      "absenceBulkRejection": "Czy jesteś pewien, że chcesz odrzucić wszystkie zaznaczone nieobecności?"
+    }
+  },
+  "earnings": {
+    "netIncome": "netto.",
+    "amount": "Kwota",
+    "update": "Aktualizuj wynagrodzenie pracownika",
+    "edit": "Edytuj wpis wynagrodzenia pracownika",
+    "delete": "Usuń wpis wynagrodzenia pracownika"
+  },
+  "documents": {
+    "table": "Tabela dokumentów",
+    "noFiles": "Brak plików",
+    "addFile": "Dodaj nowe pliki",
+    "dragAndDrop": "Przeciągnij i upuść pliki tutaj",
+    "or": "lub"
+  },
+  "table": {
+    "headers": {
+      "description": "Opis",
+      "expDate": "Data ważności",
+      "lastName": "Nazwisko",
+      "firstName": "Imię",
+      "role": "Stanowisko",
+      "phone": "Numer telefonu",
+      "email": "Email",
+      "status": "Status",
+      "signature": "Sygnatura",
+      "category": "Kategoria",
+      "name": "Nazwa",
+      "note": "Notatka",
+      "assigned": "Przypisany",
+      "id": "ID",
+      "brandAndModel": "Marka i model",
+      "workOrderAssignees": "Pracownicy",
+      "date": "Data",
+      "extension": "Rozszerzenie",
+      "createdAt": "Data przesłania",
+      "requestedAt": "Data zapytania",
+      "dateRange": "Od do",
+      "type": "Typ",
+      "location": "Lokalizacja",
+      "equipment": "Sprzęt",
+      "createdBy": "Utworzone przez",
+      "notes": "Zapytanie od klienta",
+      "contact": "Osoba kontaktowa",
+      "client": "Klient",
+      "actions": "Opcje",
+      "startDate": "Data rozpoczęcia"
+    }
+  },
+  "tags": {
+    "current": "Obecny"
+  },
+  "noResults": "Przepraszamy, nie znaleziono wyników",
+  "generateCVModal": {
+    "header": "Wybierz jedną z opcji",
+    "anonymous": "Ukryj imię",
+    "public": "Pokaż imię"
+  },
+  "navigation": {
+    "expand": "Rozwiń menu",
+    "absence": "Nieobecność",
+    "fold": "Zwiń menu",
+    "employees": "PRACOWNICY",
+    "employeesList": "Lista pracowników",
+    "dashboard": "Panel główny",
+    "hamburger": "Przełącznik menu mobilnego",
+    "mobileMenu": "Menu nawigacji mobilnej",
+    "general": "Ogólne",
+    "earnings": "Wynagrodzenie",
+    "skills": "Umiejętności",
+    "documents": "Dokumenty",
+    "settings": "Ustawienia",
+    "addNewEmployee": "Dodaj nowego pracownika",
+    "changePassword": "Zmień hasło",
+    "danger": "Niebezpieczne",
+    "company": "Firma",
+    "goBack": "Wróć",
+    "myProfile": "Mój profil",
+    "equipment": "Sprzęt",
+    "changelog": "Historia zmian",
+    "category": "Kategoria",
+    "location": "Lokalizacja",
+    "absences": "Nieobecności",
+    "requests": "Wnioski urlopowe",
+    "ical": "Synchronizacja kalendarza",
+    "availability": "Dostępność",
+    "dayOffSettings": "Ustawienia dni wolnych",
+    "jobManagement": "Zarządzanie zadaniami",
+    "scheduleWork": "Planowanie pracy",
+    "workOrders": "Zlecenia",
+    "clients": "Klienci",
+    "orderList": "Lista zleceń",
+    "calendar": "Kalendarz",
+    "map": "Mapa",
+    "codegen": "Generuj QR",
+    "inquiry": "Zapytania"
+  },
+  "breadcrumbs": {
+    "work-orders": {
+      "base": "Zlecenia",
+      "order-list": "Lista zleceń",
+      "calendar": "Kalendarz",
+      "map": "Mapa",
+      "general": "Profil",
+      "changelog": "Historia zmian"
+    },
+    "clients": {
+      "base": "Klienci",
+      "add": "Dodaj nowego klienta",
+      "general": "Profil",
+      "work-orders": {
+        "base": "Zlecenia"
+      }
+    },
+    "codegen": {
+      "base": "Generuj QR",
+      "create": "Utwórz QR",
+      "print": "Drukuj QR"
+    },
+    "inquiry": {
+      "base": "Zapytania",
+      "general": "Ogólne"
+    },
+    "schedule-work": {
+      "base": "Planowanie pracy",
+      "add": "Dodaj nowe",
+      "add-client": "Dodaj klienta"
+    },
+    "dashboard": {
+      "base": "Panel główny"
+    },
+    "employees": {
+      "base": "Pracownicy",
+      "general": "Ogólne",
+      "skills": "Umiejętności",
+      "create": "Nowy pracownik",
+      "earnings": {
+        "base": "Wynagrodzenie",
+        "update": "Aktualizacja wynagrodzenia"
+      },
+      "absence": {
+        "base": "Nieobecności",
+        "request": "Zgłoś nieobecność",
+        "availability": "Dostępność",
+        "ical": "Synchronizacja kalendarza",
+        "settings": {
+          "base": "Ustawienia dnia wolnego",
+          "add": "Dodaj"
+        }
+      },
+      "documents": {
+        "base": "Dokumenty"
+      },
+      "equipment": {
+        "base": "Sprzęt",
+        "documents": {
+          "edit": "Edytuj sprzęt"
+        },
+        "assign": "Przypisz",
+        "unassign": "Odepnij"
+      },
+      "benefits": {
+        "title": "Benefity",
+        "assign": "Przypisz",
+        "unassign": {
+          "label": "Odepnij",
+          "success": "Benefit został odpięty pomyślnie"
+        },
+        "searchBenefits": "szukaj benefitów"
+      },
+      "feedback": {
+        "base": "Feedback",
+        "schedule": "Zaplanuj feedback",
+        "edit": "Edytuj feedback"
+      }
+    },
+    "company": {
+      "base": "Firma",
+      "general": "Ogólne",
+      "absences": {
+        "base": "Nieobecności",
+        "request": "Zgłoś nieobecność",
+        "availability": "Dostępność",
+        "ical": "Synchronizacja kalendarza",
+        "settings": {
+          "base": "Ustawienia dnia wolnego",
+          "add": "Dodaj"
+        }
+      },
+      "equipment": {
+        "base": "Sprzęt",
+        "create": "Nowy sprzęt",
+        "duplicate": "Duplikuj sprzęt",
+        "general": "Ogólne",
+        "assign": "Przypisz",
+        "unassign-employee": "Odepnij sprzęt",
+        "assign-employee": "Przypisz sprzęt",
+        "documents": {
+          "base": "Dokumenty"
+        },
+        "assign-equipment": "Przypisz sprzęt",
+        "update": "Aktualizuj",
+        "archive": "Archiwizuj",
+        "dictionaries": {
+          "base": "Słowniki",
+          "category": "Kategorie",
+          "location": "Lokalizacje"
+        }
+      },
+      "benefits": {
+        "base": "Benefity",
+        "edit": "Edytuj benefit",
+        "assign": "Przypisz",
+        "unassign": "Odepnij"
+      },
+      "documents": {
+        "edit": "Edytuj",
+        "base": "Dokumenty",
+        "add": "Dodaj plik",
+        "categories": "Zarządzaj kategoriami"
+      },
+      "dictionaries": {
+        "base": "Słowniki",
+        "category": "Kategorie",
+        "location": "Lokacje"
+      }
+    },
+    "settings": {
+      "base": "Ustawienia",
+      "general": "Ogólne",
+      "danger": "Niebezpieczne"
+    }
+  },
+  "employmentTypes": {
+    "employmentContract": "Umowa o pracę",
+    "workContract": "Umowa o dzieło",
+    "commissionContract": "Umowa zlecenie",
+    "b2bContract": "B2B",
+    "agencyContract": "Umowa agencyjna",
+    "other": "Inne"
+  },
+  "sortMenu": {
+    "sortMenu": "Menu sortowania",
+    "asc": "Rosnąco",
+    "desc": "Malejąco",
+    "firstName": "Imię {dir}",
+    "lastName": "Nazwisko {dir}",
+    "expDate": "Data ważności {dir}",
+    "name": "Nazwa {dir}",
+    "email": "Email {dir}",
+    "signature": "Sygnatura {dir}",
+    "description": "Opis {dir}",
+    "requestedAt": "Data zapytania {dir}",
+    "startDate": "Data od {dir}",
+    "endDate": "Data do {dir}",
+    "type": "Rodzaj {dir}"
+  },
+  "employeeMenu": {
+    "actions": "Akcje",
+    "options": "Opcje",
+    "employeeItemMenu": "Menu pracownika {firstName} {lastName}",
+    "employeeBulkMenu": "Akcje dla wybranych pracowników",
+    "invite": "Zaproś",
+    "download": "Generuj CV",
+    "offboarding": "Archiwizuj",
+    "mail": "Email",
+    "assign": "Przyznaj rolę dostępu",
+    "createEmployee": "Utwórz pracownika",
+    "archive": "Archiwizuj",
+    "generateCV": "Generuj CV",
+    "deactivate": "Dezaktywuj"
+  },
+  "documentsMenu": {
+    "options": "Opcje",
+    "edit": "Edytuj dokument",
+    "view": "Podgląd dokumentu",
+    "download": "Pobierz dokument",
+    "documentItemMenu": "Menu dokumentu {description}",
+    "delete": "Usuń dokument",
+    "open": "Otwórz dokument"
+  },
+  "formSteps": {
+    "basicInformation": "Podstawowe informacje",
+    "basicInformationInfo": "Dodaj podstawowe informacje o pracowniku.",
+    "partnership": "Współpraca",
+    "partnershipInfo": "Wprowadź informacje o współpracy.",
+    "contactDetails": "Dane kontaktowe",
+    "contactDetailsInfo": "Wprowadź dane kontaktowe",
+    "other": "Inne",
+    "otherInfo": "Wprowadź dodatkowe informacje",
+    "title": "Krok formularza {title}",
+    "purchase": "Zakup"
+  },
+  "changePassword": {
+    "title": "Zmień hasło"
+  },
+  "createEmployee": {
+    "role": "Stanowisko",
+    "holiday": "Urlop (w sumie)",
+    "holidayDescription": "Liczba dni urlopowych w roku",
+    "firstYearHoliday": "Urlop (rok przyjęcia)",
+    "firstYearHolidayDescription": "Liczba dni urlopowych w roku przyjęcia",
+    "employmentType": "Rodzaj zatrudnienia",
+    "taxId": "NIP",
+    "bankAccount": "Numer konta bankowego",
+    "company": "Firma",
+    "startingDate": "Data rozpoczęcia"
+  },
+  "toasts": {
+    "inquiry": {
+      "success": "Zapytanie wysłane pomyślnie"
+    },
+    "client": {
+      "update": {
+        "success": "Klient zaktualizowany pomyślnie"
+      },
+      "archive": {
+        "success": "Klient zarchiwizowany pomyślnie"
+      }
+    },
+    "employees": {
+      "create": {
+        "success": "Pracownik utworzony pomyślnie"
+      },
+      "archive": {
+        "success": "Pracownik zarchiwizowany pomyślnie"
+      },
+      "invite": {
+        "success": "Zaproszenie wysłane pomyślnie"
+      },
+      "general": {
+        "basicInfo": {
+          "success": "Aktualizacja zakończona pomyślnie"
+        },
+        "partnershipInfo": {
+          "success": "Aktualizacja zakończona pomyślnie"
+        },
+        "contactInfo": {
+          "success": "Aktualizacja zakończona pomyślnie"
+        },
+        "otherInfo": {
+          "success": "Aktualizacja zakończona pomyślnie"
+        }
+      },
+      "documents": {
+        "delete": {
+          "success": "Usunięcie zakończone pomyślnie"
+        },
+        "upload": {
+          "success": "Przesyłanie zakończone pomyślnie"
+        }
+      },
+      "feedback": {
+        "update": {
+          "success": "Feedback zaktualizowany pomyślnie"
+        },
+        "create": {
+          "success": "Feedback utworzony pomyślnie"
+        },
+        "delete": {
+          "success": "Feedback usunięty pomyślnie"
+        }
+      },
+      "earnings": {
+        "update": { "success": "Aktualizacja zakończona pomyślnie" },
+        "edit": { "success": "Edycja zakończona pomyślnie" },
+        "delete": { "success": "Usunięcie zakończone pomyślnie" }
+      },
+      "skills": {
+        "updateBasicInfo": { "success": "Aktualizacja zakończona pomyślnie" },
+        "updateCareer": { "success": "Aktualizacja zakończona pomyślnie" },
+        "updateSkills": { "success": "Aktualizacja zakończona pomyślnie" },
+        "addProject": { "success": "Dodanie wpisu zakończone pomyślnie" },
+        "updateProject": { "success": "Aktualizacja zakończona pomyślnie" },
+        "deleteProject": { "success": "Usunięcie zakończone pomyślnie" },
+        "addEmploymentHistory": { "success": "Dodanie wpisu zakończone pomyślnie" },
+        "updateEmploymentHistory": { "success": "Aktualizacja zakończona pomyślnie" },
+        "deleteEmploymentHistory": { "success": "Usunięcie zakończone pomyślnie" },
+        "addEducation": { "success": "Dodanie wpisu zakończone pomyślnie" },
+        "updateEducation": { "success": "Aktualizacja zakończona pomyślnie" },
+        "deleteEducation": { "success": "Usunięcie zakończone pomyślnie" },
+        "addCourse": { "success": "Dodanie wpisu zakończone pomyślnie" },
+        "updateCourse": { "success": "Aktualizacja zakończona pomyślnie" },
+        "deleteCourse": { "success": "Usunięcie zakończone pomyślnie" }
+      }
+    },
+    "dictionaries": {
+      "create": { "success": "Utworzono pomyślnie" },
+      "delete": { "success": "Usunięto pomyślnie" }
+    },
+    "company": {
+      "basicInfo": {
+        "success": "Aktualizacja zakończona pomyślnie"
+      },
+      "benefits": {
+        "delete": {
+          "success": "Benefit został usunięty pomyślnie"
+        },
+        "update": {
+          "success": "Benefit został zaktualizowany pomyślnie"
+        },
+        "assign": {
+          "success": "Benefity zostały przypisane pomyślnie"
+        }
+      }
+    },
+    "settings": {
+      "update": {
+        "success": "Aktualizacja zakończona pomyślnie"
+      }
+    },
+    "equipment": {
+      "update": {
+        "success": "Aktualizacja zakończona pomyślnie"
+      },
+      "assign": {
+        "success": "Sprzęt przypisany"
+      },
+      "documents": {
+        "delete": {
+          "success": "Usunięcie zakończone pomyślnie"
+        },
+        "upload": {
+          "success": "Przesyłanie zakończone pomyślnie"
+        }
+      }
+    },
+    "absence": {
+      "request": {
+        "success": "Wniosek wysłany pomyślnie"
+      },
+      "create": {
+        "success": "Nieobecność utworzona pomyślnie"
+      },
+      "approve": {
+        "success": "Wniosek zaakceptowany pomyślnie"
+      },
+      "reject": {
+        "success": "Wniosek odrzucony pomyślnie"
+      },
+      "settings": {
+        "add": {
+          "success": "Dodawanie zakończone pomyślnie"
+        },
+        "delete": {
+          "success": "Usuwanie zakończone pomyślnie"
+        }
+      },
+      "ical": {
+        "copyToClipboard": "Skopiowano do schowka"
+      }
+    },
+    "map": {
+      "addressNotFound": "Nie znaleziono adresu"
+    },
+    "workOrder": {
+      "create": {
+        "success": "Zlecenie utworzone pomyślnie"
+      },
+      "cancel": {
+        "success": "Zlecenia anulowane pomyślnie"
+      },
+      "changeAssignees": {
+        "success": "Pracownicy zlecenia zmienieni pomyślnie"
+      },
+      "changeDate": {
+        "success": "Data zlecenia zmieniona pomyślnie"
+      },
+      "changeStatus": {
+        "success": "Status zlecenia zmieniony pomyślnie"
+      },
+      "edit": {
+        "success": "Zlecenie zaktualizowane pomyślnie"
+      }
+    }
+  },
+  "pagination": {
+    "currentPage": "Bieżąca strona {page}",
+    "goToPage": "Przejdź do strony {page}",
+    "goToNext": "Przejdź do następnej strony",
+    "goToPrev": "Przejdź do poprzedniej strony",
+    "itemsPerPage": "Elementów na stronę"
+  },
+  "employeeSections": {
+    "basicInfo": "Podstawowe informacje",
+    "partnership": "Współpraca",
+    "contact": "Kontakt",
+    "other": "Inne",
+    "projects": "Projekty",
+    "employmentHistory": "Historia zatrudnienia",
+    "education": "Wykształcenie",
+    "courses": "Kursy",
+    "documents": "Dokumenty",
+    "earnings": "Wynagrodzenie"
+  },
+  "absences": {
+    "header": "Nieobecności",
+    "pendingRequests": "Oczekujące wnioski",
+    "requestLeave": "Zgłoś nieobecność",
+    "availabilityThisMonth": "Dostępność w tym miesiącu",
+    "usedLeaveDays": "Użyte dni urlopowe",
+    "sickAbsences": "Nieobecności chorobowe",
+    "personalLeave": "Nieobecności inne",
+    "approve": "Akceptuj",
+    "reject": "Odrzuć",
+    "actions": "Opcje",
+    "add": "Dodaj nieobecność",
+    "delete": "Usuń",
+    "search": "Szukaj",
+    "filters": {
+      "label": "Filtry",
+      "type": "Typ",
+      "status": "Status"
+    },
+    "type": {
+      "holiday": "Urlop",
+      "sick": "Nieobecności chorobowe",
+      "personal": "Nieobecności inne",
+      "global": "Dzień wolny firmy"
+    },
+    "status": {
+      "approved": "Zaakceptowane",
+      "pending": "Oczekuje",
+      "rejected": "Odrzucone"
+    },
+    "request": {
+      "employee": "Pracownik",
+      "header": "Zgłoś nieobecność",
+      "subheader": "Dodaj szczegóły nieobecności",
+      "dateFrom": "Data od",
+      "dateTo": "Data do",
+      "type": "Typ nieobecności",
+      "workingDays": "Dni robocze",
+      "halfDay": "Pół dnia",
+      "description": "Opis",
+      "add": "Dodaj",
+      "cancel": "Anuluj",
+      "types": {
+        "holiday": "Urlop",
+        "sick": "Nieobecności chorobowe",
+        "personal": "Nieobecności inne"
+      }
+    },
+    "availability": {
+      "header": "Dostępność",
+      "availability": "Dostępność",
+      "listTitle": "Dostępność pracowników",
+      "workdays": "Dni robocze",
+      "days": "{number} dni",
+      "prevMonth": "Poprzedni miesiąc",
+      "nextMonth": "Następny miesiąc"
+    },
+    "ical": {
+      "icalFeed": "Kalendarz iCal",
+      "calendarExportDescription": "Istnieje pojedynczy kalendarz iCal dla wszystkich pracowników, który eksportuje wszystkie nieobecności, w tym urlopy, wakacje i nieobecności chorobowe. Ten link iCal można zaimportować do oprogramowania do zarządzania kalendarzem, aby śledzić dostępność pracowników. Dane o nieobecności są odświeżane co 15 minut.",
+      "linkToExportCalendar": "Link do eksportu kalendarza",
+      "copyToClipboard": "Skopiuj do schowka"
+    },
+    "settings": {
+      "header": "Dzień wolny",
+      "add": "Dodaj dzień wolny",
+      "delete": "Usuń dzień wolny",
+      "actions": "Opcje",
+      "create": {
+        "header": "Dodaj dzień wolny",
+        "subheader": "Dodaj szczegóły dnia wolnego",
+        "dateFrom": "Data od",
+        "dateTo": "Data do",
+        "workingDays": "Dni robocze",
+        "halfDay": "Pół dnia",
+        "description": "Opis",
+        "add": "Dodaj",
+        "cancel": "Anuluj",
+        "errors": {
+          "dateRangeOverlapsExistingAbsences": "Wybrany zakres dat nie może nakładać się na istniejące globalne nieobecności"
+        }
+      }
+    }
+  },
+  "labels": {
+    "filesList": "Lista plików"
+  },
+  "months": {
+    "1": "Styczeń",
+    "2": "Luty",
+    "3": "Marzec",
+    "4": "Kwiecień",
+    "5": "Maj",
+    "6": "Czerwiec",
+    "7": "Lipiec",
+    "8": "Sierpień",
+    "9": "Wrzesień",
+    "10": "Październik",
+    "11": "Listopad",
+    "12": "Grudzień"
+  },
+  "legend": {
+    "holiday": "Urlop",
+    "sick": "Nieobecności chorobowe",
+    "personal": "Nieobecności inne",
+    "global": "Dzień wolny firmy"
+  },
+  "workOrders": {
+    "header": "Zlecenia",
+    "searchSkill": "Szukaj umiejętności",
+    "searchEmployee": "Szukaj pracownika",
+    "searchAddress": "Szukaj adresu",
+    "selectDate": "Data",
+    "selectTime": "Czas",
+    "selectDuration": "Czas trwania",
+    "schedule": "Zaplanuj",
+    "filters": {
+      "label": "Filtry",
+      "date": "Data",
+      "dateFrom": "Data od",
+      "dateTo": "Data do",
+      "status": "Status"
+    },
+    "status": {
+      "completed": "Zakończone",
+      "in_progress": "W trakcie",
+      "on_hold": "Wstrzymane",
+      "cancelled": "Anulowane",
+      "created": "Zaplanowane"
+    },
+    "actions": {
+      "actions": "Opcje",
+      "create": "Utwórz nowe zlecenie",
+      "changeAssignees": "Zmień przypisanych",
+      "changeDate": "Zmień datę/czas",
+      "changeStatus": "Zmień status",
+      "cancel": "Anuluj"
+    },
+    "cancel": {
+      "title": "Anuluj zlecenie",
+      "descriptionSelected": "Czy na pewno chcesz anulować <bold>{count, plural, =1 {wybrane zadanie} other {# wybranych zadań}}</bold>?",
+      "descriptionAll": "Czy na pewno chcesz anulować <bold>wszystkie zadania</bold>?",
+      "yes": "Tak, anuluj",
+      "no": "Nie"
+    },
+    "changeAssignees": {
+      "assignees": "Pracownicy",
+      "title": "Zmień przypisanych",
+      "save": "Zapisz",
+      "cancel": "Anuluj"
+    },
+    "changeDate": {
+      "title": "Zmień datę/czas",
+      "descriptionSelected": "Czy na pewno chcesz zmienić datę <bold>{count, plural, =1 {wybranego zadania} other {# wybranych zadań}}</bold>?",
+      "descriptionAll": "Czy na pewno chcesz zmienić daty <bold>wszystkich zadań</bold>?",
+      "date": "Data",
+      "time": "Czas",
+      "save": "Zapisz",
+      "cancel": "Anuluj"
+    },
+    "changeStatus": {
+      "title": "Zmień status",
+      "descriptionSelected": "Czy na pewno chcesz zmienić status <bold>{count, plural, =1 {wybranego zadania} other {# wybranych zadań}}</bold>?",
+      "descriptionAll": "Czy na pewno chcesz zmienić status <bold>wszystkich zadań</bold>?",
+      "status": "Status",
+      "description": "Opis",
+      "attachment": "Załącznik",
+      "save": "Zapisz",
+      "cancel": "Anuluj",
+      "statuses": {
+        "scheduled": "Zaplanowane",
+        "inProgress": "W trakcie",
+        "onHold": "Wstrzymane",
+        "completed": "Zakończone",
+        "cancelled": "Anulowane"
+      }
+    },
+    "general": {
+      "title": "Szczegóły zlecenia",
+      "name": "Nazwa",
+      "client": "Klient",
+      "date": "Data",
+      "phone": "Telefon",
+      "contactPerson": "Osoba kontaktowa",
+      "address1": "Pełny adres",
+      "address2": "Numer mieszkania",
+      "costEstimate": "Szacowany koszt",
+      "status": "Status",
+      "note": "Notatka",
+      "assignees": "Przypisani pracownicy",
+      "owner": "Właściciel",
+      "duration": "Czas trwania",
+      "time": "Czas",
+      "cancel": "Anuluj",
+      "save": "Zapisz"
+    },
+    "changelog": {
+      "header": "Historia zmian",
+      "update": "Aktualizuj",
+      "loadMore": "Załaduj więcej",
+      "attachment": "Załącznik",
+      "type": {
+        "created": "Utworzono",
+        "updated": "Zaktualizowano",
+        "status_changed": "Zmieniono status",
+        "comment_added": "Dodano komentarz",
+        "attachment_added": "Dodano załącznik",
+        "assignees_updated": "Zaktualizowano przypisanych"
+      }
+    },
+    "map": {
+      "notRecognized": "Nie rozpoznano adresu",
+      "popup": {
+        "assignees": "i {count, plural, =1 {# inny} other {# innych}}",
+        "status": {
+          "in_progress": "W trakcie",
+          "on_hold": "Wstrzymane",
+          "completed": "Zakończone",
+          "cancelled": "Anulowane",
+          "created": "Utworzone"
+        }
+      }
+    }
+  },
+  "weekCalendar": {
+    "goToPrevWeek": "Poprzedni tydzień",
+    "goToNextWeek": "Następny tydzień",
+    "goToNextDay": "Następny dzień",
+    "goToPrevDay": "Poprzedni dzień",
+    "goToToday": "Dzisiaj",
+    "today": "Dzisiaj",
+    "selectDate": "Wybierz datę",
+    "selectedDate": "Wybrana data",
+    "others": "i {count} innych",
+    "dayOff": "Dzień wolny",
+    "companyOff": "Dzień wolny firmy",
+    "halfDayOff": "Pół dnia wolnego"
+  },
+  "addressForm": {
+    "label": "Szukaj adresu"
+  },
+  "scheduleWork": {
+    "header": "Zaplanuj nowe zlecenie",
+    "onlyOnDesktop": "Dostępne tylko na komputerze",
+    "hideMap": "Ukryj mapę",
+    "showMap": "Pokaż mapę",
+    "setPinOnMap": "Ustaw na mapie",
+    "addNew": {
+      "clientName": "Nazwa klienta",
+      "searchForEmployees": "Szukaj pracownika",
+      "searchForSkill": "Szukaj umiejętności",
+      "searchForAddress": "Szukaj adresu",
+      "taxId": "NIP",
+      "email": "Email",
+      "header": "Zaplanuj nowe zlecenie",
+      "addClient": "Wybierz istniejącego klienta lub dodaj nowego",
+      "workOrderDetails": "Dodaj podstawowe informacje o nowym zleceniu",
+      "client": "Klient",
+      "name": "Nazwa zlecenia",
+      "assignees": "Pracownicy",
+      "date": "Data",
+      "time": {
+        "base": "Czas",
+        "label": "Czas",
+        "placeholder": "Czas"
+      },
+      "duration": {
+        "base": "Czas trwania",
+        "label": "Czas trwania",
+        "placeholder": "Czas trwania"
+      },
+      "address1": "Pełny adres",
+      "address2": "Numer mieszkania",
+      "phone": "Telefon",
+      "contactPerson": "Osoba kontaktowa",
+      "costEstimate": "Szacowany koszt",
+      "note": "Notatka",
+      "saveClient": "Zapisz klienta",
+      "cancel": "Anuluj",
+      "newClient": "Nowy klient",
+      "save": "Zapisz",
+      "next": "Następny",
+      "back": "Wstecz",
+      "chosenClient": "Wybrany klient",
+      "schedule": "Zaplanuj",
+      "skills": "Umiejętności",
+      "employees": "Pracownicy",
+      "sendNotification": "Wyślij powiadomienie"
+    },
+    "addClient": {
+      "header": "Dodaj klienta"
+    }
+  },
+  "clients": {
+    "list": {
+      "header": "Klienci",
+      "search": "Szukaj",
+      "actions": {
+        "create": "Dodaj nowego klienta"
+      },
+      "filters": {
+        "label": "Filtry",
+        "status": "Status"
+      },
+      "statusLabels": {
+        "active": "Aktywny",
+        "archived": "Zarchiwizowany"
+      }
+    },
+    "actions": {
+      "create": "Nowy klient",
+      "archive": "Archiwizuj",
+      "options": "Opcje"
+    },
+    "modal": {
+      "archive": "Archiwizuj klienta",
+      "descriptionSelected": "Czy na pewno chcesz zarchiwizować <bold>{count, plural, =1 {wybranego klienta} other {# wybranych klientów}}</bold>?",
+      "descriptionAll": "Czy na pewno chcesz zmienić daty <bold>wszystkich klientów</bold>?",
+      "cancel": "Anuluj",
+      "withOrdersWarning": "Istnieją jeszcze aktywne zlecenia!"
+    },
+    "add": {
+      "header": "Dodaj nowego klienta",
+      "description": "Dodaj podstawowe informacje o nowym kliencie.",
+      "name": "Nazwa klienta",
+      "taxId": "NIP",
+      "email": "Email",
+      "phone": "Telefon",
+      "contactPerson": "Osoba kontaktowa",
+      "address1": "Pełny adres",
+      "address2": "Numer mieszkania",
+      "cancel": "Anuluj",
+      "save": "Zapisz"
+    },
+    "general": {
+      "basicInfo": "Podstawowe informacje",
+      "name": "Nazwa klienta",
+      "taxId": "NIP",
+      "address1": "Pełny adres",
+      "address2": "Numer mieszkania",
+      "contact": "Kontakt",
+      "email": "Email",
+      "phone": "Numer telefonu",
+      "contactPerson": "Osoba kontaktowa",
+      "cancel": "Anuluj",
+      "save": "Zapisz"
+    }
+  },
+  "shortcuts": {
+    "hour": "g",
+    "minute": "m"
+  },
+  "jobManagement": {
+    "codegen": {
+      "title": "Generuj QR",
+      "search": "Szukaj lokalizacji, sprzętu",
+      "addNew": "Dodaj nowy kod QR",
+      "archive": "Usuń wybrane kody",
+      "create": {
+        "title": "Utwórz kod QR",
+        "client": "Klient",
+        "selectClient": "Wybierz klienta",
+        "addClient": "Dodaj klienta"
+      },
+      "generating": "Generowanie kodu QR...",
+      "printQRCode": "Drukuj kod QR",
+      "fillFormGenerateQR": "Wypełnij formularz, aby wygenerować kod QR",
+      "qrCodeAfterSaving": "Kod QR pojawi się tutaj po zapisaniu",
+      "form": {
+        "name": "Nazwa",
+        "email": "Email",
+        "phone": "Telefon",
+        "location": "Lokalizacja",
+        "device": "Urządzenie",
+        "createdBy": "Utworzono przez",
+        "token": "Kod"
+      },
+      "ctaLabels": {
+        "cancel": "Anuluj",
+        "save_and_generate": "Zapisz i wygeneruj",
+        "close": "Zamknij",
+        "print": "Drukuj"
+      }
+    },
+    "inquiry": {
+      "title": "Zapytania",
+      "search": "Szukaj nazwy, emaila, telefonu, lokalizacji, sprzętu",
+      "addNew": "Dodaj nowe zapytanie",
+      "archive": "Usuń wybrane zapytania",
+      "filters": {
+        "label": "Filtry",
+        "status": "Status"
+      },
+      "status": {
+        "new": "Nowe",
+        "rejected": "Odrzucone",
+        "scheduled": "Zaplanowane"
+      },
+      "general": {
+        "label": "Szczegóły zapytania",
+        "name": "Nazwa",
+        "client": "Klient",
+        "createdAt": "Data przesłania",
+        "phone": "Numer telefonu",
+        "email": "Email",
+        "address": "Pełny adres",
+        "status": "Status",
+        "device": "Urządzenie",
+        "notes": "Notatka"
+      }
+    }
+  }
+}

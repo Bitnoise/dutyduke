@@ -1,0 +1,107 @@
+enum AccessRole {
+  OWNER
+  EMPLOYEE
+}
+
+// Resource types for permission system
+enum ResourceType {
+  EMPLOYEES
+  COMPANY_ABSENCES
+  COMPANY_DOCUMENTS
+  COMPANY_EQUIPMENT
+  COMPANY_BENEFITS
+  COMPANY_SETTINGS
+  EMPLOYEE_PROFILE
+  EMPLOYEE_DOCUMENTS
+  EMPLOYEE_EQUIPMENT
+  EMPLOYEE_ABSENCES
+  EMPLOYEE_FEEDBACK
+  EMPLOYEE_EARNINGS
+}
+
+// Permission actions
+enum PermissionAction {
+  VIEW
+  CREATE
+  EDIT
+  DELETE
+  ASSIGN
+  EXPORT
+}
+
+// Permission scope - ALL (company-wide) or SELF (own data only)
+enum PermissionScope {
+  ALL
+  SELF
+}
+
+model Identity {
+  id             String          @id @default(cuid())
+  email          String          @unique /// @encrypted
+  emailHash      String?         @unique /// @encryption:hash(email)
+  password       String /// @encrypted
+  identityAdmins IdentityAdmin[]
+  identityRole   IdentityRole[]
+}
+
+model IdentityAdmin {
+  adminId    String
+  identityId String
+  identity   Identity @relation(fields: [identityId], references: [id])
+
+  @@id([adminId, identityId])
+}
+
+// New: Custom roles table
+model Role {
+  id          String         @id @default(cuid())
+  name        String         // e.g., "Office Manager", "HR Specialist"
+  key         String         @unique // e.g., "office_manager" (for code reference), "OWNER" for system role
+  description String?
+  isSystem    Boolean        @default(false) // true for OWNER only
+  createdAt   DateTime       @default(now())
+  updatedAt   DateTime       @updatedAt
+
+  // Relations
+  permissions RolePermission[]
+  identities  IdentityRole[]
+
+  @@index([key])
+}
+
+// New: Permission granularity for resources
+model RolePermission {
+  id           String             @id @default(cuid())
+  roleId       String
+  resource     ResourceType
+  actions      PermissionAction[]
+  scope        PermissionScope    @default(ALL)  // ALL or SELF
+  fieldAccess  Json?              // For field-level permissions: { "earnings": false, "basicData": true }
+
+  role         Role               @relation(fields: [roleId], references: [id], onDelete: Cascade)
+
+  @@unique([roleId, resource])
+  @@index([roleId])
+}
+
+// Modified: Update IdentityRole to reference Role table
+model IdentityRole {
+  identityId String
+  roleId     String
+  identity   Identity     @relation(fields: [identityId], references: [id], onDelete: Cascade)
+  role       Role         @relation(fields: [roleId], references: [id], onDelete: Cascade)
+
+  @@id([identityId, roleId])
+  @@index([identityId])
+  @@index([roleId])
+}
+
+model ChangePasswordRequest {
+  id        String  @id @default(cuid())
+  email     String  @unique /// @encrypted
+  emailHash String? @unique /// @encryption:hash(email)
+  token     String
+
+  expiresAt DateTime
+  createdAt DateTime @default(now())
+}

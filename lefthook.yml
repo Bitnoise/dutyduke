@@ -1,0 +1,14 @@
+post-merge:
+  commands:
+    install-deps:
+      run: yarn install && yarn prisma:generate
+
+pre-commit:
+  parallel: true
+  commands:
+    eslint:
+      glob: '*.{js,ts,jsx,tsx}'
+      run: npx eslint {staged_files} --fix
+      stage_fixed: true
+    typescript:
+      run: npx tsc --pretty

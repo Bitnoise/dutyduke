@@ -1,0 +1,16 @@
+import { EMPLOYEE_SKILLS_ERROR_MESSAGES } from '@/api/hris/employees/errors';
+import { type UpdateEmploymentHistoryDto } from '@/api/hris/employees/model/dtos';
+import { type EmployeeSkillsRepository } from '@/api/hris/employees/model/repositories';
+import { ApiError, type CUID } from '@/shared';
+import { logger } from '@/shared/service/pino';
+
+export function updateEmploymentHistoryUseCase(repository: EmployeeSkillsRepository) {
+  return async (employmentHistoryId: CUID, employmentHistory: UpdateEmploymentHistoryDto) => {
+    try {
+      await repository.updateEmploymentHistory(employmentHistoryId, employmentHistory);
+    } catch (err) {
+      logger.info(err);
+      throw new ApiError(500, EMPLOYEE_SKILLS_ERROR_MESSAGES.EMPLOYMENT_HISTORY.ADD_FAILED);
+    }
+  };
+}

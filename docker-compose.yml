@@ -1,0 +1,35 @@
+volumes:
+  postgres-data-dutyduke:
+    driver: local
+
+services:
+  postgres:
+    build:
+      context: .
+      dockerfile: Dockerfile.postgis
+      args:
+        POSTGRES_DB: ${DB_NAME}
+        POSTGRES_USER: ${DB_USERNAME}
+        POSTGRES_PASSWORD: ${DB_PASSWORD}
+    env_file:
+      - .env
+    environment:
+      POSTGRES_DB: ${DB_NAME}
+      POSTGRES_USER: ${DB_USERNAME}
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+    ports:
+      - ${DB_PORT:-5432}:5432
+    restart: unless-stopped
+    volumes:
+      - postgres-data-dutyduke:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${DB_USERNAME} -d ${DB_NAME}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  mailcatcher:
+    image: dockage/mailcatcher:0.9.0
+    ports:
+      - 1080:1080
+      - 1025:1025

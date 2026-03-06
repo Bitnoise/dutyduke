@@ -1,0 +1,12 @@
+[
+  { "id": "fix-ben-01", "name": "Health Insurance Premium", "note": "Full medical coverage including dental and vision for employee and dependents" },
+  { "id": "fix-ben-02", "name": "Gym Membership", "note": "Monthly gym membership at partner fitness centers" },
+  { "id": "fix-ben-03", "name": "Language Course", "note": "Weekly language lessons — choice of Spanish, French, German, or Japanese" },
+  { "id": "fix-ben-04", "name": "Remote Work Stipend", "note": "Monthly stipend for home office expenses including internet and utilities" },
+  { "id": "fix-ben-05", "name": "Professional Development", "note": "Annual budget for conferences, online courses, and certifications" },
+  { "id": "fix-ben-06", "name": "Life Insurance", "note": "Company-sponsored life insurance policy — 2x annual salary coverage" },
+  { "id": "fix-ben-07", "name": "Mental Health Support", "note": "Access to counseling services, therapy sessions, and wellness apps" },
+  { "id": "fix-ben-08", "name": "Commuter Benefit", "note": "Public transit pass or monthly parking subsidy" },
+  { "id": "fix-ben-09", "name": "Meal Vouchers", "note": "Daily meal vouchers for use at partner restaurants and food delivery" },
+  { "id": "fix-ben-10", "name": "Stock Options", "note": "Company stock option plan with 4-year vesting schedule" }
+]

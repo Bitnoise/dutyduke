@@ -1,0 +1,195 @@
+enum EmploymentType {
+  EMPLOYMENT_CONTRACT
+  WORK_CONTRACT
+  COMMISSION_CONTRACT
+  B2B_CONTRACT
+  AGENCY_CONTRACT
+  OTHER
+}
+
+enum EmployeeStatus {
+  ACTIVE
+  ARCHIVED
+}
+
+model Employee {
+  id         String  @id @default(cuid())
+  identityId String? @unique
+
+  firstName  String
+  lastName   String
+  personalId String? /// @encrypted
+  birthdate  DateTime?
+  avatarId   String?   @unique
+
+  role             String?
+  employmentType   EmploymentType?
+  taxId            String? /// @encrypted
+  bankAccount      String? /// @encrypted
+  holiday          Int?
+  firstYearHoliday Int?
+  joinDate         DateTime?       @default(now())
+
+  workEmail     String  @unique /// @encrypted
+  workEmailHash String? /// @encryption:hash(workEmail)
+  phone         String? /// @encrypted
+  address       String? /// @encrypted
+  iceName       String? /// @encrypted
+  icePhone      String? /// @encrypted
+
+  hobbies  String[]
+  children EmployeeChild[]
+
+  description String?
+
+  status EmployeeStatus @default(ACTIVE)
+
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  documentIds String[]
+  photosIds   String[]
+
+  // relations
+  employmentHistory EmployeeEmploymentHistory[]
+  education         EmployeeEducation[]
+  projects          EmployeeProject[]
+  languages         EmployeeLanguage[]
+  courses           EmployeeCourse[]
+  earnings          EmployeeEarnings[]
+  additionalEmails  AdditionalEmail[]
+  equipment         EmployeeEquipment[]
+  employeeBenefits  EmployeeBenefit[]
+
+  // feedback relations
+  feedbacksAsPerson       Feedback[]            @relation("FeedbackPerson")
+  feedbacksAsHost         Feedback[]            @relation("FeedbackHost")
+  feedbackParticipants    FeedbackParticipant[] @relation("FeedbackParticipants")
+  externalSurveysAsPerson ExternalSurvey[]      @relation("ExternalSurveyPerson")
+  externalSurveysAsHost   ExternalSurvey[]      @relation("ExternalSurveyHost")
+}
+
+model AdditionalEmail {
+  id        String  @id @default(cuid())
+  email     String  @unique /// @encrypted
+  emailHash String? /// @encryption:hash(email)
+
+  employeeId String
+  employee   Employee @relation(fields: [employeeId], references: [id], onDelete: Cascade)
+}
+
+model EmployeeChild {
+  id         String   @id @default(cuid())
+  birthDate  DateTime
+  name       String
+  employeeId String
+  employee   Employee @relation(fields: [employeeId], references: [id], onDelete: Cascade)
+}
+
+// SKILLS
+
+model EmployeeEmploymentHistory {
+  id          String    @id @default(cuid())
+  startDate   DateTime
+  endDate     DateTime?
+  role        String
+  company     String
+  description String?
+
+  // Relations
+  employee   Employee @relation(fields: [employeeId], references: [id], onDelete: Cascade)
+  employeeId String
+}
+
+model EmployeeEducation {
+  id        String    @id @default(cuid())
+  startDate DateTime
+  endDate   DateTime?
+  name      String
+
+  // Relations
+  employee   Employee @relation(fields: [employeeId], references: [id], onDelete: Cascade)
+  employeeId String
+}
+
+model EmployeeProject {
+  id          String    @id @default(cuid())
+  startDate   DateTime
+  endDate     DateTime?
+  name        String
+  role        String
+  description String?
+  order       Int
+  isVisible   Boolean
+
+  employee   Employee @relation(fields: [employeeId], references: [id], onDelete: Cascade)
+  employeeId String
+}
+
+model EmployeeLanguage {
+  id    String @id @default(cuid())
+  name  String
+  level String
+
+  employee   Employee @relation(fields: [employeeId], references: [id], onDelete: Cascade)
+  employeeId String
+}
+
+model EmployeeCourse {
+  id   String   @id @default(cuid())
+  date DateTime
+  name String
+
+  employee   Employee @relation(fields: [employeeId], references: [id], onDelete: Cascade)
+  employeeId String
+}
+
+enum SkillType {
+  PRIMARY
+  SECONDARY
+}
+
+model EmployeeSkill {
+  id         String    @id @default(cuid())
+  type       SkillType
+  employeeId String
+  skillId    String
+
+  @@unique([employeeId, skillId])
+}
+
+// EARNINGS
+model EmployeeEarnings {
+  id          String   @id @default(cuid())
+  employee    Employee @relation(fields: [employeeId], references: [id], onDelete: Cascade)
+  employeeId  String
+  value       Decimal
+  date        DateTime @default(now())
+  description String   @default("")
+}
+
+// Equipment
+model EmployeeEquipment {
+  id          String   @id @default(cuid())
+  employee    Employee @relation(fields: [employeeId], references: [id], onDelete: Cascade)
+  employeeId  String
+  equipmentId String
+}
+
+// Benefits
+model EmployeeBenefit {
+  id         String   @id @default(cuid())
+  benefitId  String
+  employeeId String
+  startDate  DateTime @default(now())
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  // relations
+  benefit  Benefit  @relation(fields: [benefitId], references: [id], onDelete: Cascade)
+  employee Employee @relation(fields: [employeeId], references: [id], onDelete: Cascade)
+
+  @@unique([benefitId, employeeId])
+  @@index([benefitId])
+  @@index([employeeId])
+}

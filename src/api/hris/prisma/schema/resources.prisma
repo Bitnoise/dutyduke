@@ -1,0 +1,65 @@
+model Skill {
+  id   String @id @default(cuid())
+  name String @unique
+}
+
+enum EquipmentStatus {
+  WORKING
+  BROKEN
+  IN_SERVICE
+  ARCHIVED
+}
+
+model Equipment {
+  id               String          @id @default(cuid())
+  signature        String          @unique
+  name             String
+  brand            String?
+  model            String?
+  status           EquipmentStatus @default(WORKING)
+  note             String?
+  serial           String?         @unique
+  invoiceNumber    String?
+  supplier         String?
+  purchaseDate     DateTime?
+  warrantyDuration Int?
+  leaseDuration    Int?
+  value            Decimal?
+  assigneeId       String?
+  description      String?
+
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  documentIds String[]
+  photoIds    String[]
+  avatarId    String?  @unique
+
+  // relations
+  category   EquipmentCategory? @relation(fields: [categoryId], references: [id], onDelete: SetNull)
+  categoryId String?
+
+  location   EquipmentLocalization? @relation(fields: [locationId], references: [id], onDelete: SetNull)
+  locationId String?
+}
+
+model EquipmentCategory {
+  id   String @id @default(cuid())
+  name String @unique
+
+  // relations
+  equipment Equipment[]
+}
+
+model EquipmentChangelog {
+  id            String   @id @default(cuid())
+  previousState Json
+  currentState  Json
+  createdAt     DateTime @default(now())
+  actorId       String
+}
+
+model EquipmentLocalization {
+  id        String      @id @default(cuid())
+  name      String
+  equipment Equipment[]
+}

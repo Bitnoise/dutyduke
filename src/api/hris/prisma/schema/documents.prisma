@@ -1,0 +1,27 @@
+enum DocumentStatus {
+  ACTIVE
+  EXPIRING_SOON
+  EXPIRED
+  ARCHIVED
+}
+
+model Document {
+  id               String            @id @default(cuid())
+  description      String
+  filePath         String
+  createdAt        DateTime          @default(now())
+  updatedAt        DateTime          @updatedAt
+  expDate          DateTime?
+  assignedTo       String?
+  status           DocumentStatus[]
+  documentCategory DocumentCategory? @relation(fields: [categoryId], references: [id], onDelete: SetNull)
+  categoryId       String?
+}
+
+model DocumentCategory {
+  id   String @id @default(cuid())
+  name String @unique
+
+  // relations
+  document Document[]
+}

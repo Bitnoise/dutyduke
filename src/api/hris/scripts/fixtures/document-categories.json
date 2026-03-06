@@ -1,0 +1,10 @@
+[
+  { "id": "fix-doccat-01", "name": "Employment Contract" },
+  { "id": "fix-doccat-02", "name": "NDA" },
+  { "id": "fix-doccat-03", "name": "Company Policy" },
+  { "id": "fix-doccat-04", "name": "Certificate" },
+  { "id": "fix-doccat-05", "name": "Invoice" },
+  { "id": "fix-doccat-06", "name": "Training Material" },
+  { "id": "fix-doccat-07", "name": "ID Document" },
+  { "id": "fix-doccat-08", "name": "Performance Review" }
+]

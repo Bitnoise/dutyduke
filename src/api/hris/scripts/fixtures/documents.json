@@ -1,0 +1,387 @@
+[
+  {
+    "id": "fix-doc-01",
+    "description": "Employee Handbook 2025",
+    "filePath": "/fixtures/documents/employee-handbook-2025.pdf",
+    "expDate": null,
+    "assignedTo": null,
+    "status": [
+      "ACTIVE"
+    ],
+    "categoryId": "fix-doccat-03"
+  },
+  {
+    "id": "fix-doc-02",
+    "description": "Remote Work Policy",
+    "filePath": "/fixtures/documents/remote-work-policy.pdf",
+    "expDate": null,
+    "assignedTo": null,
+    "status": [
+      "ACTIVE"
+    ],
+    "categoryId": "fix-doccat-03"
+  },
+  {
+    "id": "fix-doc-03",
+    "description": "Data Security & Privacy Policy",
+    "filePath": "/fixtures/documents/data-security-policy.pdf",
+    "expDate": null,
+    "assignedTo": null,
+    "status": [
+      "ACTIVE"
+    ],
+    "categoryId": "fix-doccat-03"
+  },
+  {
+    "id": "fix-doc-04",
+    "description": "Code of Conduct",
+    "filePath": "/fixtures/documents/code-of-conduct.pdf",
+    "expDate": null,
+    "assignedTo": null,
+    "status": [
+      "ACTIVE"
+    ],
+    "categoryId": "fix-doccat-03"
+  },
+  {
+    "id": "fix-doc-05",
+    "description": "Travel & Expense Policy",
+    "filePath": "/fixtures/documents/travel-expense-policy.pdf",
+    "expDate": null,
+    "assignedTo": null,
+    "status": [
+      "ACTIVE"
+    ],
+    "categoryId": "fix-doccat-03"
+  },
+  {
+    "id": "fix-doc-06",
+    "description": "NDA - James Mitchell",
+    "filePath": "/fixtures/documents/nda-mitchell.pdf",
+    "expDate": "2027-03-15",
+    "assignedTo": "fix-emp-01",
+    "status": [
+      "ACTIVE"
+    ],
+    "categoryId": "fix-doccat-02"
+  },
+  {
+    "id": "fix-doc-07",
+    "description": "NDA - Sarah Chen",
+    "filePath": "/fixtures/documents/nda-chen.pdf",
+    "expDate": "2026-06-01",
+    "assignedTo": "fix-emp-02",
+    "status": [
+      "EXPIRING_SOON"
+    ],
+    "categoryId": "fix-doccat-02"
+  },
+  {
+    "id": "fix-doc-08",
+    "description": "NDA - David Thompson",
+    "filePath": "/fixtures/documents/nda-thompson.pdf",
+    "expDate": "2027-04-01",
+    "assignedTo": "fix-emp-11",
+    "status": [
+      "ACTIVE"
+    ],
+    "categoryId": "fix-doccat-02"
+  },
+  {
+    "id": "fix-doc-09",
+    "description": "NDA - Brian Wilson",
+    "filePath": "/fixtures/documents/nda-wilson.pdf",
+    "expDate": "2027-06-03",
+    "assignedTo": "fix-emp-29",
+    "status": [
+      "ACTIVE"
+    ],
+    "categoryId": "fix-doccat-02"
+  },
+  {
+    "id": "fix-doc-10",
+    "description": "NDA - Marcus Allen (expired)",
+    "filePath": "/fixtures/documents/nda-allen.pdf",
+    "expDate": "2025-12-10",
+    "assignedTo": "fix-emp-39",
+    "status": [
+      "EXPIRED"
+    ],
+    "categoryId": "fix-doccat-02"
+  },
+  {
+    "id": "fix-doc-11",
+    "description": "Employment Contract - Michael Rodriguez",
+    "filePath": "/fixtures/documents/contract-rodriguez.pdf",
+    "expDate": "2027-09-10",
+    "assignedTo": "fix-emp-03",
+    "status": [
+      "ACTIVE"
+    ],
+    "categoryId": "fix-doccat-01"
+  },
+  {
+    "id": "fix-doc-12",
+    "description": "Employment Contract - Emily Watson",
+    "filePath": "/fixtures/documents/contract-watson.pdf",
+    "expDate": "2027-01-20",
+    "assignedTo": "fix-emp-04",
+    "status": [
+      "ACTIVE"
+    ],
+    "categoryId": "fix-doccat-01"
+  },
+  {
+    "id": "fix-doc-13",
+    "description": "Employment Contract - Daniel Kim",
+    "filePath": "/fixtures/documents/contract-kim.pdf",
+    "expDate": "2026-11-05",
+    "assignedTo": "fix-emp-05",
+    "status": [
+      "ACTIVE"
+    ],
+    "categoryId": "fix-doccat-01"
+  },
+  {
+    "id": "fix-doc-14",
+    "description": "Employment Contract - Jessica Brown",
+    "filePath": "/fixtures/documents/contract-brown.pdf",
+    "expDate": "2027-02-14",
+    "assignedTo": "fix-emp-06",
+    "status": [
+      "ACTIVE"
+    ],
+    "categoryId": "fix-doccat-01"
+  },
+  {
+    "id": "fix-doc-15",
+    "description": "Employment Contract - Christopher Lee",
+    "filePath": "/fixtures/documents/contract-lee.pdf",
+    "expDate": "2026-07-22",
+    "assignedTo": "fix-emp-07",
+    "status": [
+      "EXPIRING_SOON"
+    ],
+    "categoryId": "fix-doccat-01"
+  },
+  {
+    "id": "fix-doc-16",
+    "description": "Employment Contract - Stephanie Reed",
+    "filePath": "/fixtures/documents/contract-reed.pdf",
+    "expDate": "2026-11-25",
+    "assignedTo": "fix-emp-20",
+    "status": [
+      "ACTIVE"
+    ],
+    "categoryId": "fix-doccat-01"
+  },
+  {
+    "id": "fix-doc-17",
+    "description": "Employment Contract - Victoria Long",
+    "filePath": "/fixtures/documents/contract-long.pdf",
+    "expDate": "2027-02-17",
+    "assignedTo": "fix-emp-34",
+    "status": [
+      "ACTIVE"
+    ],
+    "categoryId": "fix-doccat-01"
+  },
+  {
+    "id": "fix-doc-18",
+    "description": "Employment Contract - Rebecca Mills",
+    "filePath": "/fixtures/documents/contract-mills.pdf",
+    "expDate": "2027-04-28",
+    "assignedTo": "fix-emp-48",
+    "status": [
+      "ACTIVE"
+    ],
+    "categoryId": "fix-doccat-01"
+  },
+  {
+    "id": "fix-doc-19",
+    "description": "Employment Contract - Robert Fischer (archived)",
+    "filePath": "/fixtures/documents/contract-fischer.pdf",
+    "expDate": "2025-08-18",
+    "assignedTo": "fix-emp-43",
+    "status": [
+      "ARCHIVED"
+    ],
+    "categoryId": "fix-doccat-01"
+  },
+  {
+    "id": "fix-doc-20",
+    "description": "Employment Contract - Ian Douglas (archived)",
+    "filePath": "/fixtures/documents/contract-douglas.pdf",
+    "expDate": "2025-09-15",
+    "assignedTo": "fix-emp-49",
+    "status": [
+      "ARCHIVED"
+    ],
+    "categoryId": "fix-doccat-01"
+  },
+  {
+    "id": "fix-doc-21",
+    "description": "AWS Solutions Architect - Daniel Kim",
+    "filePath": "/fixtures/documents/cert-aws-kim.pdf",
+    "expDate": "2027-06-15",
+    "assignedTo": "fix-emp-05",
+    "status": [
+      "ACTIVE"
+    ],
+    "categoryId": "fix-doccat-04"
+  },
+  {
+    "id": "fix-doc-22",
+    "description": "Certified Kubernetes Admin - Brandon Taylor",
+    "filePath": "/fixtures/documents/cert-cka-taylor.pdf",
+    "expDate": "2027-03-20",
+    "assignedTo": "fix-emp-19",
+    "status": [
+      "ACTIVE"
+    ],
+    "categoryId": "fix-doccat-04"
+  },
+  {
+    "id": "fix-doc-23",
+    "description": "Professional Scrum Master - Lisa Nakamura",
+    "filePath": "/fixtures/documents/cert-psm-nakamura.pdf",
+    "expDate": "2027-05-17",
+    "assignedTo": "fix-emp-14",
+    "status": [
+      "ACTIVE"
+    ],
+    "categoryId": "fix-doccat-04"
+  },
+  {
+    "id": "fix-doc-24",
+    "description": "CEH - Laura Bennett",
+    "filePath": "/fixtures/documents/cert-ceh-bennett.pdf",
+    "expDate": "2026-10-19",
+    "assignedTo": "fix-emp-24",
+    "status": [
+      "ACTIVE"
+    ],
+    "categoryId": "fix-doccat-04"
+  },
+  {
+    "id": "fix-doc-25",
+    "description": "Google Cloud Professional - Derek Chang",
+    "filePath": "/fixtures/documents/cert-gcp-chang.pdf",
+    "expDate": "2027-06-27",
+    "assignedTo": "fix-emp-37",
+    "status": [
+      "ACTIVE"
+    ],
+    "categoryId": "fix-doccat-04"
+  },
+  {
+    "id": "fix-doc-26",
+    "description": "MacBook Pro Bulk Purchase Invoice - Q1 2024",
+    "filePath": "/fixtures/documents/inv-macbooks-q1-2024.pdf",
+    "expDate": null,
+    "assignedTo": null,
+    "status": [
+      "ACTIVE"
+    ],
+    "categoryId": "fix-doccat-05"
+  },
+  {
+    "id": "fix-doc-27",
+    "description": "Monitor Procurement Invoice - Q2 2024",
+    "filePath": "/fixtures/documents/inv-monitors-q2-2024.pdf",
+    "expDate": null,
+    "assignedTo": null,
+    "status": [
+      "ACTIVE"
+    ],
+    "categoryId": "fix-doccat-05"
+  },
+  {
+    "id": "fix-doc-28",
+    "description": "Office Furniture Invoice - 2024",
+    "filePath": "/fixtures/documents/inv-furniture-2024.pdf",
+    "expDate": null,
+    "assignedTo": null,
+    "status": [
+      "ACTIVE"
+    ],
+    "categoryId": "fix-doccat-05"
+  },
+  {
+    "id": "fix-doc-29",
+    "description": "Onboarding Guide for New Engineers",
+    "filePath": "/fixtures/documents/onboarding-engineers.pdf",
+    "expDate": null,
+    "assignedTo": null,
+    "status": [
+      "ACTIVE"
+    ],
+    "categoryId": "fix-doccat-06"
+  },
+  {
+    "id": "fix-doc-30",
+    "description": "Security Best Practices Training",
+    "filePath": "/fixtures/documents/security-training.pdf",
+    "expDate": null,
+    "assignedTo": null,
+    "status": [
+      "ACTIVE"
+    ],
+    "categoryId": "fix-doccat-06"
+  },
+  {
+    "id": "fix-doc-31",
+    "description": "CI/CD Pipeline Setup Guide",
+    "filePath": "/fixtures/documents/cicd-guide.pdf",
+    "expDate": null,
+    "assignedTo": null,
+    "status": [
+      "ACTIVE"
+    ],
+    "categoryId": "fix-doccat-06"
+  },
+  {
+    "id": "fix-doc-32",
+    "description": "React & Next.js Coding Standards",
+    "filePath": "/fixtures/documents/react-standards.pdf",
+    "expDate": null,
+    "assignedTo": null,
+    "status": [
+      "ACTIVE"
+    ],
+    "categoryId": "fix-doccat-06"
+  },
+  {
+    "id": "fix-doc-33",
+    "description": "Annual Review 2025 - James Mitchell",
+    "filePath": "/fixtures/documents/review-mitchell-2025.pdf",
+    "expDate": null,
+    "assignedTo": "fix-emp-01",
+    "status": [
+      "ACTIVE"
+    ],
+    "categoryId": "fix-doccat-08"
+  },
+  {
+    "id": "fix-doc-34",
+    "description": "Annual Review 2025 - David Thompson",
+    "filePath": "/fixtures/documents/review-thompson-2025.pdf",
+    "expDate": null,
+    "assignedTo": "fix-emp-11",
+    "status": [
+      "ACTIVE"
+    ],
+    "categoryId": "fix-doccat-08"
+  },
+  {
+    "id": "fix-doc-35",
+    "description": "Annual Review 2025 - Samantha Price",
+    "filePath": "/fixtures/documents/review-price-2025.pdf",
+    "expDate": null,
+    "assignedTo": "fix-emp-38",
+    "status": [
+      "ACTIVE"
+    ],
+    "categoryId": "fix-doccat-08"
+  }
+]

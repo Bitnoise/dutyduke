@@ -1,0 +1,1 @@
+export const DOCUMENTS_WARNING_BADGE_TIME = 7;

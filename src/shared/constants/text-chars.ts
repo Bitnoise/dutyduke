@@ -1,0 +1,2 @@
+export const TEXT_AREA_MAX_CHARS = 2000;
+export const TEXT_AREA_WARNING_CHARS = 1800;

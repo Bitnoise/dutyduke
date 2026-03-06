@@ -1,0 +1,2 @@
+export const MAX_MOBILE_VIEWPORT_WIDTH = 768;
+export const MAX_TABLET_VIEWPORT_WIDTH = 1024;

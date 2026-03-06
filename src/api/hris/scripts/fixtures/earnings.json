@@ -1,0 +1,1360 @@
+[
+  {
+    "id": "fix-earn-001",
+    "employeeId": "fix-emp-01",
+    "value": 9500,
+    "date": "2025-10-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-002",
+    "employeeId": "fix-emp-01",
+    "value": 9500,
+    "date": "2025-11-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-003",
+    "employeeId": "fix-emp-01",
+    "value": 13500,
+    "date": "2025-12-01T00:00:00.000Z",
+    "description": "Monthly salary + bonus"
+  },
+  {
+    "id": "fix-earn-004",
+    "employeeId": "fix-emp-02",
+    "value": 7500,
+    "date": "2025-10-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-005",
+    "employeeId": "fix-emp-02",
+    "value": 7500,
+    "date": "2025-11-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-006",
+    "employeeId": "fix-emp-02",
+    "value": 7500,
+    "date": "2025-12-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-007",
+    "employeeId": "fix-emp-02",
+    "value": 7500,
+    "date": "2026-01-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-008",
+    "employeeId": "fix-emp-03",
+    "value": 8500,
+    "date": "2025-10-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-009",
+    "employeeId": "fix-emp-03",
+    "value": 8500,
+    "date": "2025-11-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-010",
+    "employeeId": "fix-emp-03",
+    "value": 11500,
+    "date": "2025-12-01T00:00:00.000Z",
+    "description": "Monthly salary + bonus"
+  },
+  {
+    "id": "fix-earn-011",
+    "employeeId": "fix-emp-03",
+    "value": 8500,
+    "date": "2026-01-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-012",
+    "employeeId": "fix-emp-03",
+    "value": 8500,
+    "date": "2026-02-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-013",
+    "employeeId": "fix-emp-04",
+    "value": 7800,
+    "date": "2025-10-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-014",
+    "employeeId": "fix-emp-04",
+    "value": 7800,
+    "date": "2025-11-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-015",
+    "employeeId": "fix-emp-04",
+    "value": 7800,
+    "date": "2025-12-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-016",
+    "employeeId": "fix-emp-04",
+    "value": 7800,
+    "date": "2026-01-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-017",
+    "employeeId": "fix-emp-04",
+    "value": 7800,
+    "date": "2026-02-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-018",
+    "employeeId": "fix-emp-05",
+    "value": 9000,
+    "date": "2025-10-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-019",
+    "employeeId": "fix-emp-05",
+    "value": 9000,
+    "date": "2025-11-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-020",
+    "employeeId": "fix-emp-05",
+    "value": 9000,
+    "date": "2025-12-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-021",
+    "employeeId": "fix-emp-06",
+    "value": 10000,
+    "date": "2025-10-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-022",
+    "employeeId": "fix-emp-06",
+    "value": 10000,
+    "date": "2025-11-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-023",
+    "employeeId": "fix-emp-06",
+    "value": 10000,
+    "date": "2025-12-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-024",
+    "employeeId": "fix-emp-06",
+    "value": 10000,
+    "date": "2026-01-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-025",
+    "employeeId": "fix-emp-07",
+    "value": 8200,
+    "date": "2025-10-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-026",
+    "employeeId": "fix-emp-07",
+    "value": 8200,
+    "date": "2025-11-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-027",
+    "employeeId": "fix-emp-07",
+    "value": 8200,
+    "date": "2025-12-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-028",
+    "employeeId": "fix-emp-07",
+    "value": 8200,
+    "date": "2026-01-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-029",
+    "employeeId": "fix-emp-08",
+    "value": 6800,
+    "date": "2025-10-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-030",
+    "employeeId": "fix-emp-08",
+    "value": 6800,
+    "date": "2025-11-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-031",
+    "employeeId": "fix-emp-08",
+    "value": 6800,
+    "date": "2025-12-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-032",
+    "employeeId": "fix-emp-09",
+    "value": 10080,
+    "date": "2025-10-01T00:00:00.000Z",
+    "description": "Contract payment"
+  },
+  {
+    "id": "fix-earn-033",
+    "employeeId": "fix-emp-09",
+    "value": 10080,
+    "date": "2025-11-01T00:00:00.000Z",
+    "description": "Contract payment"
+  },
+  {
+    "id": "fix-earn-034",
+    "employeeId": "fix-emp-09",
+    "value": 10080,
+    "date": "2025-12-01T00:00:00.000Z",
+    "description": "Contract payment"
+  },
+  {
+    "id": "fix-earn-035",
+    "employeeId": "fix-emp-09",
+    "value": 10080,
+    "date": "2026-01-01T00:00:00.000Z",
+    "description": "Contract payment"
+  },
+  {
+    "id": "fix-earn-036",
+    "employeeId": "fix-emp-10",
+    "value": 8800,
+    "date": "2025-10-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-037",
+    "employeeId": "fix-emp-10",
+    "value": 8800,
+    "date": "2025-11-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-038",
+    "employeeId": "fix-emp-10",
+    "value": 12300,
+    "date": "2025-12-01T00:00:00.000Z",
+    "description": "Monthly salary + bonus"
+  },
+  {
+    "id": "fix-earn-039",
+    "employeeId": "fix-emp-11",
+    "value": 11500,
+    "date": "2025-10-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-040",
+    "employeeId": "fix-emp-11",
+    "value": 11500,
+    "date": "2025-11-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-041",
+    "employeeId": "fix-emp-11",
+    "value": 16500,
+    "date": "2025-12-01T00:00:00.000Z",
+    "description": "Monthly salary + bonus"
+  },
+  {
+    "id": "fix-earn-042",
+    "employeeId": "fix-emp-11",
+    "value": 11500,
+    "date": "2026-01-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-043",
+    "employeeId": "fix-emp-12",
+    "value": 9200,
+    "date": "2025-10-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-044",
+    "employeeId": "fix-emp-12",
+    "value": 9200,
+    "date": "2025-11-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-045",
+    "employeeId": "fix-emp-12",
+    "value": 9200,
+    "date": "2025-12-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-046",
+    "employeeId": "fix-emp-12",
+    "value": 9200,
+    "date": "2026-01-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-047",
+    "employeeId": "fix-emp-12",
+    "value": 9200,
+    "date": "2026-02-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-048",
+    "employeeId": "fix-emp-13",
+    "value": 8000,
+    "date": "2025-10-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-049",
+    "employeeId": "fix-emp-13",
+    "value": 8000,
+    "date": "2025-11-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-050",
+    "employeeId": "fix-emp-13",
+    "value": 8000,
+    "date": "2025-12-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-051",
+    "employeeId": "fix-emp-13",
+    "value": 8000,
+    "date": "2026-01-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-052",
+    "employeeId": "fix-emp-14",
+    "value": 8500,
+    "date": "2025-10-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-053",
+    "employeeId": "fix-emp-14",
+    "value": 8500,
+    "date": "2025-11-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-054",
+    "employeeId": "fix-emp-14",
+    "value": 11000,
+    "date": "2025-12-01T00:00:00.000Z",
+    "description": "Monthly salary + bonus"
+  },
+  {
+    "id": "fix-earn-055",
+    "employeeId": "fix-emp-14",
+    "value": 8500,
+    "date": "2026-01-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-056",
+    "employeeId": "fix-emp-15",
+    "value": 7000,
+    "date": "2025-10-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-057",
+    "employeeId": "fix-emp-15",
+    "value": 7000,
+    "date": "2025-11-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-058",
+    "employeeId": "fix-emp-15",
+    "value": 7000,
+    "date": "2025-12-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-059",
+    "employeeId": "fix-emp-16",
+    "value": 7200,
+    "date": "2025-10-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-060",
+    "employeeId": "fix-emp-16",
+    "value": 7200,
+    "date": "2025-11-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-061",
+    "employeeId": "fix-emp-16",
+    "value": 7200,
+    "date": "2025-12-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-062",
+    "employeeId": "fix-emp-17",
+    "value": 8000,
+    "date": "2025-10-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-063",
+    "employeeId": "fix-emp-17",
+    "value": 8000,
+    "date": "2025-11-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-064",
+    "employeeId": "fix-emp-17",
+    "value": 8000,
+    "date": "2025-12-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-065",
+    "employeeId": "fix-emp-17",
+    "value": 8000,
+    "date": "2026-01-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-066",
+    "employeeId": "fix-emp-18",
+    "value": 6500,
+    "date": "2025-10-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-067",
+    "employeeId": "fix-emp-18",
+    "value": 6500,
+    "date": "2025-11-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-068",
+    "employeeId": "fix-emp-18",
+    "value": 6500,
+    "date": "2025-12-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-069",
+    "employeeId": "fix-emp-18",
+    "value": 6500,
+    "date": "2026-01-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-070",
+    "employeeId": "fix-emp-18",
+    "value": 6500,
+    "date": "2026-02-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-071",
+    "employeeId": "fix-emp-19",
+    "value": 9000,
+    "date": "2025-10-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-072",
+    "employeeId": "fix-emp-19",
+    "value": 9000,
+    "date": "2025-11-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-073",
+    "employeeId": "fix-emp-19",
+    "value": 9000,
+    "date": "2025-12-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-074",
+    "employeeId": "fix-emp-19",
+    "value": 9000,
+    "date": "2026-01-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-075",
+    "employeeId": "fix-emp-19",
+    "value": 9000,
+    "date": "2026-02-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-076",
+    "employeeId": "fix-emp-20",
+    "value": 9500,
+    "date": "2025-10-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-077",
+    "employeeId": "fix-emp-20",
+    "value": 9500,
+    "date": "2025-11-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-078",
+    "employeeId": "fix-emp-20",
+    "value": 12500,
+    "date": "2025-12-01T00:00:00.000Z",
+    "description": "Monthly salary + bonus"
+  },
+  {
+    "id": "fix-earn-079",
+    "employeeId": "fix-emp-20",
+    "value": 9500,
+    "date": "2026-01-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-080",
+    "employeeId": "fix-emp-21",
+    "value": 10080,
+    "date": "2025-10-01T00:00:00.000Z",
+    "description": "Contract payment"
+  },
+  {
+    "id": "fix-earn-081",
+    "employeeId": "fix-emp-21",
+    "value": 10080,
+    "date": "2025-11-01T00:00:00.000Z",
+    "description": "Contract payment"
+  },
+  {
+    "id": "fix-earn-082",
+    "employeeId": "fix-emp-21",
+    "value": 10080,
+    "date": "2025-12-01T00:00:00.000Z",
+    "description": "Contract payment"
+  },
+  {
+    "id": "fix-earn-083",
+    "employeeId": "fix-emp-21",
+    "value": 10080,
+    "date": "2026-01-01T00:00:00.000Z",
+    "description": "Contract payment"
+  },
+  {
+    "id": "fix-earn-084",
+    "employeeId": "fix-emp-22",
+    "value": 9500,
+    "date": "2025-10-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-085",
+    "employeeId": "fix-emp-22",
+    "value": 9500,
+    "date": "2025-11-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-086",
+    "employeeId": "fix-emp-22",
+    "value": 9500,
+    "date": "2025-12-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-087",
+    "employeeId": "fix-emp-22",
+    "value": 9500,
+    "date": "2026-01-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-088",
+    "employeeId": "fix-emp-22",
+    "value": 9500,
+    "date": "2026-02-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-089",
+    "employeeId": "fix-emp-23",
+    "value": 8500,
+    "date": "2025-10-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-090",
+    "employeeId": "fix-emp-23",
+    "value": 8500,
+    "date": "2025-11-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-091",
+    "employeeId": "fix-emp-23",
+    "value": 8500,
+    "date": "2025-12-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-092",
+    "employeeId": "fix-emp-23",
+    "value": 8500,
+    "date": "2026-01-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-093",
+    "employeeId": "fix-emp-24",
+    "value": 9800,
+    "date": "2025-10-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-094",
+    "employeeId": "fix-emp-24",
+    "value": 9800,
+    "date": "2025-11-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-095",
+    "employeeId": "fix-emp-24",
+    "value": 9800,
+    "date": "2025-12-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-096",
+    "employeeId": "fix-emp-24",
+    "value": 9800,
+    "date": "2026-01-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-097",
+    "employeeId": "fix-emp-25",
+    "value": 7200,
+    "date": "2025-10-01T00:00:00.000Z",
+    "description": "Contract payment"
+  },
+  {
+    "id": "fix-earn-098",
+    "employeeId": "fix-emp-25",
+    "value": 7200,
+    "date": "2025-11-01T00:00:00.000Z",
+    "description": "Contract payment"
+  },
+  {
+    "id": "fix-earn-099",
+    "employeeId": "fix-emp-25",
+    "value": 7200,
+    "date": "2025-12-01T00:00:00.000Z",
+    "description": "Contract payment"
+  },
+  {
+    "id": "fix-earn-100",
+    "employeeId": "fix-emp-25",
+    "value": 7200,
+    "date": "2026-01-01T00:00:00.000Z",
+    "description": "Contract payment"
+  },
+  {
+    "id": "fix-earn-101",
+    "employeeId": "fix-emp-25",
+    "value": 7200,
+    "date": "2026-02-01T00:00:00.000Z",
+    "description": "Contract payment"
+  },
+  {
+    "id": "fix-earn-102",
+    "employeeId": "fix-emp-26",
+    "value": 7500,
+    "date": "2025-10-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-103",
+    "employeeId": "fix-emp-26",
+    "value": 7500,
+    "date": "2025-11-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-104",
+    "employeeId": "fix-emp-26",
+    "value": 7500,
+    "date": "2025-12-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-105",
+    "employeeId": "fix-emp-26",
+    "value": 7500,
+    "date": "2026-01-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-106",
+    "employeeId": "fix-emp-26",
+    "value": 7500,
+    "date": "2026-02-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-107",
+    "employeeId": "fix-emp-27",
+    "value": 7800,
+    "date": "2025-10-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-108",
+    "employeeId": "fix-emp-27",
+    "value": 7800,
+    "date": "2025-11-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-109",
+    "employeeId": "fix-emp-27",
+    "value": 7800,
+    "date": "2025-12-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-110",
+    "employeeId": "fix-emp-27",
+    "value": 7800,
+    "date": "2026-01-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-111",
+    "employeeId": "fix-emp-28",
+    "value": 7200,
+    "date": "2025-10-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-112",
+    "employeeId": "fix-emp-28",
+    "value": 7200,
+    "date": "2025-11-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-113",
+    "employeeId": "fix-emp-28",
+    "value": 7200,
+    "date": "2025-12-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-114",
+    "employeeId": "fix-emp-28",
+    "value": 7200,
+    "date": "2026-01-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-115",
+    "employeeId": "fix-emp-29",
+    "value": 13000,
+    "date": "2025-10-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-116",
+    "employeeId": "fix-emp-29",
+    "value": 13000,
+    "date": "2025-11-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-117",
+    "employeeId": "fix-emp-29",
+    "value": 17500,
+    "date": "2025-12-01T00:00:00.000Z",
+    "description": "Monthly salary + bonus"
+  },
+  {
+    "id": "fix-earn-118",
+    "employeeId": "fix-emp-29",
+    "value": 13000,
+    "date": "2026-01-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-119",
+    "employeeId": "fix-emp-30",
+    "value": 10000,
+    "date": "2025-10-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-120",
+    "employeeId": "fix-emp-30",
+    "value": 10000,
+    "date": "2025-11-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-121",
+    "employeeId": "fix-emp-30",
+    "value": 10000,
+    "date": "2025-12-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-122",
+    "employeeId": "fix-emp-31",
+    "value": 9200,
+    "date": "2025-10-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-123",
+    "employeeId": "fix-emp-31",
+    "value": 9200,
+    "date": "2025-11-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-124",
+    "employeeId": "fix-emp-31",
+    "value": 12200,
+    "date": "2025-12-01T00:00:00.000Z",
+    "description": "Monthly salary + bonus"
+  },
+  {
+    "id": "fix-earn-125",
+    "employeeId": "fix-emp-31",
+    "value": 9200,
+    "date": "2026-01-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-126",
+    "employeeId": "fix-emp-31",
+    "value": 9200,
+    "date": "2026-02-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-127",
+    "employeeId": "fix-emp-32",
+    "value": 6500,
+    "date": "2025-10-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-128",
+    "employeeId": "fix-emp-32",
+    "value": 6500,
+    "date": "2025-11-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-129",
+    "employeeId": "fix-emp-32",
+    "value": 6500,
+    "date": "2025-12-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-130",
+    "employeeId": "fix-emp-32",
+    "value": 6500,
+    "date": "2026-01-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-131",
+    "employeeId": "fix-emp-32",
+    "value": 6500,
+    "date": "2026-02-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-132",
+    "employeeId": "fix-emp-33",
+    "value": 8200,
+    "date": "2025-10-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-133",
+    "employeeId": "fix-emp-33",
+    "value": 8200,
+    "date": "2025-11-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-134",
+    "employeeId": "fix-emp-33",
+    "value": 8200,
+    "date": "2025-12-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-135",
+    "employeeId": "fix-emp-33",
+    "value": 8200,
+    "date": "2026-01-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-136",
+    "employeeId": "fix-emp-33",
+    "value": 8200,
+    "date": "2026-02-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-137",
+    "employeeId": "fix-emp-34",
+    "value": 11000,
+    "date": "2025-10-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-138",
+    "employeeId": "fix-emp-34",
+    "value": 11000,
+    "date": "2025-11-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-139",
+    "employeeId": "fix-emp-34",
+    "value": 15000,
+    "date": "2025-12-01T00:00:00.000Z",
+    "description": "Monthly salary + bonus"
+  },
+  {
+    "id": "fix-earn-140",
+    "employeeId": "fix-emp-34",
+    "value": 11000,
+    "date": "2026-01-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-141",
+    "employeeId": "fix-emp-34",
+    "value": 11000,
+    "date": "2026-02-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-142",
+    "employeeId": "fix-emp-35",
+    "value": 9360,
+    "date": "2025-10-01T00:00:00.000Z",
+    "description": "Contract payment"
+  },
+  {
+    "id": "fix-earn-143",
+    "employeeId": "fix-emp-35",
+    "value": 9360,
+    "date": "2025-11-01T00:00:00.000Z",
+    "description": "Contract payment"
+  },
+  {
+    "id": "fix-earn-144",
+    "employeeId": "fix-emp-35",
+    "value": 9360,
+    "date": "2025-12-01T00:00:00.000Z",
+    "description": "Contract payment"
+  },
+  {
+    "id": "fix-earn-145",
+    "employeeId": "fix-emp-35",
+    "value": 9360,
+    "date": "2026-01-01T00:00:00.000Z",
+    "description": "Contract payment"
+  },
+  {
+    "id": "fix-earn-146",
+    "employeeId": "fix-emp-36",
+    "value": 7300,
+    "date": "2025-10-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-147",
+    "employeeId": "fix-emp-36",
+    "value": 7300,
+    "date": "2025-11-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-148",
+    "employeeId": "fix-emp-36",
+    "value": 7300,
+    "date": "2025-12-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-149",
+    "employeeId": "fix-emp-36",
+    "value": 7300,
+    "date": "2026-01-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-150",
+    "employeeId": "fix-emp-37",
+    "value": 8800,
+    "date": "2025-10-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-151",
+    "employeeId": "fix-emp-37",
+    "value": 8800,
+    "date": "2025-11-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-152",
+    "employeeId": "fix-emp-37",
+    "value": 8800,
+    "date": "2025-12-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-153",
+    "employeeId": "fix-emp-37",
+    "value": 8800,
+    "date": "2026-01-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-154",
+    "employeeId": "fix-emp-37",
+    "value": 8800,
+    "date": "2026-02-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-155",
+    "employeeId": "fix-emp-38",
+    "value": 9500,
+    "date": "2025-10-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-156",
+    "employeeId": "fix-emp-38",
+    "value": 9500,
+    "date": "2025-11-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-157",
+    "employeeId": "fix-emp-38",
+    "value": 12000,
+    "date": "2025-12-01T00:00:00.000Z",
+    "description": "Monthly salary + bonus"
+  },
+  {
+    "id": "fix-earn-158",
+    "employeeId": "fix-emp-38",
+    "value": 9500,
+    "date": "2026-01-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-159",
+    "employeeId": "fix-emp-40",
+    "value": 8500,
+    "date": "2025-10-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-160",
+    "employeeId": "fix-emp-40",
+    "value": 8500,
+    "date": "2025-11-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-161",
+    "employeeId": "fix-emp-40",
+    "value": 8500,
+    "date": "2025-12-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-162",
+    "employeeId": "fix-emp-41",
+    "value": 6200,
+    "date": "2025-10-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-163",
+    "employeeId": "fix-emp-41",
+    "value": 6200,
+    "date": "2025-11-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-164",
+    "employeeId": "fix-emp-41",
+    "value": 6200,
+    "date": "2025-12-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-165",
+    "employeeId": "fix-emp-41",
+    "value": 6200,
+    "date": "2026-01-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-166",
+    "employeeId": "fix-emp-41",
+    "value": 6200,
+    "date": "2026-02-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-167",
+    "employeeId": "fix-emp-42",
+    "value": 8000,
+    "date": "2025-10-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-168",
+    "employeeId": "fix-emp-42",
+    "value": 8000,
+    "date": "2025-11-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-169",
+    "employeeId": "fix-emp-42",
+    "value": 11500,
+    "date": "2025-12-01T00:00:00.000Z",
+    "description": "Monthly salary + bonus"
+  },
+  {
+    "id": "fix-earn-170",
+    "employeeId": "fix-emp-42",
+    "value": 8000,
+    "date": "2026-01-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-171",
+    "employeeId": "fix-emp-42",
+    "value": 8000,
+    "date": "2026-02-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-172",
+    "employeeId": "fix-emp-44",
+    "value": 9500,
+    "date": "2025-10-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-173",
+    "employeeId": "fix-emp-44",
+    "value": 9500,
+    "date": "2025-11-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-174",
+    "employeeId": "fix-emp-44",
+    "value": 11500,
+    "date": "2025-12-01T00:00:00.000Z",
+    "description": "Monthly salary + bonus"
+  },
+  {
+    "id": "fix-earn-175",
+    "employeeId": "fix-emp-45",
+    "value": 7000,
+    "date": "2025-10-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-176",
+    "employeeId": "fix-emp-45",
+    "value": 7000,
+    "date": "2025-11-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-177",
+    "employeeId": "fix-emp-45",
+    "value": 7000,
+    "date": "2025-12-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-178",
+    "employeeId": "fix-emp-46",
+    "value": 7200,
+    "date": "2025-10-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-179",
+    "employeeId": "fix-emp-46",
+    "value": 7200,
+    "date": "2025-11-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-180",
+    "employeeId": "fix-emp-46",
+    "value": 7200,
+    "date": "2025-12-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-181",
+    "employeeId": "fix-emp-47",
+    "value": 7800,
+    "date": "2025-10-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-182",
+    "employeeId": "fix-emp-47",
+    "value": 7800,
+    "date": "2025-11-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-183",
+    "employeeId": "fix-emp-47",
+    "value": 7800,
+    "date": "2025-12-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-184",
+    "employeeId": "fix-emp-47",
+    "value": 7800,
+    "date": "2026-01-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-185",
+    "employeeId": "fix-emp-48",
+    "value": 9200,
+    "date": "2025-10-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-186",
+    "employeeId": "fix-emp-48",
+    "value": 9200,
+    "date": "2025-11-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-187",
+    "employeeId": "fix-emp-48",
+    "value": 11700,
+    "date": "2025-12-01T00:00:00.000Z",
+    "description": "Monthly salary + bonus"
+  },
+  {
+    "id": "fix-earn-188",
+    "employeeId": "fix-emp-48",
+    "value": 9200,
+    "date": "2026-01-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-189",
+    "employeeId": "fix-emp-48",
+    "value": 9200,
+    "date": "2026-02-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-190",
+    "employeeId": "fix-emp-50",
+    "value": 8500,
+    "date": "2025-10-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-191",
+    "employeeId": "fix-emp-50",
+    "value": 8500,
+    "date": "2025-11-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-192",
+    "employeeId": "fix-emp-50",
+    "value": 8500,
+    "date": "2025-12-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-193",
+    "employeeId": "fix-emp-50",
+    "value": 8500,
+    "date": "2026-01-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  },
+  {
+    "id": "fix-earn-194",
+    "employeeId": "fix-emp-50",
+    "value": 8500,
+    "date": "2026-02-01T00:00:00.000Z",
+    "description": "Monthly salary"
+  }
+]

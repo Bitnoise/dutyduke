@@ -1,0 +1,1399 @@
+{
+  "dashboard": {
+    "absences": "Absences",
+    "documents": "Documents",
+    "viewMore": "View more",
+    "welcome": "Welcome",
+    "noResults": "No results found"
+  },
+  "general": {
+    "days": "days"
+  },
+  "home": {
+    "title": "Home"
+  },
+  "notFound": {
+    "heading": "Oh no!",
+    "title": "Looks like we lost this page.",
+    "subtitle": "But not your tasks!",
+    "button": "Get back to planning"
+  },
+  "seo": {
+    "title": "DutyDuke",
+    "description": "DutyDuke - Modern HR Management System"
+  },
+  "login": {
+    "title": "Sign in"
+  },
+  "forgotPassword": {
+    "title": "Forgot password",
+    "info": "We will send a message with reset password link to the provided email if it matches an existing account.",
+    "success": "We've sent an email with reset password link to {email}. Please check your inbox.",
+    "error": "Something went wrong, please try again."
+  },
+  "resetPassword": {
+    "title": "Reset password",
+    "info": "You'll be redirected to sign in automatically in {countDown}s.",
+    "success": "Your password has been updated",
+    "error": "Something went wrong, please try again."
+  },
+  "register": {
+    "title": "Sign up",
+    "ctaButtonLabel": "Sign up",
+    "termsAndServicesAgreement": "I have read and accept the <tos>Terms of Service</tos> and the <dp>Data Processing Agreement</dp>.",
+    "electronicAgreement": "I consent to concluding the agreement electronically. (A copy of the DPA and documentation related to personal data processing can be found under the Company / General tab).",
+    "representativePersonAgreement": "I am acting on behalf of the company whose details are provided above and I am authorized to enter into the agreement.",
+    "success": "We've sent a verification link to {email}. Please check your inbox to complete the registration."
+  },
+  "emailVerification": {
+    "success": "Email was verified successfully!",
+    "subdomainCreated": "Your subdomain has been successfully created!",
+    "loading": "Verifying email..."
+  },
+  "roles": {
+    "owner": "Owner",
+    "hr": "HR",
+    "office": "Office",
+    "employee": "Employee"
+  },
+  "errorMessages": {
+    "categoryAlreadyExists": "Category already exists",
+    "invalidAddress": "Invalid address",
+    "clientRequired": "Client is required",
+    "invalidId": "Invalid id",
+    "required": "Field required",
+    "checkRequired": "Please check the box to continue.",
+    "invalidDocumentSize": "Warning! The maximum size of a single file is 10Mb",
+    "invalidDocumentName": "Warning! Document name cannot exceed 30 characters",
+    "invalidEmail": "Invalid email",
+    "invalidPassword": "Password must be between 8 and 64 characters",
+    "invalidPhoneNumber": "Invalid Phone Number",
+    "invalidPhotoSize": "Invalid photo size. Required at most: {size}Mb",
+    "notMatchingPasswords": "Not matching passwords",
+    "unknown": "Unknown Error",
+    "invalidDate": "Invalid Date",
+    "tooSmall": "Provided value is too small. Expected at least {smallestValue}.",
+    "tooBig": "Provided value is too big. Expected at most {biggestValue}",
+    "tooShort": "Provided value is too short. Expected at least {smallestValue} characters.",
+    "tooLong": "Provided value is too long . Expected at most {biggestValue} characters",
+    "invalidValueInput": "Invalid value. Value must be a {type}.",
+    "auth": {
+      "missingSubdomain": "Missing subdomain",
+      "unauthorized": "Unauthorized",
+      "identityAlreadyExists": "User with this email already exists",
+      "invalidCredentials": "Invalid credentials",
+      "emailVerification": {
+        "somethingWentWrong": "Something went wrong.",
+        "tokenExpired": "Activation link has expired.",
+        "unknown": "Couldn't verify the email. Try again later."
+      },
+      "signIn": {
+        "somethingWentWrong": "Something went wrong.",
+        "unknown": "Couldn't sign in. Try again later."
+      }
+    },
+    "organization": {
+      "notFound": "Organization not found"
+    },
+    "employeeSkills": {
+      "updateFailed": "Updating employee's skill failed.",
+      "notFound": "Organization not found",
+      "cannotCreate": "Cannot create organization"
+    },
+    "employeeEarnings": {
+      "updateFailed": "Updating employee's earnings failed.",
+      "deleteFailed": "Deleting employee's earning failed.",
+      "editFailed": "Editing employee's earning failed."
+    },
+    "skills": {
+      "updateFailed": "Something went wrong when updating the CV. Try again later."
+    },
+    "signUpError": "Oops! Something went wrong. Please try signing up again or come back later.",
+    "userAlreadyExists": "User with email {email} already exists.",
+    "signInError": "Invalid email or password",
+    "resetPassword": {
+      "somethingWentWrong": "Something went wrong.",
+      "tokenExpired": "Token has expired. Try again.",
+      "unknown": "Updating password has failed. Try again later."
+    },
+    "invalidSubdomain": "Invalid subdomain",
+    "takenSubdomain": "Subdomain already taken.",
+    "deleteOrganizationFail": "Deleting organization has failed",
+    "emailAlreadyTaken": "Email already taken",
+    "workOrderOverOneDay": "Work order cannot past midnight"
+  },
+  "ctaLabels": {
+    "uploading": "Uploading",
+    "archive": "Archive",
+    "duplicate": "Duplicate",
+    "options": "Options",
+    "view": "View",
+    "open": "Open",
+    "assign": "Assign",
+    "confirmAssign": "Yes, assign",
+    "unassign": "Unassign",
+    "confirmUnassign": "Yes, unassign",
+    "addEmployee": "Add new employee",
+    "edit": "Edit",
+    "cancel": "Cancel",
+    "close": "Close",
+    "save": "Save",
+    "search": "Search",
+    "generateCv": "Generate CV",
+    "download": "Download",
+    "generate": "Generate",
+    "offboard": "Offboard",
+    "goTo": "Go to {link}",
+    "goBack": "Go Back",
+    "update": "Update",
+    "addEducation": "Add new education",
+    "addEmploymentHistory": "Add new employment history entry",
+    "addProject": "Add new project",
+    "addLanguage": "Add new language",
+    "addCourse": "Add new course",
+    "delete": "Delete",
+    "moveUp": "Move up",
+    "moveDown": "Move down",
+    "confirm": "Confirm",
+    "addFiles": "Add file",
+    "confirmDelete": "Yes, delete",
+    "signIn": "Sign in",
+    "forgotPassword": "Forgot password",
+    "logout": "Logout",
+    "submit": "Submit",
+    "addPhotos": "Add photos",
+    "setAsAvatar": "Set as avatar",
+    "deletePhoto": "Delete photo",
+    "createAccount": "Don't have an account?",
+    "onboarding": "Onboarding",
+    "remove": "Remove",
+    "invite": "Invite",
+    "more": "More",
+    "selectAll": "Select all",
+    "assignRole": "Assign access role",
+    "next": "Next",
+    "submitAndFinish": "Submit and finish",
+    "no": "No",
+    "yes": "Yes",
+    "submitAndInvite": "Submit and invite",
+    "confirmChange": "Yes, change",
+    "changeStatus": "Change status",
+    "confirmArchive": "Yes, archive",
+    "actionsMenu": "Actions menu",
+    "menu": "Menu",
+    "addFile": "Add new file",
+    "print": "Print"
+  },
+  "filters": {
+    "filters": "Filters",
+    "active": "Active",
+    "invited": "Invited",
+    "inactive": "Inactive",
+    "archived": "Archived"
+  },
+  "signIn": {
+    "signingIn": "Signing in..."
+  },
+  "forms": {
+    "address1": "Full address",
+    "address2": "Apartment number",
+    "postalCode": "Postal Code",
+    "city": "City",
+    "taxId": "Tax Id",
+    "addFile": "Add new file",
+    "email": "Email",
+    "password": "Password",
+    "newPassword": "New password",
+    "confirmPassword": "Confirm Password",
+    "companyName": "Company name",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "date": "Date",
+    "note": "Note",
+    "education": "Education",
+    "employmentHistory": "Employment History",
+    "projects": "Projects",
+    "languages": "Languages",
+    "courses": "Courses",
+    "description": "Description",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "expDate": "Expiration Date",
+    "name": "Name",
+    "role": "Role",
+    "level": "Level",
+    "visibleOnCv": "Visible on CV",
+    "primarySkills": "Primary Skills",
+    "secondarySkills": "Secondary Skills",
+    "hiddenOnCv": "Hidden on CV",
+    "logo": "Logo",
+    "search": "Search",
+    "personalId": "Personal ID",
+    "birthdate": "Date of Birth",
+    "photo": "Photo",
+    "status": "Status",
+    "addAttachment": "Add Attachment",
+    "createdBy": "Created by",
+    "token": "Code",
+    "equipment": "Equipment",
+    "location": "Location",
+    "phone": "Phone"
+  },
+  "employees": {
+    "table": "Employees Table",
+    "seo": {
+      "title": "Employees list",
+      "employeeTitle": "Employee: {employeeName}"
+    },
+    "statuses": {
+      "active": "Active",
+      "invited": "Invited",
+      "inactive": "Inactive",
+      "archived": "Archived"
+    },
+    "employeesList": "List of employees",
+    "generalView": {
+      "basic": "Basic information",
+      "contact": "Contact",
+      "other": "Other",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "personalId": "Personal ID",
+      "role": "Job position",
+      "company": "Company",
+      "joinDate": "Join date",
+      "workEmail": "Work email address",
+      "privateEmail": "Private email address",
+      "phone": "Phone number",
+      "address": "Address",
+      "birthdate": "Date of Birth",
+      "daysOff": "Number of available off days",
+      "ice": "Contact person",
+      "icePhone": "Contact person phone",
+      "iceName": "Contact person name",
+      "hobby": "Hobby",
+      "children": "Children",
+      "photos": "Photos",
+      "additionalEmails": "Additional emails",
+      "childRemoveModalHeader": "Remove entry",
+      "childRemoveModalDescription": "Are You sure You want to remove this entry?",
+      "addChild": "Add Child",
+      "childName": "Child name",
+      "childBirthDate": "Child Birthdate",
+      "partnership": "Partnership",
+      "employment": "Employment type",
+      "taxId": "Tax ID",
+      "holiday": "Holidays",
+      "bankAccount": "Bank Account Number",
+      "employmentTypes": {
+        "employmentContract": "Employment contract",
+        "workContract": "Work contract",
+        "commissionContract": "Commission contract",
+        "b2bContract": "B2B",
+        "agencyContract": "Agency contract",
+        "other": "Other"
+      },
+      "applicationAccess": "Application access",
+      "status": "Status",
+      "noAccess": "No access",
+      "identityExists": "Identity exists",
+      "systemRole": "System role",
+      "resendInvitation": "Resend invitation",
+      "revokeAccess": "Revoke access",
+      "email": "Email",
+      "password": "Password",
+      "confirmPassword": "Confirm password",
+      "generate": "Generate",
+      "selectRole": "Select role",
+      "createIdentity": "Create identity",
+      "updateIdentity": "Update identity",
+      "deleteIdentity": "Delete identity",
+      "saveAndNotify": "Save and notify",
+      "confirmDeleteIdentity": "Are you sure you want to remove this access?",
+      "identityRemovedSuccessfully": "Access removed successfully",
+      "failedToRemoveAccess": "Failed to remove access",
+      "delete": "Delete",
+      "cancel": "Cancel"
+    },
+    "skillsView": {
+      "basicInfo": "Basic information",
+      "careerDevelopment": "Career Development",
+      "projects": "Projects",
+      "hiddenOnCv": "Invisible on CV",
+      "visibleOnCv": "Visible on Cv",
+      "untilNow": "until now",
+      "employmentHistory": "Employment History",
+      "education": "Education",
+      "courses": "Courses",
+      "skills": "Skills",
+      "primarySkills": "Primary Skills",
+      "secondarySkills": "Secondary Skills",
+      "languages": "Languages",
+      "description": "Description",
+      "noProjects": "No projects added yet.",
+      "noEmploymentHistory": "No employment history added yet.",
+      "noEducation": "No education added yet.",
+      "noCourses": "No courses added yet.",
+      "noPrimarySkills": "No primary skills added yet.",
+      "noSecondarySkills": "No secondary skills added yet.",
+      "noLanguages": "No languages added yet.",
+      "addLanguage": "Add language",
+      "addNew": "Add new",
+      "startDate": "Date from",
+      "endDate": "Date to",
+      "projectName": "Project name",
+      "role": "Role",
+      "showInCv": "Show is CV",
+      "educationName": "School name",
+      "courseName": "Course name",
+      "date": "Date",
+      "moveProjectUp": "Move project up",
+      "moveProjectDown": "Move project down",
+      "companyName": "Company name"
+    },
+    "earningsView": {
+      "earnings": "Salary",
+      "addEarnings": "Update earnings",
+      "update": "Update"
+    },
+    "list": {
+      "hide": "Hide list"
+    },
+    "documents": {
+      "header": "Documents",
+      "addFile": "Add new file",
+      "or": "or",
+      "deleteFile": "Delete",
+      "dragAndDrop": "Drag and drop files here",
+      "table": "Documents Table",
+      "edit": {
+        "header": "Edit document"
+      }
+    },
+    "equipment": {
+      "title": "Equipment",
+      "search": "Search",
+      "searchEquipment": "search equipment",
+      "assign": "Assign",
+      "unassign": "Unassign",
+      "filters": {
+        "all": "All"
+      }
+    },
+    "feedback": {
+      "title": "Feedback",
+      "timeline": "here we will have timeline for feedback",
+      "scheduleFeedback": "Schedule feedback",
+      "facilitator": "Facilitator",
+      "status": {
+        "scheduled": "Scheduled",
+        "approaching": "Approaching",
+        "overdue": "Overdue",
+        "neutral": "Neutral"
+      },
+      "type": {
+        "buddy": "Buddy",
+        "terminal": "Terminal",
+        "other": "Other",
+        "external": "External"
+      },
+      "schedule": {
+        "title": "Schedule feedback",
+        "editTitle": "Edit feedback",
+        "category": "Category",
+        "selectType": "Select the type of feedback you are planning:",
+        "fillDetails": "Fill out all details of the feedback.",
+        "date": "Date",
+        "note": "Note",
+        "noteBefore": "Note before meeting",
+        "noteForPerson": "Note for person",
+        "internalFeedback": "Internal feedback",
+        "clientFeedback": "Client feedback",
+        "notePlaceholder": "A short note",
+        "feedbackConducted": "Feedback conducted",
+        "cancel": "Cancel",
+        "save": "Save",
+        "submit": "Submit",
+        "goBack": "Go back",
+        "next": "Next",
+        "add": "Add",
+        "facilitator": "Facilitator",
+        "type": {
+          "buddy": "Buddy",
+          "terminal": "Periodic",
+          "other": "Other",
+          "external": "External"
+        },
+        "feedbackScore": {
+          "neutral": "Neutral",
+          "positive": "Positive",
+          "negative": "Negative"
+        }
+      },
+      "details": {
+        "title": "Feedback details",
+        "feedbackType": "Feedback type",
+        "date": "Date",
+        "facilitator": "Facilitator",
+        "feedbackConducted": "Feedback conducted",
+        "participants": "Participants",
+        "internalFeedback": "Internal feedback",
+        "clientFeedback": "Client feedback",
+        "postMeetingNote": "Post-meeting note",
+        "note": "Note",
+        "notesForEmployee": "Notes for the employee",
+        "attentionWarning": "[Attention! The employee will see this]",
+        "attachments": "Attachments",
+        "downloadPdf": "Download pdf"
+      }
+    },
+    "navigation": {
+      "options": "Options",
+      "dictionaries": "Configuration"
+    },
+    "dictionaries": {
+      "title": "Configuration",
+      "search": "Search"
+    },
+    "benefits": {
+      "title": "Benefits",
+      "assign": "Assign",
+      "unassign": "Unassign",
+      "search": "Search",
+      "searchBenefits": "search benefits"
+    }
+  },
+  "company": {
+    "seo": {
+      "title": "Company {company}"
+    },
+    "generalView": {
+      "company": "Company",
+      "companyName": "Company Name",
+      "address1": "Address",
+      "address2": "Apartment number",
+      "postalCode": "Postal Code",
+      "city": "City",
+      "logo": "Logo",
+      "save": "Save",
+      "cancel": "Cancel",
+      "changingCompanyNameInfo": "Changing company name will not update the subdomain."
+    },
+    "equipment": {
+      "title": "Equipment",
+      "addNew": "Add new",
+      "assign": "Assign",
+      "unassign": "Unassign",
+      "changeStatus": "Change status",
+      "archive": "Archive",
+      "search": "Search",
+      "searchEquipment": "search equipment",
+      "options": {
+        "base": "Options",
+        "dictionaries": "Configuration"
+      },
+      "filters": {
+        "title": "Equipment filters",
+        "assigned": "Assigned",
+        "free": "Free",
+        "status": "Status",
+        "category": "Category",
+        "filters": "Filters",
+        "all": "All"
+      },
+      "statusLabels": {
+        "all": "All",
+        "working": "Working",
+        "broken": "Broken",
+        "in_service": "In service",
+        "archived": "Archived",
+        "active": "Active",
+        "expiringSoon": "Expiring soon",
+        "expired": "Expired"
+      },
+      "duplicate": {
+        "title": "Duplicate Equipment"
+      },
+      "dictionaries": {
+        "base": "Configuration",
+        "addNew": "Create",
+        "createNew": "Create new",
+        "archive": "Delete",
+        "name": "Name",
+        "cancel": "Cancel",
+        "save": "Save",
+        "forms": {
+          "name": "Name",
+          "missingName": "Dictionary name is required"
+        },
+        "errors": {
+          "alreadyExists": "Dictionary with this name already exists"
+        }
+      },
+      "create": {
+        "title": "Add new equipment",
+        "basicInfo": "Basic information",
+        "purchase": "Purchase",
+        "basicInfoDescription": "Add basic information about the equipment.",
+        "purchaseDescription": "Provide information about purchase.",
+        "category": "Category",
+        "signature": "Signature",
+        "name": "Name",
+        "brand": "Brand",
+        "model": "Model",
+        "status": "Status",
+        "value": "Price",
+        "location": "Location",
+        "description": "Description",
+        "serialNumber": "Serial number",
+        "photo": "Photo",
+        "invoiceNumber": "Invoice number",
+        "supplier": "Supplier",
+        "purchaseDate": "Purchase date",
+        "warrantyDuration": "Warranty duration",
+        "leaseDuration": "Lease duration",
+        "submit": "Save and finish",
+        "cancel": "Cancel",
+        "goBack": "Go back",
+        "goNext": "Next",
+        "statusLabels": {
+          "working": "Working",
+          "broken": "Broken",
+          "in_service": "In service",
+          "archived": "Archived"
+        },
+        "errors": {
+          "alreadyExistsBySignature": "Equipment with this signature already exists",
+          "alreadyExistsBySerial": "Equipment with this serial already exists"
+        }
+      },
+      "general": {
+        "title": "Equipment",
+        "basicInfo": "Basic information",
+        "purchase": "Purchase",
+        "basicInfoDescription": "Add basic information about the equipment.",
+        "purchaseDescription": "Provide information about purchase.",
+        "category": "Category",
+        "signature": "Signature",
+        "name": "Name",
+        "brand": "Brand",
+        "model": "Model",
+        "status": "Status",
+        "value": "Price",
+        "location": "Location",
+        "description": "Description",
+        "serialNumber": "Serial number",
+        "photo": "Photo",
+        "invoiceNumber": "Invoice number",
+        "supplier": "Supplier",
+        "purchaseDate": "Purchase date",
+        "warrantyDuration": "Warranty duration",
+        "leaseDuration": "Lease duration",
+        "equipmentPhotoAlt": "Equipment photo",
+        "errors": {
+          "alreadyExistsBySignature": "Equipment with this signature already exists",
+          "alreadyExistsBySerial": "Equipment with this serial already exists"
+        }
+      },
+      "assignPage": {
+        "title": "Assign equipment",
+        "assignTo": "Assign to",
+        "search": "Search",
+        "equipmentAlreadyAssigned": "Some equipment are assigned already and will be reassigned to another employee",
+        "assignChosenEquipment": "Select the employee to whom you want to assign this equipment.",
+        "assignChosenEquipments": "Select the employee to whom you want to assign this equipment.",
+        "filters": {
+          "filters": "Filters",
+          "active": "Active",
+          "invited": "Invited",
+          "inactive": "Inactive",
+          "archived": "Archived"
+        }
+      },
+      "documents": {
+        "header": "Documents",
+        "addFile": "Add new file",
+        "deleteFile": "Delete file",
+        "edit": {
+          "header": "Edit document"
+        }
+      }
+    },
+      "benefits": {
+        "title": "Benefits",
+        "addNew": "Add new",
+        "search": "Search",
+        "searchBenefits": "search benefits",
+        "edit": "Edit",
+        "delete": "Delete",
+        "assign": "Assign",
+        "unassign": "Unassign",
+        "create": {
+          "title": "Add new benefit",
+          "editTitle": "Edit benefit",
+          "name": "Name",
+          "namePlaceholder": "Enter benefit name",
+          "description": "Description",
+          "descriptionPlaceholder": "Enter description (optional)",
+          "save": "Save",
+          "cancel": "Cancel",
+          "success": "Benefit created successfully"
+        },
+        "assignPage": {
+          "title": "Assign benefits",
+          "assignTo": "Assign to",
+          "search": "Search",
+          "searchBenefits": "search benefits",
+          "assignChosenBenefits": "Select the employee to whom you want to assign this benefit.",
+          "selectedBenefits": "Selected benefits",
+          "filters": {
+            "filters": "Filters",
+            "active": "Active",
+            "invited": "Invited",
+            "inactive": "Inactive",
+            "archived": "Archived"
+          }
+        }
+      },
+      "documents": {
+        "title": "Documents",
+      "addFiles": "Add new files",
+      "addFileDescription": "Add a new file (or files) by clicking on the button. You can provide a custom name, choose a category, and set an expiration date — or leave the defaults.",
+      "options": "Options",
+      "expiration": "Exp. date",
+      "menu": "Documents menu",
+      "menuCategories": "Categories",
+      "search": "Search",
+      "edit": "Edit",
+      "delete": "Delete",
+      "add": {
+        "category": "Category",
+        "addFiles": "Add new files",
+        "submit": "Submit",
+        "cancel": "Cancel",
+        "description": "Description",
+        "infoDescription": "This field is available only for single file upload.",
+        "expirationDate": "Expiration date"
+      },
+      "categories": {
+        "add": {
+          "cta": "Add new category",
+          "heading": "Add category",
+          "name": "Category name",
+          "save": "Save",
+          "cancel": "Cancel"
+        },
+        "delete": {
+          "cta": "Delete categories",
+          "heading": "Delete categories",
+          "description": "Are you sure you want to delete selected categories?",
+          "save": "Yes, delete",
+          "cancel": "Cancel"
+        }
+      },
+      "editModal": {
+        "category": "Category",
+        "submit": "Submit",
+        "cancel": "Cancel",
+        "description": "Description",
+        "editInfoDescription": "Available only while editing single file",
+        "updateArchivedError": "You cannot update archived documents!",
+        "expirationDate": "Expiration date",
+        "archivedOmitted": "Archived documents will be omitted."
+      },
+      "filters": {
+        "category": "Category",
+        "status": "Status",
+        "filters": "Filters",
+        "assigned": "Assigned",
+        "free": "Free",
+        "active": "Active",
+        "expiringSoon": "Expiring soon",
+        "expired": "Expired",
+        "archived": "Archived",
+        "title": "Filters",
+        "all": "All"
+      }
+    }
+  },
+  "settings": {
+    "roles": {
+      "title": "Roles",
+      "createRole": "Create role",
+      "permissions": "Permissions",
+      "cancel": "Cancel",
+      "save": "Save",
+      "forms": {
+        "name": "Name",
+        "key": "Key (for code reference)",
+        "description": "Description"
+      }
+    },
+    "dangerView": {
+      "danger": "Danger",
+      "subdomain": "Subdomain",
+      "subdomainDescription": "Changing subdomain will cause a logout form the system",
+      "deleteOrganization": "Delete organization",
+      "deleteOrganizationDescription": "If you want to completely remove your organization from the system, use this option.",
+      "deleteOrganizationAccept": "I understand that deleting the account will also delete the database, and this action is irreversible.",
+      "deleteCta": "Delete the organization",
+      "cancelCta": "Go back",
+      "modal": {
+        "header": "Delete organization",
+        "content1": "Are you sure you want to delete whole company account?",
+        "content2": "Deleting the organization will also delete the database, and this action is irreversible."
+      },
+      "saveSubdomainCta": "Change subdomain",
+      "cancelSubdomainCta": "Cancel"
+    },
+    "generalView": {
+      "applicationSettings": "Application Settings",
+      "language": "Language",
+      "save": "Save",
+      "cancel": "Cancel"
+    },
+    "changePasswordView": {
+      "changePassword": "Change Password",
+      "oldPassword": "Old Password",
+      "newPassword": "New Password",
+      "confirmPassword": "Confirm Password",
+      "save": "Save"
+    },
+    "update": {
+      "success": "Settings updated successfully",
+      "changePassword": {
+        "success": "Password changed successfully"
+      }
+    }
+  },
+  "modal": {
+    "header": {
+      "delete": "Delete",
+      "edit": "Edit",
+      "update": "Update",
+      "deleteEntry": "Delete {count, plural, =1 {entry} other {entries}}",
+      "assignEquipment": "Assign equipment",
+      "unassignEquipment": "Unassign equipment",
+      "changeStatus": "Change status",
+      "archiveEquipment": "Archive equipment",
+      "absenceApproveConfirm": "Are you sure you want to approve the absence?",
+      "absenceRejectConfirm": "Are you sure you want to reject the absence?",
+      "absenceBulkApproval": "Approve all selected absences",
+      "absenceBulkRejection": "Reject all selected absences",
+      "deleteDocuments": "Delete {count, plural, =1 {document} other {documents}}"
+    },
+    "content": {
+      "editDocuments": "Edit selected documents",
+      "deleteEarnings": "Are your sure you want to delete this earning?",
+      "deleteEntry": "Are you sure you want to delete {count, plural, =1 {this entry} other {# entries}}?",
+      "deleteAllEntries": "Are you sure you want to delete all entries?",
+      "assignEquipment": "Some of the selected resources are already assigned to the employees. Are you sure you want to assign this equipment to other employee?",
+      "unassignEquipment": "Are you sure you want to unassign this {count, plural, =1 {equipment} other {equipment}} from employee?",
+      "changeStatus": "Change status of selected equipment.",
+      "archiveEquipment": "Are you sure you want to archive selected {count, plural, =1 {equipment} other {equipment}}?",
+      "deleteDocuments": "Are you sure you want to delete selected {count, plural, =1 {document} other {documents}}?",
+      "absenceApproveConfirm": "The employee was {count, plural, =1 {recently informed about rejection of the absence} other {informed about the rejection of the absence # days ago}}.",
+      "absenceRejectConfirm": "The employee was {count, plural, =1 {recently informed about approval of the absence} other {informed about the approval of the absence # days ago}}.",
+      "absenceBulkApproval": "Are you sure you want to approve all selected absences?",
+      "absenceBulkRejection": "Are you sure you want to reject all selected absences?"
+    }
+  },
+  "earnings": {
+    "netIncome": "net.",
+    "amount": "Amount",
+    "update": "Update employee salary",
+    "edit": "Edit employee salary entry",
+    "delete": "Delete employee salary entry"
+  },
+  "documents": {
+    "table": "Documents table",
+    "noFiles": "No files yet",
+    "addFile": "Add new files",
+    "dragAndDrop": "Drag and drop files here",
+    "or": "or"
+  },
+  "table": {
+    "headers": {
+      "key": "Key (for code reference)",
+      "assignedCount": "Employees with this role",
+      "client": "Client",
+      "workOrderAssignees": "Employees",
+      "date": "Date",
+      "description": "Description",
+      "extension": "Ext",
+      "expDate": "Expiration date",
+      "createdAt": "Uploaded date",
+      "lastName": "Last name",
+      "firstName": "First name",
+      "role": "Job position",
+      "phone": "Phone number",
+      "email": "Email",
+      "status": "Status",
+      "signature": "Signature",
+      "category": "Category",
+      "name": "Name",
+      "note": "Note",
+      "assigned": "Assigned",
+      "id": "ID",
+      "brandAndModel": "Brand and model",
+      "actions": "Actions",
+      "requestedAt": "Request date",
+      "dateRange": "From to",
+      "type": "Type",
+      "contact": "Contact person",
+      "location": "Location",
+      "equipment": "Equipment",
+      "createdBy": "Created by",
+      "notes": "Request from client",
+      "startDate": "Active from"
+    }
+  },
+  "tags": {
+    "current": "Current"
+  },
+  "noResults": "Sorry, no results found",
+  "generateCVModal": {
+    "header": "Select one of the options",
+    "anonymous": "Anonymous name",
+    "public": "Public name"
+  },
+  "navigation": {
+    "absence": "Absence",
+    "expand": "Expand Menu",
+    "fold": "Fold menu",
+    "employees": "EMPLOYEES",
+    "employeesList": "Employees",
+    "benefits": "Benefits",
+    "dashboard": "Dashboard",
+    "hamburger": "Mobile menu toggle",
+    "mobileMenu": "Mobile navigation menu",
+    "general": "General",
+    "earnings": "Salary",
+    "skills": "Skills",
+    "documents": "Documents",
+    "settings": "Settings",
+    "addNewEmployee": "Add new employee",
+    "changePassword": "Change Password",
+    "danger": "Danger",
+    "company": "Company",
+    "goBack": "Go back",
+    "myProfile": "My profile",
+    "equipment": "Equipment",
+    "changelog": "Changelog",
+    "category": "Category",
+    "location": "Location",
+    "absences": "Absences",
+    "requests": "Leave requests",
+    "ical": "Sync calendar",
+    "availability": "Availability",
+    "dayOffSettings": "Day off settings",
+    "calendar": "Calendar",
+    "feedback": "Feedback",
+    "roles": "Roles",
+    "ctaLabels": {
+      "more": "More"
+    }
+  },
+  "breadcrumbs": {
+    "dashboard": {
+      "base": "Dashboard"
+    },
+    "employees": {
+      "earnings": {
+        "base": "Salary",
+        "update": "Update salary"
+      },
+      "absence": {
+        "base": "Absence",
+        "request": "Request an absence"
+      },
+      "base": "Employees",
+      "general": "General",
+      "skills": "Skills",
+      "documents": {
+        "base": "Documents"
+      },
+      "create": "New Employee",
+      "equipment": {
+        "base": "Equipment",
+        "documents": {
+          "edit": "Edit document"
+        },
+        "assign": "Assign",
+        "unassign": "Unassign"
+      },
+      "benefits": {
+        "base": "Benefits",
+        "title": "Benefits",
+        "assign": "Assign",
+        "unassign": {
+          "label": "Unassign",
+          "success": "Benefit unassigned successfully"
+        },
+        "searchBenefits": "search benefits"
+      },
+      "dictionaries": {
+        "base": "Dictionaries",
+        "skills": "Skills"
+      },
+      "feedback": {
+        "base": "Feedback",
+        "schedule": "Schedule feedback",
+        "edit": "Edit feedback"
+      }
+    },
+    "company": {
+      "base": "Company",
+      "general": "General",
+      "absences": {
+        "base": "Absences",
+        "request": "Request an absence",
+        "availability": "Availability",
+        "ical": "Sync calendar",
+        "settings": {
+          "base": "Day off settings",
+          "add": "Add"
+        }
+      },
+      "equipment": {
+        "category": "Categories",
+        "location": "Locations",
+        "base": "Equipment",
+        "create": "New Equipment",
+        "duplicate": "Duplicate equipment",
+        "general": "General",
+        "assign": "Assign",
+        "unassign-employee": "Unassign equipment",
+        "assign-employee": "Assign equipment",
+        "documents": {
+          "base": "Documents"
+        },
+        "assign-equipment": "Assign equipment",
+        "update": "Update",
+        "archive": "Archive",
+        "dictionaries": {
+          "base": "Dictionaries",
+          "category": "Categories",
+          "location": "Locations"
+        }
+      },
+      "benefits": {
+        "base": "Benefits",
+        "edit": "Edit benefit",
+        "assign": "Assign",
+        "unassign": "Unassign"
+      },
+      "documents": {
+        "base": "Documents",
+        "add": "Add files",
+        "edit": "Edit",
+        "categories": "Categories"
+      },
+      "dictionaries": {
+        "base": "Dictionaries",
+        "category": "Categories",
+        "location": "Locations"
+      }
+    },
+    "settings": {
+      "base": "Settings",
+      "general": "General",
+      "danger": "Danger"
+    }
+  },
+  "employmentTypes": {
+    "employmentContract": "Employment contract",
+    "workContract": "Work contract",
+    "commissionContract": "Commission contract",
+    "b2bContract": "B2B",
+    "agencyContract": "Agency contract",
+    "other": "Other"
+  },
+  "sortMenu": {
+    "sortMenu": "Sorting Menu",
+    "asc": "Ascending",
+    "desc": "Descending",
+    "firstName": "First Name {dir}",
+    "lastName": "Last Name {dir}",
+    "expDate": "Expiration Date {dir}",
+    "name": "Name {dir}",
+    "email": "Email {dir}",
+    "signature": "Signature {dir}",
+    "description": "Description {dir}",
+    "requestedAt": "Request date {dir}",
+    "startDate": "Date from {dir}",
+    "endDate": "Date to {dir}",
+    "type": "Type {dir}"
+  },
+  "employeeMenu": {
+    "actions": "Actions",
+    "options": "Options",
+    "employeeItemMenu": "Employee {firstName} {lastName} Menu",
+    "employeeBulkMenu": "Selected employees actions",
+    "invite": "Invite",
+    "download": "Generate CV",
+    "offboarding": "Archive",
+    "mail": "Email",
+    "assign": "Grant access role",
+    "createEmployee": "Create employee",
+    "archive": "Archive",
+    "generateCV": "Generate CV",
+    "activate": "Activate"
+  },
+  "documentsMenu": {
+    "options": "Options",
+    "edit": "Edit document",
+    "open": "Open document",
+    "documentItemMenu": "Document {description} Manu",
+    "delete": "Delete document"
+  },
+  "formSteps": {
+    "basicInformation": "Basic information",
+    "basicInformationInfo": "Add basic information about the employee.",
+    "partnership": "Partnership",
+    "partnershipInfo": "Enter information about partnership.",
+    "contactDetails": "Contact details",
+    "contactDetailsInfo": "Enter contact details",
+    "other": "Other",
+    "otherInfo": "Enter additional information",
+    "title": "{title} form step",
+    "purchase": "Purchase",
+    "category": "Category",
+    "feedback": "Feedback"
+  },
+  "changePassword": {
+    "title": "Change password"
+  },
+  "createEmployee": {
+    "role": "Job position",
+    "holiday": "Holiday (in total)",
+    "holidayDescription": "Number of holiday days per year",
+    "firstYearHoliday": "Holiday (admission year)",
+    "firstYearHolidayDescription": "Number of vacation days in the year of admission",
+    "employmentType": "Employment type",
+    "taxId": "Tax ID",
+    "bankAccount": "Bank Account Number",
+    "company": "Company",
+    "startingDate": "Starting date"
+  },
+  "toasts": {
+    "employees": {
+      "create": {
+        "success": "Employee created successfully"
+      },
+      "archive": {
+        "success": "Employee archived successfully"
+      },
+      "invite": {
+        "success": "Invitation sent successfully"
+      },
+      "general": {
+        "basicInfo": {
+          "success": "Updating successful"
+        },
+        "partnershipInfo": {
+          "success": "Updating successful"
+        },
+        "contactInfo": {
+          "success": "Updating successful"
+        },
+        "otherInfo": {
+          "success": "Updating successful"
+        }
+      },
+      "documents": {
+        "delete": {
+          "success": "Deleting successful"
+        },
+        "upload": {
+          "success": "Uploading successful"
+        }
+      },
+      "earnings": {
+        "update": { "success": "Updating successful" },
+        "edit": { "success": "Editing successful" },
+        "delete": { "success": "Deleting successful" }
+      },
+      "feedback": {
+        "update": { "success": "Feedback updated successfully" },
+        "create": { "success": "Feedback created successfully" },
+        "delete": { "success": "Feedback deleted successfully" }
+      },
+      "skills": {
+        "updateBasicInfo": { "success": "Updating successful" },
+        "updateCareer": { "success": "Updating successful" },
+        "updateSkills": { "success": "Updating successful" },
+        "addProject": { "success": "Adding entry successful." },
+        "updateProject": { "success": "Updating successful" },
+        "deleteProject": { "success": "Deleting successful" },
+        "addEmploymentHistory": { "success": "Adding entry successful." },
+        "updateEmploymentHistory": { "success": "Updating successful" },
+        "deleteEmploymentHistory": { "success": "Deleting successful" },
+        "addEducation": { "success": "Adding entry successful." },
+        "updateEducation": { "success": "Updating successful" },
+        "deleteEducation": { "success": "Deleting successful" },
+        "addCourse": { "success": "Adding entry successful." },
+        "updateCourse": { "success": "Updating successful" },
+        "deleteCourse": { "success": "Deleting successful" }
+      }
+    },
+    "dictionaries": {
+      "create": { "success": "Creating successful" },
+      "delete": { "success": "Deleting successful" }
+    },
+    "company": {
+      "basicInfo": {
+        "success": "Updating successful"
+      },
+      "benefits": {
+        "delete": {
+          "success": "Benefit deleted successfully"
+        },
+        "update": {
+          "success": "Benefit updated successfully"
+        },
+        "assign": {
+          "success": "Benefits assigned successfully"
+        }
+      }
+    },
+    "settings": {
+      "update": {
+        "success": "Updating successful"
+      }
+    },
+    "equipment": {
+      "update": {
+        "success": "Updating successful"
+      },
+      "assign": {
+        "success": "Equipment assigned"
+      },
+      "documents": {
+        "delete": {
+          "success": "Deleting successful"
+        },
+        "upload": {
+          "success": "Uploading successful"
+        }
+      }
+    },
+    "absence": {
+      "request": {
+        "success": "Request send successfully"
+      },
+      "create": {
+        "success": "Absence created successfully"
+      },
+      "approve": {
+        "success": "Request approved successfully"
+      },
+      "reject": {
+        "success": "Request rejected successfully"
+      },
+      "settings": {
+        "add": {
+          "success": "Adding successful"
+        },
+        "delete": {
+          "success": "Deleting successful"
+        }
+      },
+      "ical": {
+        "copyToClipboard": "Copied to clipboard"
+      }
+    }
+  },
+  "pagination": {
+    "currentPage": "Current page {page}",
+    "goToPage": "Go to {page} page",
+    "goToNext": "Go to next page",
+    "goToPrev": "Go to previous page",
+    "itemsPerPage": "Items per page"
+  },
+  "employeeSections": {
+    "basicInfo": "Basic information",
+    "partnership": "Partnership",
+    "contact": "Contact",
+    "other": "Other",
+    "projects": "Projects",
+    "employmentHistory": "Employment History",
+    "education": "Education",
+    "courses": "Courses",
+    "documents": "Documents",
+    "earnings": "Salary"
+  },
+  "absences": {
+    "header": "Absences",
+    "pendingRequests": "Pending requests",
+    "requestLeave": "Request leave",
+    "availabilityThisMonth": "Availability this month",
+    "usedLeaveDays": "Used holiday days",
+    "sickAbsences": "Sick absences",
+    "personalLeave": "Personal leave",
+    "approve": "Accept",
+    "reject": "Reject",
+    "actions": "Options",
+    "add": "Add absence",
+    "delete": "Delete",
+    "search": "Search",
+    "filters": {
+      "label": "Filters",
+      "type": "Type",
+      "status": "Status"
+    },
+    "type": {
+      "holiday": "Holiday",
+      "sick": "Sick leave",
+      "personal": "Personal leave",
+      "global": "Company Off"
+    },
+    "status": {
+      "approved": "Approved",
+      "pending": "Requested",
+      "rejected": "Rejected"
+    },
+    "request": {
+      "employee": "Employee",
+      "header": "Request days off",
+      "subheader": "Add details of days off from work",
+      "dateFrom": "Date from",
+      "dateTo": "Date to",
+      "type": "Type of absence",
+      "workingDays": "Working days",
+      "halfDay": "Half a day",
+      "description": "Description",
+      "add": "Add",
+      "cancel": "Cancel",
+      "types": {
+        "holiday": "Holiday",
+        "sick": "Sick Leave",
+        "personal": "Personal"
+      }
+    },
+    "availability": {
+      "header": "Availability",
+      "availability": "Availability",
+      "listTitle": "Employees availability",
+      "workdays": "Workdays",
+      "days": "{number} days",
+      "prevMonth": "Previous month",
+      "nextMonth": "Next month"
+    },
+    "ical": {
+      "icalFeed": "iCal feed",
+      "calendarExportDescription": "There is a single company-wide iCal calendar that exports all employees' absences, including leaves, vacations, and sick days. This iCal link can be imported into your calendar management software to keep track of employee availability. Absence data is refreshed every 15 minutes.",
+      "linkToExportCalendar": "Link to export calendar",
+      "copyToClipboard": "Copy to clipboard"
+    },
+    "settings": {
+      "header": "Day off Settings",
+      "add": "Add day off",
+      "delete": "Delete day off",
+      "actions": "Options",
+      "create": {
+        "header": "Add day off",
+        "subheader": "Add details of a day off from work",
+        "dateFrom": "Date from",
+        "dateTo": "Date to",
+        "workingDays": "Working days",
+        "halfDay": "Half a day",
+        "description": "Description",
+        "add": "Add",
+        "cancel": "Go back",
+        "errors": {
+          "dateRangeOverlapsExistingAbsences": "Selected date range cannot overlap with existing global absences"
+        }
+      }
+    }
+  },
+  "labels": {
+    "filesList": "List of files"
+  },
+  "months": {
+    "1": "January",
+    "2": "February",
+    "3": "March",
+    "4": "April",
+    "5": "May",
+    "6": "June",
+    "7": "July",
+    "8": "August",
+    "9": "September",
+    "10": "October",
+    "11": "November",
+    "12": "December"
+  },
+  "legend": {
+    "holiday": "Holiday",
+    "sick": "Sick Leave",
+    "personal": "Personal",
+    "global": "Company off"
+  },
+  "weekCalendar": {
+    "goToPrevWeek": "Go to previous week",
+    "goToNextWeek": "Go to next week",
+    "goToNextDay": "Go to next day",
+    "goToPrevDay": "Go to previous day",
+    "goToToday": "Go to today",
+    "today": "Today",
+    "selectDate": "Select a date",
+    "selectedDate": "Selected date",
+    "others": "and {count} others",
+    "dayOff": "Day off",
+    "companyOff": "Company off",
+    "halfDayOff": "Half day off"
+  },
+  "shortcuts": {
+    "hour": "h",
+    "minute": "m"
+  },
+  "dictionaries": {
+    "category": {
+      "addNew": "Add new",
+      "createNew": "Create new",
+      "cancel": "Cancel",
+      "save": "Save",
+      "archive": "Archive",
+      "forms": {
+        "name": "Name",
+        "missingName": "Name is required"
+      },
+      "errors": {
+        "alreadyExists": "Dictionary with this name already exists"
+      }
+    },
+    "location": {
+      "addNew": "Add new",
+      "createNew": "Create new",
+      "cancel": "Cancel",
+      "save": "Save",
+      "archive": "Archive",
+      "forms": {
+        "name": "Name",
+        "missingName": "Name is required"
+      },
+      "errors": {
+        "alreadyExists": "Dictionary with this name already exists"
+      }
+    },
+    "skills": {
+      "addNew": "Add new",
+      "createNew": "Create new",
+      "cancel": "Cancel",
+      "save": "Save",
+      "archive": "Archive",
+      "forms": {
+        "name": "Name",
+        "missingName": "Name is required"
+      },
+      "errors": {
+        "alreadyExists": "Dictionary with this name already exists"
+      }
+    }
+  },
+  "equipmentSections": {
+    "basicInfo": "Basic Info",
+    "documents": "Documents"
+  }
+}

@@ -1,0 +1,123 @@
+enum FeedbackType {
+  buddy
+  terminal
+  other
+  external
+}
+
+enum FeedbackScoreType {
+  neutral
+  positive
+  negative
+}
+
+model Feedback {
+  id               String             @id @default(cuid())
+  personId         String
+  person           Employee           @relation("FeedbackPerson", fields: [personId], references: [id], onDelete: Cascade)
+  hostId           String
+  host             Employee           @relation("FeedbackHost", fields: [hostId], references: [id], onDelete: Cascade)
+  plannedDay       DateTime
+  type             FeedbackType
+  noteBefore       String? /// @encrypted
+  noteForPerson    String? /// @encrypted - VISIBLE TO EMPLOYEE
+  notes            String? /// @encrypted
+  feedbackScore    FeedbackScoreType?
+  clientFeedback   String? /// @encrypted
+  internalFeedback String? /// @encrypted
+  isDone           Boolean?           @default(false)
+  createdAt        DateTime           @default(now())
+  updatedAt        DateTime           @updatedAt
+
+  // relations
+  participants      FeedbackParticipant[]
+  feedbackDocuments FeedbackDocument[]
+}
+
+model FeedbackParticipant {
+  id         String   @id @default(cuid())
+  feedbackId String
+  feedback   Feedback @relation(fields: [feedbackId], references: [id], onDelete: Cascade)
+  employeeId String
+  employee   Employee @relation("FeedbackParticipants", fields: [employeeId], references: [id], onDelete: Cascade)
+
+  @@unique([feedbackId, employeeId])
+}
+
+model FeedbackDocument {
+  id         String   @id @default(cuid())
+  feedbackId String
+  feedback   Feedback @relation(fields: [feedbackId], references: [id], onDelete: Cascade)
+  uri        String   @client_db.VarChar(255)
+  createdAt  DateTime @default(now())
+}
+
+model ExternalSurvey {
+  id                    String       @id @default(cuid())
+  personId              String
+  person                Employee     @relation("ExternalSurveyPerson", fields: [personId], references: [id], onDelete: Cascade)
+  hostId                String
+  host                  Employee     @relation("ExternalSurveyHost", fields: [hostId], references: [id], onDelete: Cascade)
+  plannedDay            DateTime     @default(now())
+  expirationDate        DateTime
+  url                   String
+  type                  FeedbackType @default(external)
+  externalHostFirstName String
+  externalHostLastName  String
+  externalHostPosition  String
+  externalCompanyName   String
+  isDone                Boolean      @default(false)
+  isExpired             Boolean      @default(false)
+  createdAt             DateTime     @default(now())
+  updatedAt             DateTime     @updatedAt
+
+  // relations
+  externalFeedback ExternalFeedback?
+}
+
+model ExternalFeedback {
+  id               String          @id @default(cuid())
+  externalSurveyId String?         @unique
+  externalSurvey   ExternalSurvey? @relation(fields: [externalSurveyId], references: [id], onDelete: Cascade)
+  createdAt        DateTime        @default(now())
+  updatedAt        DateTime        @updatedAt
+
+  // relations
+  externalFeedbackAnswers   ExternalFeedbackAnswer[]
+  externalFeedbackQuestions ExternalFeedbackQuestionRelation[]
+}
+
+model ExternalFeedbackQuestion {
+  id        String   @id @default(cuid())
+  content   String
+  order     Int      @default(autoincrement())
+  isActive  Boolean  @default(true)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  // relations
+  externalFeedbackAnswers ExternalFeedbackAnswer[]
+  externalFeedbacks       ExternalFeedbackQuestionRelation[]
+}
+
+model ExternalFeedbackQuestionRelation {
+  id                         String                   @id @default(cuid())
+  externalFeedbackId         String
+  externalFeedback           ExternalFeedback         @relation(fields: [externalFeedbackId], references: [id], onDelete: Cascade)
+  externalFeedbackQuestionId String
+  externalFeedbackQuestion   ExternalFeedbackQuestion @relation(fields: [externalFeedbackQuestionId], references: [id], onDelete: Cascade)
+
+  @@unique([externalFeedbackId, externalFeedbackQuestionId])
+}
+
+model ExternalFeedbackAnswer {
+  id                         String                   @id @default(cuid())
+  externalFeedbackQuestionId String
+  externalFeedbackQuestion   ExternalFeedbackQuestion @relation(fields: [externalFeedbackQuestionId], references: [id], onDelete: Cascade)
+  content                    String /// @encrypted
+  externalFeedbackId         String?
+  externalFeedback           ExternalFeedback?        @relation(fields: [externalFeedbackId], references: [id], onDelete: Cascade)
+  createdAt                  DateTime                 @default(now())
+
+  @@index([externalFeedbackId])
+}

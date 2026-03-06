@@ -1,0 +1,21 @@
+# Use official PostgreSQL 16.4 base image
+FROM postgres:16.4
+
+# Install PostGIS and its dependencies
+RUN apt-get update && \
+    apt-get install -y postgis postgresql-16-postgis-3 postgresql-16-postgis-3-scripts && \
+    apt-get clean && \
+    rm -rf /var/lib/apt/lists/*
+
+# Optional: Set environment variables
+ARG POSTGRES_USER
+ENV POSTGRES_USER=${POSTGRES_USER}
+
+ARG POSTGRES_PASSWORD
+ENV POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+
+ARG POSTGRES_DB
+ENV POSTGRES_DB=${POSTGRES_DB}
+
+# Expose the default PostgreSQL port
+EXPOSE 5432

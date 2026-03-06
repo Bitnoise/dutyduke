@@ -1,0 +1,3 @@
+-- PostGIS extension removed - not needed
+-- Location table will be dropped in a later migration anyway
+-- This migration is now a no-op to maintain migration history

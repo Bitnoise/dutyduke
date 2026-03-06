@@ -1,0 +1,14 @@
+[
+  { "id": "fix-eqcat-01", "name": "Laptop" },
+  { "id": "fix-eqcat-02", "name": "Monitor" },
+  { "id": "fix-eqcat-03", "name": "Keyboard" },
+  { "id": "fix-eqcat-04", "name": "Mouse" },
+  { "id": "fix-eqcat-05", "name": "Headset" },
+  { "id": "fix-eqcat-06", "name": "Smartphone" },
+  { "id": "fix-eqcat-07", "name": "Docking Station" },
+  { "id": "fix-eqcat-08", "name": "Webcam" },
+  { "id": "fix-eqcat-09", "name": "External Drive" },
+  { "id": "fix-eqcat-10", "name": "Tablet" },
+  { "id": "fix-eqcat-11", "name": "Networking" },
+  { "id": "fix-eqcat-12", "name": "Server" }
+]

@@ -1,0 +1,30 @@
+model Company {
+  id             String       @id @default(cuid())
+  organizationId String
+  organization   Organization @relation(fields: [organizationId], references: [id], onDelete: Cascade)
+  name           String
+
+  logo   CompanyLogo? @relation(fields: [logoId], references: [id], onDelete: SetNull)
+  logoId String?      @unique
+
+  @@index([organizationId])
+}
+
+model CompanyLogo {
+  id       String @id @default(cuid())
+  filePath String
+
+  Company Company?
+}
+
+// Benefits
+model Benefit {
+  id        String   @id @default(cuid())
+  name      String
+  note      String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  // relations
+  employeeBenefits EmployeeBenefit[]
+}
