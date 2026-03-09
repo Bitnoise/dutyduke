@@ -1,7 +1,6 @@
 import dayjs from 'dayjs';
 import { type OrganizationContext } from '@/api/hris';
 import {
-  containsQuery,
   type CUID,
   DOCUMENTS_WARNING_BADGE_TIME,
   type DocumentsOrderBy,
@@ -162,6 +161,30 @@ export function documentsQueries(organizationContext: OrganizationContext): Docu
       return { OR };
     };
 
+    const parsedQuery = query?.length ? decodeURIComponent(query) : undefined;
+
+    const handleSearchQuery = (): OrganizationPrisma.DocumentWhereInput => {
+      if (!parsedQuery) {
+        return {};
+      }
+
+      return {
+        OR: [
+          { description: { contains: parsedQuery, mode: 'insensitive' } },
+          { filePath: { contains: parsedQuery, mode: 'insensitive' } },
+          { documentCategory: { name: { contains: parsedQuery, mode: 'insensitive' } } },
+        ],
+      };
+    };
+
+    const whereClause: OrganizationPrisma.DocumentWhereInput = {
+      ...handleFilterByStatus(),
+      ...handleCustomCategoryFilter(),
+      ...handleFilterByAssignFilter(),
+      ...handleSearchQuery(),
+      ...(expDate && { expDate: { not: null } }),
+    };
+
     const [documentsList, totalItems] = await Promise.all([
       db.document.findMany({
         select: {
@@ -180,25 +203,14 @@ export function documentsQueries(organizationContext: OrganizationContext): Docu
           },
         },
         orderBy: parseSort(orderBy),
-        where: {
-          ...handleFilterByStatus(),
-          ...handleCustomCategoryFilter(),
-          ...handleFilterByAssignFilter(),
-          ...(expDate && { expDate: { not: null } }),
-        },
+        where: whereClause,
         take: perPage,
         skip: (page - 1) * perPage,
       }),
       db.document.count({
-        where: {
-          ...handleFilterByStatus(),
-          ...handleCustomCategoryFilter(),
-          ...handleFilterByAssignFilter(),
-        },
+        where: whereClause,
       }),
     ]);
-
-    const parsedQuery = query?.length ? decodeURIComponent(query) : undefined;
 
     // Collect all documents that have an assignedTo employee ID (CUID format)
     const documentIdsForEmployee = documentsList
@@ -214,22 +226,20 @@ export function documentsQueries(organizationContext: OrganizationContext): Docu
           ).then((entries) => Object.fromEntries(entries))
         : {};
 
-    const parsedDocumentsList: DocumentsListItemDto[] = documentsList
-      .map((document) => {
-        const { documentCategory, id, assignedTo, ...restDocument } = document;
+    const parsedDocumentsList: DocumentsListItemDto[] = documentsList.map((document) => {
+      const { documentCategory, id, assignedTo, ...restDocument } = document;
 
-        const fileName = document.filePath.split('/').pop() || '';
-        const extension = fileName.includes('.') ? fileName.split('.').pop()!.toLowerCase() : '';
+      const fileName = document.filePath.split('/').pop() || '';
+      const extension = fileName.includes('.') ? fileName.split('.').pop()!.toLowerCase() : '';
 
-        return {
-          ...restDocument,
-          extension,
-          id,
-          category: documentCategory ? documentCategory.name : '-',
-          assignedTo: assignedTo ? (employeesByDocumentId[id] ?? null) : null,
-        };
-      })
-      .filter((doc) => !parsedQuery || containsQuery(doc, parsedQuery));
+      return {
+        ...restDocument,
+        extension,
+        id,
+        category: documentCategory ? documentCategory.name : '-',
+        assignedTo: assignedTo ? (employeesByDocumentId[id] ?? null) : null,
+      };
+    });
 
     return getPaginatedData(parsedDocumentsList, page, totalItems, perPage);
   };

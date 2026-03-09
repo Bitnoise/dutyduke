@@ -1,6 +1,6 @@
 'use client';
 
-import { type MouseEvent } from 'react';
+import React from 'react';
 import { useSearchParams } from 'next/navigation';
 import { useTranslations as useNextTranslations } from 'next-intl';
 import { useTranslations } from '@/shared/service/locale/use-translations';
@@ -64,23 +64,9 @@ export function DocumentsGridList({
   const status = searchParams.get('status') ?? undefined;
   const filter = searchParams.get('filter') ?? undefined;
 
-  const handleContentClick = (documentId: string, event: MouseEvent) => {
-    // Don't open if clicking on checkbox, menu button, or menu items
-    const target = event.target as HTMLElement;
-    if (
-      target.closest('input[type="checkbox"]') ||
-      target.closest('button') ||
-      target.closest('[role="menuitem"]') ||
-      target.closest('[role="menu"]')
-    ) {
-      return;
-    }
-
-    // Open document in new tab
+  const handleAction = (key: React.Key) => {
     if (actions.includes('open')) {
-      event.preventDefault();
-      event.stopPropagation();
-      window.open(API_ROUTES.documents.open(documentId), '_blank');
+      window.open(API_ROUTES.documents.open(key as string), '_blank');
     }
   };
 
@@ -112,7 +98,9 @@ export function DocumentsGridList({
         aria-label={tNext('title')}
         className={cn(className)}
         searchParamKey="DOCUMENTS"
+        selectionBehavior="toggle"
         selectionMode={actions.includes('select') ? selectionMode : 'none'}
+        onAction={handleAction}
       >
         {items.map((document) => (
           <GridListItem
@@ -121,12 +109,7 @@ export function DocumentsGridList({
             id={document.id}
             textValue={`${document.id} ${document.description}`}
           >
-            <div
-              className={cn('flex flex-col', {
-                'cursor-pointer': actions.includes('open'),
-              })}
-              onClick={(e) => handleContentClick(document.id, e)}
-            >
+            <div className="flex cursor-pointer flex-col">
               <div className="flex gap-x-3">
                 {'description' in columnsToShow && (
                   <span className="line-clamp-1 min-w-0 break-all text-sm">{document.description}</span>

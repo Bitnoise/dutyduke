@@ -94,7 +94,7 @@ export function FilterTag({
 }: PropsWithClassName<PropsWithChildren<Props>>) {
   const parsedSerachParamKey = SEARCH_PARAM_KEYS[searchParamKey];
 
-  const { searchParams, setSearchParams } = useQueryParams();
+  const { searchParams, setMultipleSearchParams } = useQueryParams();
 
   const params = searchParams.get(parsedSerachParamKey)?.split(',').filter(Boolean).includes(value);
 
@@ -103,11 +103,14 @@ export function FilterTag({
   const handleChange = (checked: boolean) => {
     const activeFilters = searchParams.get(parsedSerachParamKey)?.split(',').filter(Boolean) ?? [];
 
-    if (checked) {
-      setSearchParams(parsedSerachParamKey, [...activeFilters, value].join(','));
-    } else {
-      setSearchParams(parsedSerachParamKey, activeFilters.filter((filter) => filter !== value).join(','));
-    }
+    const newFilterValue = checked
+      ? [...activeFilters, value].join(',')
+      : activeFilters.filter((filter) => filter !== value).join(',');
+
+    setMultipleSearchParams([
+      { key: parsedSerachParamKey, value: newFilterValue },
+      { key: SEARCH_PARAM_KEYS.PAGE, value: '1' },
+    ]);
 
     setIsSelected(checked);
   };
