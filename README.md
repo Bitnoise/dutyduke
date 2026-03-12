@@ -8,7 +8,7 @@ Open-source HRIS (Human Resource Information System) built with Next.js 15, Type
 
 DutyDuke is a self-hosted HR management platform following Clean Architecture principles. It provides a complete suite of HR tools — from employee onboarding and leave management to document tracking and performance feedback — all within a single deployable application.
 
-<!-- TODO: Add screenshot -->
+![DutyDuke Cover](docs/assets/dutyduke_github_cover.png)
 
 ## Features
 
@@ -23,6 +23,17 @@ DutyDuke is a self-hosted HR management platform following Clean Architecture pr
 - **Multi-language Support** — English and Polish out of the box (extensible via next-intl)
 - **Field-Level Encryption** — sensitive data encrypted at the database level
 - **Email Notifications** — account invitations, password resets (Mailcatcher for development)
+
+### Screenshots
+
+| | | | |
+|:---:|:---:|:---:|:---:|
+| [<img src="docs/assets/screen_login.png" width="200" alt="Login">](docs/assets/screen_login.png) | [<img src="docs/assets/screen_dashboard.png" width="200" alt="Dashboard">](docs/assets/screen_dashboard.png) | [<img src="docs/assets/screen_docs.png" width="200" alt="Documents">](docs/assets/screen_docs.png) | [<img src="docs/assets/screen_profile.png" width="200" alt="Employee Profile">](docs/assets/screen_profile.png) |
+| **Login** | **Dashboard** | **Documents** | **Employee Profile** |
+| [<img src="docs/assets/screen_absence.png" width="200" alt="Employee Absence">](docs/assets/screen_absence.png) | [<img src="docs/assets/screen_salary.png" width="200" alt="Salary">](docs/assets/screen_salary.png) | [<img src="docs/assets/screen_availability.png" width="200" alt="Availability">](docs/assets/screen_availability.png) | [<img src="docs/assets/screen_roles.png" width="200" alt="Roles">](docs/assets/screen_roles.png) |
+| **Employee Absence** | **Salary** | **Availability** | **Roles** |
+
+*Click any screenshot to view full size.*
 
 ## Quick Start
 
