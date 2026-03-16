@@ -47,13 +47,7 @@ export default async function EmployeeSkillsContent({ id }: Props) {
         isDisabled={isDisabled}
         resourceSkills={skillsFromResources}
       />
-      <ProjectsForm
-        className="hidden"
-        dateFormat={me.dateFormat}
-        employeeId={id}
-        isDisabled={isDisabled}
-        projects={projects}
-      />
+      <ProjectsForm dateFormat={me.dateFormat} employeeId={id} isDisabled={isDisabled} projects={projects} />
       <EmploymentHistoryForm
         className="hidden"
         dateFormat={me.dateFormat}
