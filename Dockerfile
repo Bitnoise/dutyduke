@@ -2,7 +2,7 @@ FROM node:22.2-slim AS deps
 
 WORKDIR /app
 
-RUN apt-get update && apt-get install -y dumb-init && apt-get clean
+RUN apt-get update && apt-get install -y dumb-init openssl && apt-get clean
 
 COPY package.json tsconfig.json yarn.lock ./
 RUN yarn install --ignore-scripts
