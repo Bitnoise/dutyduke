@@ -84,7 +84,7 @@ function Form({
             description: description ?? '',
             languages: languagesEntries,
             primarySkills: parseSkills(basicInfo.primarySkills),
-            secondarySkills: parseSkills(basicInfo.primarySkills),
+            secondarySkills: parseSkills(basicInfo.secondarySkills),
           },
         }}
         onSuccess={handleSuccess}

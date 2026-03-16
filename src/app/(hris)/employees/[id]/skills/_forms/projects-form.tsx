@@ -100,7 +100,7 @@ function ProjectListItem({
                           intent="ghost"
                           isDisabled={isSubmitting || isDeleting || project.order <= 1}
                           name="up"
-                          title={t('moveProjectUp')}
+                          title={t('employees.skillsView.moveProjectUp')}
                           type="submit"
                         />
                         <Button
@@ -110,7 +110,7 @@ function ProjectListItem({
                           intent="ghost"
                           isDisabled={isSubmitting || isDeleting || project.order >= projectsCount}
                           name="down"
-                          title={t('moveProjectDown')}
+                          title={t('employees.skillsView.moveProjectDown')}
                           type="submit"
                         />
                       </>

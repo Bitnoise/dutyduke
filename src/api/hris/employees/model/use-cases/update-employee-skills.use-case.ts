@@ -26,17 +26,29 @@ export function updateEmployeeSkillsUseCase(
     const skillsToLink: UpdateSkillDto[] = [];
     const skillsToDelete: CUID[] = [];
 
-    for (const skillName of skills) {
-      const existingSkillId = await resourcesAcl.doesSkillExist(skillName);
+    for (const skillIdentifier of skills) {
+      // First try to find by ID (form submits skill IDs from selections),
+      // then fall back to name lookup (for custom-typed skill names)
+      const existingSkillById = await resourcesAcl.doesSkillExistById(skillIdentifier as CUID);
 
-      if (existingSkillId) {
+      if (existingSkillById) {
         skillsToLink.push({
           type,
-          skillId: existingSkillId,
+          skillId: existingSkillById,
           employeeId,
         });
       } else {
-        skillsToCreate.push({ name: skillName });
+        const existingSkillByName = await resourcesAcl.doesSkillExist(skillIdentifier);
+
+        if (existingSkillByName) {
+          skillsToLink.push({
+            type,
+            skillId: existingSkillByName,
+            employeeId,
+          });
+        } else {
+          skillsToCreate.push({ name: skillIdentifier });
+        }
       }
     }
 
@@ -58,7 +70,7 @@ export function updateEmployeeSkillsUseCase(
     const currentSkillDetails = await resourcesAcl.getEmployeeSkills(type, employeeId, currentSkillIds);
 
     const skillsToRemove = currentSkillDetails
-      .filter((skill) => !skills.includes(skill.name))
+      .filter((skill) => !skills.includes(skill.name) && !skills.includes(skill.id))
       .map((skill) => skill.id);
 
     skillsToDelete.push(...skillsToRemove);

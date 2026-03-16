@@ -5,6 +5,7 @@ import { type Nullable, type CUID } from '@/shared';
 export type ResourcesAcl = {
   getEmployeeSkills: (type: SkillType, employeeId: CUID, skillIds: CUID[]) => Promise<EmployeeSkillDto[]>;
   doesSkillExist: (name: string) => Promise<Nullable<CUID>>;
+  doesSkillExistById: (id: CUID) => Promise<Nullable<CUID>>;
   createEmployeeSkill: (name: string) => Promise<CUID>;
   assignEquipment: (equipmentId: CUID, employeeId: CUID) => Promise<void>;
   unassignEquipment: (equipmentId: CUID) => Promise<void>;

@@ -13,8 +13,8 @@ type Props = {
 export function DeleteModal({ count = 1, isOpen, onClose, onOk }: Props): JSX.Element {
   const t = useTranslations();
 
-  const handleOk = () => {
-    onOk();
+  const handleOk = async () => {
+    await onOk();
     onClose();
   };
 

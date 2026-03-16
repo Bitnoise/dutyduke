@@ -53,7 +53,6 @@ export function DictionaryBulkActions({
     if (selectedItems === 'all') return;
     await onDeleteEntities(selectedItems);
     cleanSelectedItems();
-    router.refresh();
     toast(DICTIONARY_TOASTS.DELETE);
   };
 

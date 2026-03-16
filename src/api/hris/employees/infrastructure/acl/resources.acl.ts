@@ -31,6 +31,14 @@ export function resourcesAcl(organizationContext: OrganizationContext): Resource
     return skill?.id ?? null;
   };
 
+  const doesSkillExistById = async (id: CUID) => {
+    const hrisApi = instantiateHrisApi(organizationContext);
+
+    const skill = await hrisApi.resources.getSkillById(id);
+
+    return skill?.id ?? null;
+  };
+
   const createEmployeeSkill = async (name: string) => {
     const hrisApi = instantiateHrisApi(organizationContext);
 
@@ -54,6 +62,7 @@ export function resourcesAcl(organizationContext: OrganizationContext): Resource
   return {
     getEmployeeSkills,
     doesSkillExist,
+    doesSkillExistById,
     createEmployeeSkill,
     assignEquipment,
     unassignEquipment,
