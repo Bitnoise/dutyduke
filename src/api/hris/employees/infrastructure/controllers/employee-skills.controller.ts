@@ -80,7 +80,7 @@ export function employeeSkillsController(organizationContext: OrganizationContex
 
   const employeeSkillsQueriesImpl = employeesSkillQueries(organizationContext);
   const documentsAclInstance = documentsAcl(organizationContext);
-  const organizationAclInstance = organizationAcl(organizationContext.organizationId);
+  const organizationAclInstance = organizationAcl(organizationContext);
 
   const updateEmployeeSkills = async (
     checker: PermissionChecker,

@@ -1,11 +1,14 @@
-import { type CUID } from '@/shared';
+import { type OrganizationContext } from '@/api/hris';
+import { companyQueries } from '@/api/hris/company/infrastructure/database/queries/company.queries';
 
-export function organizationAcl(_organizationId: CUID) {
+export function organizationAcl(organizationContext: OrganizationContext) {
+  const companyQueriesImpl = companyQueries(organizationContext.db);
+
   const getOrganizationOverview = async (): Promise<{ name: string } | null> => {
-    // Single organization - return default name
-    // TODO: Get organization name from environment or configuration
+    const company = await companyQueriesImpl.getCompany();
+
     return {
-      name: process.env.NEXT_PUBLIC_ORGANIZATION_NAME || 'DutyDuke',
+      name: company?.name || 'DutyDuke',
     };
   };
 
