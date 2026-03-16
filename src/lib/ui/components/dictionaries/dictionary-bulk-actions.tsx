@@ -1,7 +1,6 @@
 'use client';
 
 import { useState } from 'react';
-import { useRouter } from 'next/navigation';
 import { useTranslations } from '@/shared/service/locale/use-translations';
 import { Button, Icon, Modal, ModalHeader } from '@/lib/ui';
 import { useSelectItems } from '@/lib/ui/hooks/useSelectItems';
@@ -36,7 +35,6 @@ export function DictionaryBulkActions({
   const { selectedItems, cleanSelectedItems } = useSelectItems('DICTIONARY');
   const [isCreateModalOpen, setIsCreateModalOpen] = useState(false);
   const { isOpen: isDeleteModalOpen, openModal: openDeleteModal, closeModal: closeDeleteModal } = useModal();
-  const router = useRouter();
   const toast = useToast();
 
   if (!actions.length) return null;
