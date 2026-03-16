@@ -48,7 +48,7 @@ const nextConfig = {
       },
     ];
   },
-  serverExternalPackages: ['pino', 'pino-pretty'],
+  serverExternalPackages: ['pino', 'pino-pretty', 'pdfkit'],
 };
 
 const withNextIntl = createNextIntlPlugin('./i18n/request.ts');

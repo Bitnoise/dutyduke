@@ -2,14 +2,20 @@ import {
   type EmailTemplateService,
   type TemplateVariables,
 } from '@/shared/service/templates/email-template.service';
+import { type EmployeeCVPayload } from '@/templates/pdf/cv';
 
-// TODO: Implement PDF generation with an alternative library (e.g., puppeteer, pdf-lib, jspdf)
+import { buildCvPdf } from './cv-pdf-builder';
+
 export function pdfCreatorService(_templateService: EmailTemplateService) {
   const getPdfBuffer = async (
-    _templateName: string,
-    _templateVariables: TemplateVariables,
+    templateName: string,
+    templateVariables: TemplateVariables,
   ): Promise<Buffer> => {
-    throw new Error('PDF generation not implemented - Playwright was removed');
+    if (templateName === 'cv') {
+      return buildCvPdf(templateVariables as unknown as EmployeeCVPayload);
+    }
+
+    throw new Error(`PDF generation not implemented for template: ${templateName}`);
   };
 
   return {
