@@ -19,6 +19,30 @@ const PAGE = {
   marginBottom: 40,
 };
 
+/**
+ * Sanitize text for PDFKit's built-in Helvetica font (WinAnsi encoding).
+ * Replaces unsupported Unicode characters with supported equivalents.
+ */
+function sanitizeText(text: string): string {
+  return text
+    .replace(/\r\n/g, '\n')
+    .replace(/\r/g, '')
+    .replace(/●/g, '•')
+    .replace(/○/g, 'o')
+    .replace(/■/g, '-')
+    .replace(/□/g, '-')
+    .replace(/►/g, '>')
+    .replace(/▪/g, '-')
+    .replace(/–/g, '-')
+    .replace(/—/g, '-')
+    .replace(/'/g, "'")
+    .replace(/'/g, "'")
+    .replace(/"/g, '"')
+    .replace(/"/g, '"')
+    .replace(/…/g, '...')
+    .replace(/\u00A0/g, ' ');
+}
+
 const SECTION_GAP = 18;
 const LIST_ITEM_GAP = 14;
 const PERIOD_COLUMN_WIDTH = 80;
@@ -131,7 +155,7 @@ export function buildCvPdf(payload: EmployeeCVPayload, labels: CVLabels = EN_LAB
         .font(FONTS.regular)
         .fontSize(9)
         .fillColor(COLORS.text)
-        .text(payload.description, PAGE.marginLeft, doc.y, { width: contentWidth, lineGap: 2 });
+        .text(sanitizeText(payload.description), PAGE.marginLeft, doc.y, { width: contentWidth, lineGap: 2 });
     }
 
     doc.y += SECTION_GAP;
@@ -177,7 +201,7 @@ export function buildCvPdf(payload: EmployeeCVPayload, labels: CVLabels = EN_LAB
             .font(FONTS.regular)
             .fontSize(9)
             .fillColor(COLORS.text)
-            .text(`•  ${item}`, x + 4, itemY, { width: colWidth - 14 });
+            .text(`•  ${sanitizeText(item)}`, x + 4, itemY, { width: colWidth - 14 });
           itemY = doc.y + 3;
         });
         if (itemY > maxBottomY) maxBottomY = itemY;
@@ -207,7 +231,7 @@ export function buildCvPdf(payload: EmployeeCVPayload, labels: CVLabels = EN_LAB
           .font(FONTS.bold)
           .fontSize(9)
           .fillColor(COLORS.text)
-          .text(`${project.position} ${labels.in} ${project.name}`, detailX, rowY, {
+          .text(sanitizeText(`${project.position} ${labels.in} ${project.name}`), detailX, rowY, {
             width: detailWidth,
           });
 
@@ -217,7 +241,7 @@ export function buildCvPdf(payload: EmployeeCVPayload, labels: CVLabels = EN_LAB
             .font(FONTS.regular)
             .fontSize(9)
             .fillColor(COLORS.text)
-            .text(project.description, detailX, doc.y, { width: detailWidth, lineGap: 1 });
+            .text(sanitizeText(project.description), detailX, doc.y, { width: detailWidth, lineGap: 1 });
         }
 
         doc.y += idx < payload.projects.length - 1 ? LIST_ITEM_GAP : 0;
@@ -248,13 +272,15 @@ export function buildCvPdf(payload: EmployeeCVPayload, labels: CVLabels = EN_LAB
           .font(FONTS.bold)
           .fontSize(9)
           .fillColor(COLORS.text)
-          .text(exp.position, detailX, rowY, { width: detailWidth });
+          .text(sanitizeText(exp.position), detailX, rowY, { width: detailWidth });
 
         doc
           .font(FONTS.regular)
           .fontSize(9)
           .fillColor(COLORS.text)
-          .text(`${labels.company}: ${exp.company}`, detailX, doc.y + 1, { width: detailWidth });
+          .text(sanitizeText(`${labels.company}: ${exp.company}`), detailX, doc.y + 1, {
+            width: detailWidth,
+          });
 
         if (exp.description) {
           doc.y += 2;
@@ -262,7 +288,7 @@ export function buildCvPdf(payload: EmployeeCVPayload, labels: CVLabels = EN_LAB
             .font(FONTS.regular)
             .fontSize(9)
             .fillColor(COLORS.text)
-            .text(exp.description, detailX, doc.y, { width: detailWidth, lineGap: 1 });
+            .text(sanitizeText(exp.description), detailX, doc.y, { width: detailWidth, lineGap: 1 });
         }
 
         doc.y += idx < payload.experience.length - 1 ? LIST_ITEM_GAP : 0;
@@ -293,7 +319,7 @@ export function buildCvPdf(payload: EmployeeCVPayload, labels: CVLabels = EN_LAB
           .font(FONTS.regular)
           .fontSize(9)
           .fillColor(COLORS.text)
-          .text(edu.description, detailX, rowY, { width: detailWidth, lineGap: 1 });
+          .text(sanitizeText(edu.description), detailX, rowY, { width: detailWidth, lineGap: 1 });
 
         doc.y += idx < payload.education.length - 1 ? LIST_ITEM_GAP : 0;
       });
