@@ -4,6 +4,9 @@ import createNextIntlPlugin from 'next-intl/plugin';
 const nextConfig = {
   experimental: {
     esmExternals: true,
+    serverActions: {
+      bodySizeLimit: '10mb',
+    },
   },
   // Limit parallel compilation
   webpack: (config, { dev }) => {
