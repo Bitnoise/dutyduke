@@ -750,7 +750,8 @@
       "applicationSettings": "Application Settings",
       "language": "Language",
       "save": "Save",
-      "cancel": "Cancel"
+      "cancel": "Cancel",
+      "dateFormat": "Date format"
     },
     "changePasswordView": {
       "changePassword": "Change Password",
@@ -998,7 +999,9 @@
     "settings": {
       "base": "Settings",
       "general": "General",
-      "danger": "Danger"
+      "danger": "Danger",
+      "roles": "Roles and permissions",
+      "change-password": "Change password"
     }
   },
   "employmentTypes": {
