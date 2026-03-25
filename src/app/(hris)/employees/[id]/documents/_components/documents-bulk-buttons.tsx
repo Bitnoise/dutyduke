@@ -8,16 +8,17 @@ import { type CUID } from '@/shared';
 import { useModal, useToast } from '@/lib/ui/hooks';
 import { DeleteModal } from '@/lib/ui/components/modal';
 import { EMPLOYEE_DOCUMENTS_TOASTS } from '@/shared/constants/toast-notifications';
+import { type EmployeeAction } from '@/api/hris/employees/model/dtos';
 import { UploadEmployeeDocumentForm, UploadEmployeeDocumentModalForm } from '../_forms';
 import { deleteEmployeeDocuments } from '../_actions';
 
 type Props = {
-  isDisabled?: boolean;
+  actions: EmployeeAction[];
   isMobile: boolean;
   employeeId: CUID;
 };
 
-export function DocumentsBulkButtons({ isDisabled = false, isMobile = false, employeeId }: Props) {
+export function DocumentsBulkButtons({ actions, isMobile = false, employeeId }: Props) {
   const t = useTranslations('employees.documents');
   const { selectedItems, cleanSelectedItems } = useSelectItems('DOCUMENTS');
   const { isOpen, openModal, closeModal } = useModal();
@@ -25,7 +26,7 @@ export function DocumentsBulkButtons({ isDisabled = false, isMobile = false, emp
   const toast = useToast();
 
   const handleDeleteDocuments = async () => {
-    if (isDisabled || isDeleting) return;
+    if (isDeleting) return;
 
     setIsDeleting(true);
 
@@ -40,14 +41,16 @@ export function DocumentsBulkButtons({ isDisabled = false, isMobile = false, emp
     toast(EMPLOYEE_DOCUMENTS_TOASTS.DELETE);
   };
 
-  if (isDisabled) return null;
-
   return (
     <>
       <section className="ml-auto flex">
-        {!selectedItems.length && isMobile && <UploadEmployeeDocumentForm employeeId={employeeId} />}
-        {!selectedItems.length && !isMobile && <UploadEmployeeDocumentModalForm employeeId={employeeId} />}
-        {selectedItems.length > 0 && (
+        {actions.includes('create') && !selectedItems.length && isMobile && (
+          <UploadEmployeeDocumentForm employeeId={employeeId} />
+        )}
+        {actions.includes('create') && !selectedItems.length && !isMobile && (
+          <UploadEmployeeDocumentModalForm employeeId={employeeId} />
+        )}
+        {actions.includes('delete') && selectedItems.length > 0 && (
           <Button
             icon="trash"
             iconPlacement="right"

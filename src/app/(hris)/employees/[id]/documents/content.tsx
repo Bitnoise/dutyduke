@@ -31,26 +31,27 @@ export default async function EmployeeDocumentsContent({ id, sort = 'expDate-asc
     api.auth.getMe(),
   ]);
 
-  const isDisabled = !documents._access.actions.includes('edit') || employee.status === 'ARCHIVED';
+  const actions = employee.status === 'ARCHIVED' ? [] : documents._access.actions;
+  const canCreate = actions.includes('create');
   return (
     <Section heading={t('header')}>
       {documents.items.length ? (
         <>
           <div className="pb-4">
-            <DocumentsBulkButtons employeeId={id} isDisabled={isDisabled} isMobile={isMobile} />
+            <DocumentsBulkButtons actions={actions} employeeId={id} isMobile={isMobile} />
           </div>
           <DocumentsList
             className="xl:hidden"
             dateFormat={me.dateFormat}
             documents={documents}
             employeeId={id}
-            isDisabled={isDisabled}
+            isDisabled={!canCreate}
             isMobile={isMobile}
           />
           <DragAndDrop
             action={uploadEmployeeDocument}
             defaultState={{ status: 'idle', form: { employeeId: id, file: '' } }}
-            isDisabled={isDisabled}
+            isDisabled={!canCreate}
             showSubmittingState={false}
           >
             <DocumentsTable
@@ -59,7 +60,7 @@ export default async function EmployeeDocumentsContent({ id, sort = 'expDate-asc
               documents={documents}
               employeeId={id}
               isMobile={isMobile}
-              selectionMode={!isDisabled ? 'multiple' : undefined}
+              selectionMode={actions.includes('delete') ? 'multiple' : undefined}
             />
           </DragAndDrop>
           <Pagination
@@ -68,7 +69,7 @@ export default async function EmployeeDocumentsContent({ id, sort = 'expDate-asc
             totalPages={documents.totalPages}
           />
         </>
-      ) : !isDisabled ? (
+      ) : canCreate ? (
         <DragAndDrop
           action={uploadEmployeeDocument}
           defaultState={{ status: 'idle', form: { employeeId: id, file: '' } }}
