@@ -18,6 +18,13 @@
     "subtitle": "But not your tasks!",
     "button": "Get back to planning"
   },
+  "somethingWentWrong": {
+    "heading": "Oh no!",
+    "title": "Something went wrong.",
+    "subtitle": "Please try again in a moment.",
+    "tryAgain": "Try again",
+    "goHome": "Back to dashboard"
+  },
   "seo": {
     "title": "DutyDuke",
     "description": "DutyDuke - Modern HR Management System"

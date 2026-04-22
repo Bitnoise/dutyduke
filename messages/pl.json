@@ -17,6 +17,13 @@
     "subtitle": "Ale nie Twoje zadania!",
     "button": "Wróć do planowania"
   },
+  "somethingWentWrong": {
+    "heading": "O nie!",
+    "title": "Coś poszło nie tak.",
+    "subtitle": "Spróbuj ponownie za chwilę.",
+    "tryAgain": "Spróbuj ponownie",
+    "goHome": "Wróć do pulpitu"
+  },
   "seo": {
     "title": "DutyDuke",
     "description": "DutyDuke - Nowoczesny System Zarządzania HR"
