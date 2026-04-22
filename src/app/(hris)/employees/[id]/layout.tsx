@@ -4,12 +4,7 @@ import { getLocale, getTranslations } from 'next-intl/server';
 import { redirect } from 'next/navigation';
 import { HRIS_ROUTES, type CUID } from '@/shared';
 import { hrisApi } from '@/api/hris';
-import {
-  getPermissionChecker,
-  ResourceType,
-  PermissionAction,
-  PermissionScope,
-} from '@/api/hris/authorization';
+import { getEmployeeViewAccess, getPermissionChecker } from '@/api/hris/authorization';
 
 type Props = { params: Promise<{ id: CUID }> };
 
@@ -31,18 +26,17 @@ export default async function EmployeesLayout(props: PropsWithChildren<Props>) {
   const params = await props.params;
   const api = hrisApi;
   const [me, permissionChecker] = await Promise.all([api.auth.getMe(), getPermissionChecker()]);
+  const { canView, hasCompanyWideAccess } = getEmployeeViewAccess(permissionChecker);
 
-  // Check if user has VIEW permission for EMPLOYEES
-  const canViewEmployees = permissionChecker.can(ResourceType.EMPLOYEES, PermissionAction.VIEW);
-
-  if (!canViewEmployees) {
-    return redirect(HRIS_ROUTES.employees.base);
+  // Main nav is permission-filtered, so reaching here without any view grant means a
+  // direct navigation. Dashboard is the safe fallback — its widgets are already gated
+  // per permission and render gracefully for minimal roles.
+  if (!canView) {
+    return redirect(HRIS_ROUTES.dashboard);
   }
 
-  // Check scope: if SELF scope, only allow viewing own profile
-  const scope = permissionChecker.getScope(ResourceType.EMPLOYEES);
-  if (scope === PermissionScope.SELF && me.id !== params.id) {
-    return redirect(HRIS_ROUTES.employees.base);
+  if (!hasCompanyWideAccess && me.id !== params.id) {
+    return redirect(HRIS_ROUTES.employees.general.base(me.id));
   }
 
   return <div className="flex min-h-full flex-col">{props.children}</div>;

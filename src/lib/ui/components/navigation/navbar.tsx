@@ -5,6 +5,7 @@ import { useTranslations as useNextTranslations } from 'next-intl';
 import { usePathname, useRouter } from 'next/navigation';
 import { cn, HRIS_ROUTES, navigationLinks } from '@/shared';
 import { Icon } from '@/lib/ui';
+import { type IconNames } from '@/lib/ui/icons';
 import { type MeDto } from '@/api/hris/authentication/model/dtos/employee.dto';
 import { type SerializedPermissions, canAccess } from '@/api/hris/authorization/client';
 
@@ -15,13 +16,43 @@ type Props = React.ComponentProps<'nav'> & {
   onLinkClick?: () => void;
 };
 
-export function Navbar({
-  isExpanded,
-  account: _account,
-  permissions,
-  onLinkClick,
-  ...other
-}: Props): JSX.Element {
+type NavItemProps = {
+  href: string;
+  icon: IconNames;
+  label: string;
+  isActive: boolean;
+  isExpanded: boolean;
+  // 'primary' items (Dashboard, My profile) render taller than segment links.
+  variant: 'primary' | 'segment';
+  onClick: (event: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => void;
+};
+
+function NavItem({ href, icon, label, isActive, isExpanded, variant, onClick }: NavItemProps): JSX.Element {
+  return (
+    <Link
+      aria-label={label}
+      className={cn(
+        'relative flex items-center gap-x-2 rounded-lg px-2.5 text-sm font-semibold transition-colors hover:bg-hover',
+        variant === 'primary' ? 'py-3.5' : 'h-10',
+        { 'bg-hover': isActive },
+      )}
+      href={href}
+      title={label}
+      onClick={onClick}
+    >
+      <Icon className="text-accent" name={icon} />
+      <span
+        className={cn('block max-h-6 sr-only opacity-0 transition-opacity delay-75 break-all', {
+          'not-sr-only opacity-100': isExpanded,
+        })}
+      >
+        {label}
+      </span>
+    </Link>
+  );
+}
+
+export function Navbar({ isExpanded, account, permissions, onLinkClick, ...other }: Props): JSX.Element {
   const tNext = useNextTranslations('navigation');
   const router = useRouter();
   const pathname = usePathname();
@@ -33,33 +64,43 @@ export function Navbar({
     router.push(event.currentTarget.href);
   };
 
+  const myProfileHref = HRIS_ROUTES.employees.general.base(account.id);
+
   return (
     <nav className="navigation-menu pt-[2.375rem]" {...other}>
       <ul>
-        <li className="px-1.5 pb-6">
-          <Link
-            aria-label={tNext('dashboard')}
-            className={cn(
-              'relative flex items-center gap-x-2  rounded-lg  px-2.5 py-3.5 text-sm font-semibold transition-colors hover:bg-hover',
-              {
-                'bg-hover': pathname === HRIS_ROUTES.dashboard,
-              },
-            )}
+        <li className="my-2 px-1.5">
+          <NavItem
             href={HRIS_ROUTES.dashboard}
-            title={tNext('dashboard')}
+            icon="dashboard"
+            isActive={pathname === HRIS_ROUTES.dashboard}
+            isExpanded={isExpanded}
+            label={tNext('dashboard')}
+            variant="primary"
             onClick={handleLinkClick}
-          >
-            <Icon className="text-accent" name="dashboard" />
-            <span
-              className={cn('block max-h-6 sr-only opacity-0 transition-opacity delay-75 break-all', {
-                'not-sr-only opacity-100': isExpanded,
-              })}
-            >
-              {tNext('dashboard')}
-            </span>
-          </Link>
+          />
+        </li>
+        {/* pb-6 separates the personal items (Dashboard, My profile) from the first segment group. */}
+        <li className="px-1.5 pb-6">
+          <NavItem
+            href={myProfileHref}
+            icon="personal-card"
+            isActive={pathname === myProfileHref}
+            isExpanded={isExpanded}
+            label={tNext('myProfile')}
+            variant="primary"
+            onClick={handleLinkClick}
+          />
         </li>
         {Object.entries(navigationLinks).map(([segment, links]) => {
+          const visibleLinks = links.filter(
+            (link) => !link._access || canAccess(permissions, link._access.resource, link._access.action),
+          );
+
+          if (visibleLinks.length === 0) {
+            return null;
+          }
+
           return (
             <Fragment key={segment}>
               <li
@@ -72,44 +113,19 @@ export function Navbar({
               >
                 {tNext(segment).toUpperCase()}
               </li>
-              {links.map((link) => {
-                // Check permission-based access using serialized permissions
-                if (link._access) {
-                  const hasPermission = canAccess(permissions, link._access.resource, link._access.action);
-                  if (!hasPermission) {
-                    return null;
-                  }
-                }
-
-                return (
-                  <li key={link.label} className={cn('px-1.5 my-2')}>
-                    <Link
-                      aria-label={tNext(link.label)}
-                      className={cn(
-                        'relative flex items-center gap-x-2 rounded-lg px-2.5 h-10 text-sm font-semibold transition-colors hover:bg-hover',
-                        {
-                          'bg-hover': link.href.includes(pathname),
-                        },
-                      )}
-                      href={link.href}
-                      title={tNext(link.label)}
-                      onClick={handleLinkClick}
-                    >
-                      <Icon className="text-accent" name={link.icon} />
-                      <span
-                        className={cn(
-                          'block max-h-6 sr-only opacity-0 transition-opacity delay-75 break-all',
-                          {
-                            'not-sr-only opacity-100': isExpanded,
-                          },
-                        )}
-                      >
-                        {tNext(link.label)}
-                      </span>
-                    </Link>
-                  </li>
-                );
-              })}
+              {visibleLinks.map((link) => (
+                <li key={link.label} className="my-2 px-1.5">
+                  <NavItem
+                    href={link.href}
+                    icon={link.icon}
+                    isActive={link.href.includes(pathname)}
+                    isExpanded={isExpanded}
+                    label={tNext(link.label)}
+                    variant="segment"
+                    onClick={handleLinkClick}
+                  />
+                </li>
+              ))}
             </Fragment>
           );
         })}

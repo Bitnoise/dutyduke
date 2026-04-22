@@ -59,7 +59,7 @@ cp .env.dist .env
 #   JWT_SECRET — generate with: node -e "console.log(require('crypto').randomBytes(128).toString('hex'))"
 
 # 3. Start database
-docker compose up -d
+docker-compose up -d
 
 # 4. Setup database
 yarn prisma:generate

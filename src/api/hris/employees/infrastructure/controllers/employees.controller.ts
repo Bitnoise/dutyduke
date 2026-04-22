@@ -1,7 +1,9 @@
+import { cache } from 'react';
 import { ApiError, type Nullable, type CUID, type EmployeeListOrderBy, ITEMS_PER_PAGE } from '@/shared';
 import { type UpdateEmployeeGeneralInfoSchema } from '@/api/hris/employees/infrastructure/controllers/schemas';
 import { employeeQueries, employeesSkillQueries } from '@/api/hris/employees/infrastructure/database/queries';
 import {
+  getEmployeeViewAccess,
   isOwnerRoute,
   privateRoute,
   requirePermission,
@@ -64,6 +66,30 @@ export function employeesController(organizationContext: OrganizationContext): E
   const employeeSkillQueriesImpl = employeesSkillQueries(organizationContext);
   const employeeRepositoryInstance = employeeRepository(organizationContext.db);
 
+  // Request-scoped memo for the caller's own employee record. A profile page renders
+  // metadata, layout, header, and content — each triggering an access check — so we
+  // dedupe the identity→employee lookup with React's per-request `cache`.
+  const loadCurrentEmployee = cache(async (identityId: CUID) =>
+    employeeQueriesInstance.getEmployeeByIdentityId(identityId),
+  );
+
+  const resolveEmployeeViewAccess = async (checker: PermissionChecker, employeeId: CUID): Promise<void> => {
+    const { canView, hasCompanyWideAccess } = getEmployeeViewAccess(checker);
+
+    if (!canView) {
+      throw new ApiError(403, 'Forbidden: No permission to view employees');
+    }
+
+    if (hasCompanyWideAccess) {
+      return;
+    }
+
+    const currentEmployee = await loadCurrentEmployee(checker.getIdentityId());
+    if (!currentEmployee || currentEmployee.id !== employeeId) {
+      throw new ApiError(403, 'Forbidden: Can only view own employee data');
+    }
+  };
+
   const getEmployeeFieldAccess = async (checker: PermissionChecker): Promise<EmployeeGeneralInfoAccess> => {
     if (checker.isOwner()) {
       return true;
@@ -92,22 +118,7 @@ export function employeesController(organizationContext: OrganizationContext): E
   };
 
   const getEmployeeGeneralInfo = async (checker: PermissionChecker, employeeId: CUID) => {
-    // Check if user can view this employee
-    const canView = checker.can(ResourceType.EMPLOYEES, PermissionAction.VIEW);
-    const viewScope = checker.getScope(ResourceType.EMPLOYEES);
-
-    if (!canView) {
-      throw new ApiError(403, 'Forbidden: No permission to view employees');
-    }
-
-    // If scope is SELF, verify this is the current user's employee record
-    if (viewScope === PermissionScope.SELF) {
-      const currentEmployee = await employeeQueriesInstance.getEmployeeByIdentityId(checker.getIdentityId());
-
-      if (!currentEmployee || currentEmployee.id !== employeeId) {
-        throw new ApiError(403, 'Forbidden: Can only view own employee data');
-      }
-    }
+    await resolveEmployeeViewAccess(checker, employeeId);
 
     const employee = await employeeQueriesInstance.getEmployeeGeneralInfo(employeeId);
 
@@ -137,7 +148,7 @@ export function employeesController(organizationContext: OrganizationContext): E
 
     // If scope is SELF, verify this is the current user's employee record
     if (editScope === PermissionScope.SELF) {
-      const currentEmployee = await employeeQueriesInstance.getEmployeeByIdentityId(checker.getIdentityId());
+      const currentEmployee = await loadCurrentEmployee(checker.getIdentityId());
 
       if (!currentEmployee || currentEmployee.id !== employeeId) {
         throw new ApiError(403, 'Forbidden: Can only edit own employee data');
@@ -176,22 +187,7 @@ export function employeesController(organizationContext: OrganizationContext): E
     checker: PermissionChecker,
     employeeId: CUID,
   ): Promise<BaseEmployeeWithAccessDto> => {
-    // Check if user can view this employee
-    const canView = checker.can(ResourceType.EMPLOYEES, PermissionAction.VIEW);
-    const viewScope = checker.getScope(ResourceType.EMPLOYEES);
-
-    if (!canView) {
-      throw new ApiError(403, 'Forbidden: No permission to view employees');
-    }
-
-    // If scope is SELF, verify this is the current user's employee record
-    if (viewScope === PermissionScope.SELF) {
-      const currentEmployee = await employeeQueriesInstance.getEmployeeByIdentityId(checker.getIdentityId());
-
-      if (!currentEmployee || currentEmployee.id !== employeeId) {
-        throw new ApiError(403, 'Forbidden: Can only view own employee data');
-      }
-    }
+    await resolveEmployeeViewAccess(checker, employeeId);
 
     const employee = await employeeQueriesInstance.getEmployeeById(employeeId);
 
@@ -201,15 +197,17 @@ export function employeesController(organizationContext: OrganizationContext): E
 
     // Determine available actions based on permissions
     const availableActions: EmployeeAction[] = [];
+    const canView = checker.can(ResourceType.EMPLOYEES, PermissionAction.VIEW);
     const canEdit = checker.can(ResourceType.EMPLOYEES, PermissionAction.EDIT);
     const canDelete = checker.can(ResourceType.EMPLOYEES, PermissionAction.DELETE);
     const canAssign = checker.can(ResourceType.EMPLOYEES, PermissionAction.ASSIGN);
+    const viewScope = checker.getScope(ResourceType.EMPLOYEES);
 
-    // SELF scope users cannot create/delete/assign
-    if (viewScope === PermissionScope.ALL) {
+    // Bulk/company-wide actions require ALL scope on EMPLOYEES
+    if (canView && viewScope === PermissionScope.ALL) {
       if (canDelete) availableActions.push('archive');
       if (canAssign) availableActions.push('assign');
-      if (canView) availableActions.push('filter', 'generate-cv');
+      availableActions.push('filter', 'generate-cv');
     }
 
     // Edit available for both ALL and SELF (with SELF limited to own data)
@@ -289,7 +287,7 @@ export function employeesController(organizationContext: OrganizationContext): E
     // If scope is SELF, filter to only show current user's employee record
     let employeeIdFilter: CUID | undefined;
     if (viewScope === PermissionScope.SELF) {
-      const currentEmployee = await employeeQueriesInstance.getEmployeeByIdentityId(checker.getIdentityId());
+      const currentEmployee = await loadCurrentEmployee(checker.getIdentityId());
       if (!currentEmployee) {
         // User has no employee record, return empty list
         return {

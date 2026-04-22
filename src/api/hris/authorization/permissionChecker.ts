@@ -1,5 +1,5 @@
 import { type CUID } from '@/shared';
-import { type PermissionAction, PermissionScope, ResourceType, type RoleDefinition } from './permissions';
+import { PermissionAction, PermissionScope, ResourceType, type RoleDefinition } from './permissions';
 
 export type PermissionChecker = {
   can: (resource: ResourceType, action: PermissionAction) => boolean;
@@ -168,6 +168,33 @@ export type ResourcePermissionCheck = {
   scope: PermissionScope | null;
   requiresOwnershipVerification: boolean;
 };
+
+export type EmployeeViewAccess = {
+  // Any grant: EMPLOYEES:VIEW or EMPLOYEE_PROFILE:VIEW.
+  canView: boolean;
+  // ALL scope on at least one of the grants — allows viewing anyone.
+  hasCompanyWideAccess: boolean;
+};
+
+/**
+ * Resolves whether the caller can view employee records, and whether that access
+ * extends company-wide. An employee can be reached via two grants — the company
+ * EMPLOYEES resource or the own-profile EMPLOYEE_PROFILE resource — so both layers
+ * (controllers and routes) need to agree on how they combine.
+ */
+export function getEmployeeViewAccess(checker: PermissionChecker): EmployeeViewAccess {
+  const canViewEmployees = checker.can(ResourceType.EMPLOYEES, PermissionAction.VIEW);
+  const canViewEmployeeProfile = checker.can(ResourceType.EMPLOYEE_PROFILE, PermissionAction.VIEW);
+  const employeesScope = checker.getScope(ResourceType.EMPLOYEES);
+  const profileScope = checker.getScope(ResourceType.EMPLOYEE_PROFILE);
+
+  return {
+    canView: canViewEmployees || canViewEmployeeProfile,
+    hasCompanyWideAccess:
+      (canViewEmployees && employeesScope === PermissionScope.ALL) ||
+      (canViewEmployeeProfile && profileScope === PermissionScope.ALL),
+  };
+}
 
 /**
  * Checks if user has permission for either company-level or employee-level resource.
